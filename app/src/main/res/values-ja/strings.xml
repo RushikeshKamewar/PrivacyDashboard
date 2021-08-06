@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Test strings-->
+    <string name="permission_name">場所</string>
+    <string name="permission_name2">位置情報の使用</string>
+    <string name="permission_info2">今日</string>
+    <string name="permission_info3">2分</string>
+    <string name="permission_time">13:07</string>
+    <string name="permission_app">Telegram</string>
+
+    <string name="app_info">インドで &#10084; で作られた</string>
+    <string name="profile_version">バージョン -</string>
+    <string name="profile_donate">寄付</string>
+    <string name="profile_contact">お問い合わせ</string>
+    <!--Notification Service-->
+    <string name="service_name">プライバシーダッシュボードサービス</string>
+    <string name="service_desc">この権限は、プライバシー指標を表示し、カメラ、マイク、位置情報を記録するために必要です。\n\nすべてのログは端末に保存されます。</string>
+    <string name="service_summary">プライバシーダッシュボードを有効にするにはこれをオンにしてください</string>
+    <string name="notification_desc">プライバシーダッシュボードがバックグラウンドで実行されています</string>
+    <string name="notification_hide">通知を非表示にするにはここをクリック</string>
+    <string name="notification_usage_title">権限使用の通知</string>
+    <string name="notification_usage_desc">カメラ、マイク、位置情報のアクセス許可が使用されている場合にこの通知が表示されます。</string>
+    <string name="notification_app_unknown">不明なアプリ</string>
+    <string name="notification_app_using">"使用中 "</string>
+    <string name="notification_app_and">" と "</string>
+    <string name="notification_app_permission">" アクセス許可"</string>
+    <string name="notification_app_permissions">" 権限"</string>
+    <!--Release dialog-->
+    <string name="app_release_button">完了</string>
+    <!--Start permission dialog-->
+    <string name="start_title">自動起動権限</string>
+    <string name="start_permission_info">お使いのデバイスはバックグラウンドアプリサービスを終了します。アプリが正常に動作するには自動開始権限が必要になります。</string>
+    <string name="start_setup">セットアップ</string>
+    <!--Delete permission dialog-->
+    <string name="delete_logs_title">#ALIAS#ログを削除</string>
+    <string name="delete_logs_info">すべての #ALIAS# 権限ログを削除してもよろしいですか？</string>
+    <string name="delete_logs_title2">ログの削除</string>
+    <string name="delete_logs_info2">すべての権限のアプリ使用ログを削除してもよろしいですか？</string>
+    <!--Help dialog-->
+    <string name="help_title">アプリの制限</string>
+    <string name="help_info">When any permission is in use, my app checks which app is running in foreground and logs it in the database.\n\nBut sometimes it may happen that System UI, Launcher or Keyboard app is running over the main app, so mistakenly these apps will be logged in database instead of real app which is using the permission.\n\nThis is a limitation for this app, as it\'s difficult to find which app is running in the background.</string>
+    <!--Generic dialog buttons-->
+    <string name="dialog_close">閉じる</string>
+    <string name="dialog_yes">はい</string>
+    <string name="dialog_no">いいえ</string>
+    <!--Menu-->
+    <string name="menu_theme">テーマ</string>
+    <string name="menu_delete">削除</string>
+    <string name="menu_whats_new">新着情報</string>
+    <string name="menu_refresh">更新</string>
+    <string name="menu_refresh_info">ログが更新されました</string>
+    <!--Theme Dialog-->
+    <string name="theme_title">テーマ</string>
+    <string name="dialog_theme_title">テーマを選択</string>
+    <string name="dialog_theme_light">ライト</string>
+    <string name="dialog_theme_dark">ダーク</string>
+    <string name="dialog_theme_system">システムのデフォルト</string>
+    <string name="dialog_theme_battery">バッテリーセーバーで設定</string>
+    <!--Permissions-->
+    <string name="permission_camera">カメラ</string>
+    <string name="permission_location">場所</string>
+    <string name="permission_microphone">マイク</string>
+    <string name="permission_microphone_short">マイク</string>
+    <string name="permission_more">他の権限を表示</string>
+    <string name="permission_more_info">本文センサー、カレンダーなどの設定</string>
+    <string name="permission_info">今日の#ALIAS#アプリで使用</string>
+    <string name="permission_no_apps">今日は使用されていません</string>
+    <!--Settings-->
+    <string name="settings_title">アプリの設定</string>
+    <string name="settings_info">アプリのテーマ、権限などを管理する</string>
+    <string name="settings_dots">プライバシー指標</string>
+    <string name="settings_dots_info">権限が使用されている場合、それぞれのアイコンが右上に表示されます</string>
+    <string name="settings_dots_custom">インジケータのカスタマイズ</string>
+    <string name="dots_custom_type">タイプ</string>
+    <string name="dots_custom_type_icon">権限アイコン</string>
+    <string name="dots_custom_type_dot">色付きのドット</string>
+    <string name="dots_custom_position">位置</string>
+    <string name="dots_custom_position_tl">上 - 左</string>
+    <string name="dots_custom_position_tc">中央上</string>
+    <string name="dots_custom_position_tr">右</string>
+    <string name="dots_custom_position_rc">右中央揃え</string>
+    <string name="dots_custom_position_br">右下</string>
+    <string name="dots_custom_position_bc">下</string>
+    <string name="dots_custom_position_bl">左下</string>
+    <string name="dots_custom_position_lc">左中央揃え</string>
+    <string name="dots_custom_margin">ベゼルマージンを追加</string>
+    <string name="dots_custom_margin_info">有効にすると、デバイスのベゼルに固執しないようにインジケーターにマージンを追加します。</string>
+    <string name="dots_custom_click">クリックの動作</string>
+    <string name="dots_custom_click_info">有効にすると、インジケータをクリックすると、特定の権限ログが表示されます。</string>
+    <string name="dots_custom_size">サイズ</string>
+    <string name="dots_custom_size_unit">%</string>
+    <string name="dots_custom_opacity">透明度</string>
+    <string name="dots_custom_minimize">ドットに最小化 (ベータ版)</string>
+    <string name="dots_custom_minimize_info">許可が3秒以上で使用されている場合、有効にすると小さなドットに最小化されます。</string>
+    <string name="settings_notification">通知アラート</string>
+    <string name="settings_notification_info">有効にすると、権限が使用されるたびに通知を受け取ります</string>
+    <string name="settings_notification_custom">通知のカスタマイズ</string>
+    <string name="notification_custom_ongoing">連続通知</string>
+    <string name="notification_custom_ongoing_info">有効にした場合は、権限が使用されているときに継続的な通知が表示されます。権限の使用が停止されると、削除されます。</string>
+    <string name="notification_custom_icon">アプリのアイコン</string>
+    <string name="notification_custom_icon_info">有効にした場合、それぞれの権限の使用のための通知にアプリのアイコンが表示されます</string>
+    <string name="settings_accessibility">アクセシビリティ設定</string>
+    <string name="settings_accessibility_on">アクセシビリティ設定をオンにする</string>
+    <string name="settings_accessibility_off">アクセシビリティ設定をオフにする</string>
+    <string name="settings_accessibility_button">設定を開く</string>
+    <string name="settings_accessibility_info">アプリはカメラとマイクの使用状況を記録するためにアクセシビリティの許可が必要です。プライバシーのためにカメラとマイクへのアクセスを避けるために行われます。</string>
+    <string name="settings_accessibility_info_short">この権限はカメラとマイクの使用を記録するために使用されます。</string>
+    <string name="settings_location">位置情報へのアクセス</string>
+    <string name="settings_location_on">位置情報の許可をオンにする</string>
+    <string name="settings_location_off">位置情報のアクセス許可をオフにする</string>
+    <string name="settings_location_button">アクセスを許可</string>
+    <string name="settings_location_info">位置情報アプリの使用状況を記録するには、位置情報アクセス権限が必要です。</string>
+    <string name="settings_location_info_short">この権限は位置情報アプリの使用状況を記録するために使用されます。</string>
+    <string name="settings_hide_notification">通知を非表示</string>
+    <string name="settings_hide_notification_info">実行中の通知を非表示にするにはここをクリック</string>
+    <string name="settings_limitation">アプリの制限</string>
+    <string name="settings_limitation_info">アプリの制限について知るにはここをクリック</string>
+    <string name="settings_delete_logs">すべてのログを削除</string>
+    <string name="settings_delete_logs_info">すべての権限のすべてのアプリの使用履歴を消去する</string>
+    <string name="settings_release">更新履歴</string>
+    <string name="settings_release_info">バージョンの新機能を見る -</string>
+    <string name="settings_telegram">Telegram</string>
+    <string name="settings_telegram_info">テレグラムサポートグループに参加</string>
+    <string name="settings_twitter">Twitter</string>
+    <string name="settings_twitter_info">twitterでフォロー</string>
+    <!--Donations-->
+    <string name="donation_title">寄付</string>
+    <string name="donation_info">開発を支援する</string>
+    <!--Pie chart-->
+    <string name="chart_title">ログの概要</string>
+    <string name="chart_center_text">過去\n 24時間</string>
+    <!--Permission history-->
+    <string name="log_title">権限履歴</string>
+    <string name="log_info">アプリが #ALIAS# 権限を使用した時のタイムライン</string>
+    <string name="log_info_app">#ALIAS#が権限を使用した時のタイムライン</string>
+    <string name="log_empty">アプリが使用されていません</string>
+    <string name="log_button_manage">権限の管理</string>
+    <string name="log_usage">使用法</string>
+    <string name="log_today">今日</string>
+    <string name="log_yesterday">昨日</string>
+    <string name="log_permission_start">開始</string>
+    <string name="log_permission_stop">停止しました</string>
+    <string name="log_permission_invalid">不明</string>
+    <!--Donations-->
+    <string name="donation_free">無料</string>
+    <string name="donation_free_info">プレイストアで評価</string>
+    <string name="donation_support_info">開発を支援する</string>
+    <string name="donation_tea_info">お茶を買ってください</string>
+    <string name="donation_latte_info">latte/coffee を購入</string>
+    <string name="donation_breakfast_info">朝食を購入</string>
+    <string name="donation_movie_info">映画のチケットを購入する</string>
+    <string name="donation_dinner_info">ピザとコーラを買ってください</string>
+    <string name="donation_ads_info">アプリを広告なしにしてください</string>
+    <string name="donation_all_apps_info">アプリの作成を手伝ってください</string>
+    <string name="donation_super_info">Super Duperのサポート &#10084;\nこの寄付は新しいテストデバイスと新しいラップトップに寄付されます。</string>
+</resources>

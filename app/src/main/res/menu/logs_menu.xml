@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_exclude"
+        android:title="@string/menu_exclude"
+        android:icon="@drawable/menu_exclude_off"
+        android:visible="false"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_delete"
+        android:title="@string/menu_delete"
+        android:icon="@drawable/menu_delete"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_help"
+        android:title="@string/settings_limitation"
+        android:icon="@drawable/log_help"
+        android:visible="false"
+        app:showAsAction="ifRoom"/>
+
+</menu>

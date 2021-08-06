@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="AppTheme.Light">
+        <item name="colorPrimary">@color/lightPrimary</item>
+        <item name="colorSecondary">@color/lightSecondary</item>
+        <item name="colorPrimaryDark">@color/lightBackground</item>
+        <item name="colorAccent">@color/lightPrimary</item>
+        <item name="android:navigationBarColor">@color/lightBackground</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <style name="AppTheme.Light" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimaryText">@color/lightPrimaryText</item>
+        <item name="colorSecondaryText">@color/lightSecondaryText</item>
+        <item name="colorIcon">@color/lightIcon</item>
+        <item name="colorBackground">@color/lightBackground</item>
+        <item name="colorCardBackground">@color/lightCardBackground</item>
+        <item name="colorCamera">@color/lightCamera</item>
+        <item name="colorMicrophone">@color/lightMicrophone</item>
+        <item name="colorLocation">@color/lightLocation</item>
+    </style>
+
+    <style name="AppTheme.Transparent" parent="AppTheme">
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="ToolBarStyle" parent="ThemeOverlay.MaterialComponents.Light">
+        <item name="android:textColorPrimary">?attr/colorPrimaryText</item>
+        <item name="fontFamily">@font/medium</item>
+        <item name="android:itemTextAppearance">@style/menu_item</item>
+    </style>
+
+    <style name="menu_item" parent="ThemeOverlay.MaterialComponents.Light">
+        <item name="android:textColor">?attr/colorPrimaryText</item>
+    </style>
+
+    <style name="TabText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">15sp</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">?attr/colorPrimaryText</item>
+        <item name="android:fontFamily">@font/bold</item>
+    </style>
+</resources>

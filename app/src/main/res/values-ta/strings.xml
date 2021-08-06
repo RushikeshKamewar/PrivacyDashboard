@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Test strings-->
+    <string name="permission_name">இடம்</string>
+    <string name="permission_name2">இருப்பிட பயன்பாடு</string>
+    <string name="permission_info2">இன்று</string>
+    <string name="permission_info3">2 நிமிடங்கள்</string>
+    <string name="permission_time">13:07</string>
+    <string name="permission_app">தந்தி</string>
+
+    <string name="app_info">இந்தியாவில் &#10084; உடன் தயாரிக்கப்பட்டது</string>
+    <string name="profile_made_by">ருஷிகேஷ் காமேவர் தயாரித்தார்</string>
+    <string name="profile_version">பதிப்பு -</string>
+    <string name="profile_donate">தானம்</string>
+    <string name="profile_contact">தொடர்பு</string>
+    <!--Notification Service-->
+    <string name="service_name">தனியுரிமை டாஷ்போர்டு சேவை</string>
+    <string name="service_desc">தனியுரிமை குறிகாட்டிகளைக் காண்பிப்பதற்கும் கேமரா, மைக்ரோஃபோன் மற்றும் இருப்பிட பயன்பாட்டை உள்நுழைவதற்கும் இந்த அனுமதி தேவை.\n\nஅனைத்து பதிவுகளும் உங்கள் சாதனத்தில் உள்நாட்டில் சேமிக்கப்படுகின்றன.</string>
+    <string name="service_summary">தனியுரிமை டாஷ்போர்டை இயக்க இதை இயக்கவும்</string>
+    <string name="notification_desc">தனியுரிமை டாஷ்போர்டு பின்னணியில் இயங்குகிறது</string>
+    <string name="notification_hide">அறிவிப்பை மறைக்க இங்கே கிளிக் செய்க</string>
+    <string name="notification_usage_title">அனுமதி பயன்பாட்டு அறிவிப்பு</string>
+    <string name="notification_usage_desc">கேமரா, மைக்ரோஃபோன் மற்றும் இருப்பிட அனுமதி பயன்படுத்தப்படும்போது இந்த அறிவிப்பு தோன்றும்.</string>
+    <string name="notification_app_unknown">தெரியாத ஆப்</string>
+    <string name="notification_app_using">"பயன்படுத்தி "</string>
+    <string name="notification_app_and">" மற்றும் "</string>
+    <string name="notification_app_permission">" அனுமதி"</string>
+    <string name="notification_app_permissions">" அனுமதிகள்"</string>
+    <!--Release dialog-->
+    <string name="app_release_button">முடிந்தது</string>
+    <!--Start permission dialog-->
+    <string name="start_title">ஆட்டோஸ்டார்ட் அனுமதி</string>
+    <string name="start_permission_info">உங்கள் சாதனம் பின்னணி பயன்பாட்டு சேவையை நிறுத்திவிடும். ஆப் சரியாக வேலை செய்ய AutoStart அனுமதி வேண்டும்.</string>
+    <string name="start_setup">அமைவு</string>
+    <!--Delete permission dialog-->
+    <string name="delete_logs_title">#என்கிற# பதிவுகளை நீக்கு</string>
+    <string name="delete_logs_info">எல்லா #மாற்றுப்பெயர்# அனுமதி பதிவுகளையும் நீக்க விரும்புகிறீர்கள் என்பது உறுதி?</string>
+    <string name="delete_logs_title2">பதிவுகளை நீக்கு</string>
+    <string name="delete_logs_info2">எல்லா அனுமதிகளுக்கும் பயன்பாட்டு பயன்பாட்டு பதிவுகளை நீக்கு என்று நீங்கள் விரும்புகிறீர்களா?</string>
+    <!--Help dialog-->
+    <string name="help_title">பயன்பாட்டு வரம்பு</string>
+    <string name="help_info">எந்தவொரு அனுமதியும் பயன்பாட்டில் இருக்கும்போது, எந்த பயன்பாடு முன்புறமாக இயங்குகிறது என்பதை எனது பயன்பாடு சரிபார்த்து தரவுத்தளத்தில் பதிவுசெய்கிறது.\n\nஆனால் சில நேரங்களில் கணினி UI, துவக்கி அல்லது விசைப்பலகை பயன்பாடு பிரதான பயன்பாட்டின் மீது இயங்குகிறது, எனவே தவறாக இந்த பயன்பாடுகள் உண்மையான பயன்பாட்டிற்கு பதிலாக தரவுத்தளத்தில் உள்நுழைந்திருக்கும், இது அனுமதியைப் பயன்படுத்துகிறது.\n\nஇந்த பயன்பாட்டிற்கான வரம்பு இது, ஏனெனில் எந்த பயன்பாடு பின்னணியில் இயங்குகிறது என்பதைக் கண்டுபிடிப்பது கடினம்.</string>
+    <!--Generic dialog buttons-->
+    <string name="dialog_close">மூடு</string>
+    <string name="dialog_yes">ஆம்</string>
+    <string name="dialog_no">இல்லை</string>
+    <!--Menu-->
+    <string name="menu_theme">தீம்</string>
+    <string name="menu_delete">நீக்கு</string>
+    <string name="menu_whats_new">புதியது என்ன</string>
+    <string name="menu_refresh">புதுப்பிக்கவும்</string>
+    <string name="menu_refresh_info">பதிவுகள் மேம்படுத்தப்பட்டது</string>
+    <!--Theme Dialog-->
+    <string name="theme_title">தீம்</string>
+    <string name="dialog_theme_title">தீம் தேர்வு</string>
+    <string name="dialog_theme_light">ஒளி</string>
+    <string name="dialog_theme_dark">இருட்டு</string>
+    <string name="dialog_theme_system">கணினி இயல்புநிலை</string>
+    <string name="dialog_theme_battery">பேட்டரி சேவர் மூலம் அமைக்கவும்</string>
+    <!--Permissions-->
+    <string name="permission_camera">கேமரா</string>
+    <string name="permission_location">இடம்</string>
+    <string name="permission_microphone">ஒலிவாங்கி</string>
+    <string name="permission_microphone_short">மைக்</string>
+    <string name="permission_more">பிற அனுமதிகளைப் பார்க்கவும்</string>
+    <string name="permission_more_info">அமைப்புகளில் உடல் சென்சார்கள், காலண்டர் மற்றும் பல</string>
+    <string name="permission_info">இன்று #ALIAS# apps ஆல் பயன்படுத்தப்படுகிறது</string>
+    <string name="permission_no_apps">இன்று பயன்படுத்தப்படவில்லை</string>
+    <!--Settings-->
+    <string name="settings_title">பயன்பாட்டு அமைப்புகள்</string>
+    <string name="settings_info">பயன்பாட்டு தீம், அனுமதிகள் போன்றவற்றை நிர்வகிக்கவும்</string>
+    <string name="settings_dots">தனியுரிமை குறிகாட்டிகள்</string>
+    <string name="settings_dots_info">அனுமதி பயன்பாட்டில் இருக்கும்போது அந்தந்த ஐகான் மேல்-வலது மூலையில் காண்பிக்கப்படும்</string>
+    <string name="settings_dots_custom">காட்டி தனிப்பயனாக்கம்</string>
+    <string name="dots_custom_type">வகை</string>
+    <string name="dots_custom_type_icon">அனுமதி சின்னங்கள்</string>
+    <string name="dots_custom_type_dot">வண்ண புள்ளிகள்</string>
+    <string name="dots_custom_position">நிலை</string>
+    <string name="dots_custom_position_tl">மேல்-இடது</string>
+    <string name="dots_custom_position_tc">மேல்-மையம்</string>
+    <string name="dots_custom_position_tr">மேல்-வலது</string>
+    <string name="dots_custom_position_rc">வலது-மையம்</string>
+    <string name="dots_custom_position_br">வலது-கீழ்</string>
+    <string name="dots_custom_position_bc">கீழ்-மையம்</string>
+    <string name="dots_custom_position_bl">கீழ்-இடது</string>
+    <string name="dots_custom_position_lc">இடது மையம்</string>
+    <string name="dots_custom_margin">உளிச்சாயுமோரம் விளிம்பு சேர்க்கவும்</string>
+    <string name="dots_custom_margin_info">இயக்கப்பட்டிருக்கும் போது குறிகாட்டிக்கு விளிம்பைச் சேர்க்கிறது, இதனால் அது சாதன பெசல்களுடன் ஒட்டாது.</string>
+    <string name="dots_custom_click">செயல் என்பதைக் கிளிக் செய்க</string>
+    <string name="dots_custom_click_info">இயக்கப்பட்டால், நீங்கள் குறிகாட்டியைக் கிளிக் செய்யலாம், அது உங்களை குறிப்பிட்ட அனுமதி பதிவுக்கு அழைத்துச் செல்லும்.</string>
+    <string name="dots_custom_size">அளவு</string>
+    <string name="dots_custom_size_unit">%</string>
+    <string name="dots_custom_opacity">ஒளிபுகாநிலை</string>
+    <string name="dots_custom_minimize">புள்ளிக்கு குறைத்தல் (பீட்டா)</string>
+    <string name="dots_custom_minimize_info">அனுமதி 3 நொடி காட்டி விட பயன்படுத்தப்படுகிறது என்றால் செயல்படுத்தப்படும் போது சிறிய புள்ளி குறைக்க வேண்டும்.</string>
+    <string name="settings_notification">அறிவிப்பு எச்சரிக்கை</string>
+    <string name="settings_notification_info">செயல்படுத்தப்படும் போது அனுமதி பயன்படுத்தப்படும்போதெல்லாம் அறிவிப்பைப் பெறுவீர்கள்</string>
+    <string name="settings_notification_custom">அறிவிப்பு தனிப்பயனாக்கம்</string>
+    <string name="notification_custom_ongoing">தொடர்ச்சியான அறிவிப்பு</string>
+    <string name="notification_custom_ongoing_info">இயக்கப்பட்டால் பயன்பாடு அனுமதி பயன்படுத்தப்படும்போது தொடர்ச்சியான அறிவிப்பைக் காண்பிக்கும், பின்னர் அது அனுமதி பயன்பாடு நிறுத்தப்பட்ட பிறகு மறைந்துவிடும்.</string>
+    <string name="notification_custom_icon">பயன்பாட்டு ஐகான்</string>
+    <string name="notification_custom_icon_info">இயக்கப்பட்டால் பயன்பாட்டு ஐகான் அந்தந்த அனுமதி பயன்பாட்டிற்கான அறிவிப்பில் காண்பிக்கப்படும்</string>
+    <string name="settings_accessibility">அணுகல் அமைப்பு</string>
+    <string name="settings_accessibility_on">அணுகல் அமைப்புகளை இயக்கவும்</string>
+    <string name="settings_accessibility_off">அணுகல் அமைப்புகளை அணைக்கவும்</string>
+    <string name="settings_accessibility_button">திறந்த அமைப்புகள்</string>
+    <string name="settings_accessibility_info">கேமரா மற்றும் மைக்ரோஃபோன் பயன்பாட்டை உள்நுழைய பயன்பாட்டிற்கு அணுகல் அனுமதி தேவை. தனியுரிமைக்காக கேமரா மற்றும் மைக்ரோஃபோனை அணுகுவதைத் தவிர்க்க இது செய்யப்படுகிறது.</string>
+    <string name="settings_accessibility_info_short">கேமரா மற்றும் மைக்ரோஃபோன் பயன்பாட்டை உள்நுழைய இந்த அனுமதி பயன்படுத்தப்படுகிறது.</string>
+    <string name="settings_location">இருப்பிட அணுகல்</string>
+    <string name="settings_location_on">இருப்பிட அனுமதியை இயக்கவும்</string>
+    <string name="settings_location_off">இருப்பிட அனுமதியை அணைக்கவும்</string>
+    <string name="settings_location_button">அணுகலை அனுமதிக்கவும்</string>
+    <string name="settings_location_info">இருப்பிட பயன்பாட்டு பயன்பாட்டை உள்நுழைய இருப்பிட அனுமதி அணுகல் தேவை.</string>
+    <string name="settings_location_info_short">இருப்பிட பயன்பாட்டு பயன்பாட்டை உள்நுழைய இந்த அனுமதி பயன்படுத்தப்படுகிறது.</string>
+    <string name="settings_hide_notification">அறிவிப்பை மறை</string>
+    <string name="settings_hide_notification_info">இயங்கும் அறிவிப்பை மறைக்க இங்கே கிளிக் செய்க</string>
+    <string name="settings_limitation">பயன்பாட்டு வரம்பு</string>
+    <string name="settings_limitation_info">பயன்பாட்டு வரம்புகளைப் பற்றி அறிய இங்கே கிளிக் செய்க</string>
+    <string name="settings_delete_logs">அனைத்து பதிவுகள் நீக்கு</string>
+    <string name="settings_delete_logs_info">அனைத்து அனுமதிகளுக்கும் அனைத்து பயன்பாட்டு பயன்பாட்டு பதிவுகளையும் அழிக்கவும்</string>
+    <string name="settings_release">சேஞ்ச்</string>
+    <string name="settings_release_info">பதிப்பில் வாட்ஸ் இன் புதியதைக் காண்க -</string>
+    <string name="settings_telegram">தந்தி</string>
+    <string name="settings_telegram_info">டெலிகிராம் ஆதரவு குழுவில் சேரவும்</string>
+    <string name="settings_twitter">ட்விட்டர்</string>
+    <string name="settings_twitter_info">ட்விட்டரில் என்னைப் பின்தொடரவும்</string>
+    <!--Donations-->
+    <string name="donation_title">தானம்</string>
+    <string name="donation_info">வளர்ச்சியை ஆதரிக்கவும்</string>
+    <!--Pie chart-->
+    <string name="chart_title">பதிவு கண்ணோட்டம்</string>
+    <string name="chart_center_text">கடந்த\n 24 மணி நேரம்</string>
+    <!--Permission history-->
+    <string name="log_title">அனுமதி வரலாறு</string>
+    <string name="log_info">பயன்பாடுகள் உங்கள் #மாற்றுப்பெயர்# அனுமதியைப் பயன்படுத்தும்போது காலவரிசை</string>
+    <string name="log_info_app">#ALIAS# உங்கள் அனுமதிகளைப் பயன்படுத்தும்போது காலவரிசை</string>
+    <string name="log_empty">பயன்பாட்டு பயன்பாடு இல்லை</string>
+    <string name="log_button_manage">அனுமதியை நிர்வகிக்கவும்</string>
+    <string name="log_usage">பயன்பாடு</string>
+    <string name="log_today">இன்று</string>
+    <string name="log_yesterday">நேற்று</string>
+    <string name="log_permission_start">தொடங்கியது</string>
+    <string name="log_permission_stop">நிறுத்தியது</string>
+    <string name="log_permission_invalid">தெரியவில்லை</string>
+    <!--Donations-->
+    <string name="donation_free">இலவசம்</string>
+    <string name="donation_free_info">பிளே ஸ்டோரில் விகிதம்</string>
+    <string name="donation_support_info">வளர்ச்சியை ஆதரிக்கவும்</string>
+    <string name="donation_tea_info">எனக்கு டீ வாங்கிக்கொடுங்கள்</string>
+    <string name="donation_latte_info">எனக்கு லேட்/காபி வாங்க</string>
+    <string name="donation_breakfast_info">எனக்கு காலை உணவை வாங்குங்கள்</string>
+    <string name="donation_movie_info">எனக்கு திரைப்பட டிக்கெட் வாங்க</string>
+    <string name="donation_dinner_info">எனக்கு பீஸ்ஸா மற்றும் ஒரு கோக் வாங்கவும்</string>
+    <string name="donation_ads_info">பயன்பாட்டை விளம்பரமில்லாமல் வைத்திருக்க எனக்கு உதவுங்கள்</string>
+    <string name="donation_all_apps_info">பயன்பாடுகளை உருவாக்க எனக்கு உதவுங்கள்</string>
+    <string name="donation_super_info">சூப்பர் டூப்பர் ஆதரவு &#10084;\nஇந்த நன்கொடை புதிய சோதனை சாதனம் மற்றும் புதிய மடிக்கணினியை நோக்கி செல்லும்.</string>
+</resources>

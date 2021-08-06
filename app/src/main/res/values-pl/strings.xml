@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Test strings-->
+    <string name="permission_name">Lokalizacja</string>
+    <string name="permission_name2">Użycie lokalizacji</string>
+    <string name="permission_info2">Dziś</string>
+    <string name="permission_info3">2 minuty</string>
+    <string name="permission_time">13:07</string>
+    <string name="permission_app">Telegram</string>
+
+    <string name="app_info">Wykonane z &#10084; w Indiach</string>
+    <string name="profile_version">Wersja -</string>
+    <string name="profile_donate">Wesprzyj</string>
+    <string name="profile_contact">Kontakt</string>
+    <!--Notification Service-->
+    <string name="service_name">Usługa Tablicy Prywatności</string>
+    <string name="service_desc">To uprawnienie jest wymagane, aby pokazać wskaźniki prywatności oraz używać kamery, mikrofonu i lokalizacji.\n\nWszystkie dzienniki są przechowywane lokalnie na Twoim urządzeniu.</string>
+    <string name="service_summary">Włącz to aby włączyć panel prywatności</string>
+    <string name="notification_desc">Panel prywatności jest uruchomiony w tle</string>
+    <string name="notification_hide">Kliknij tutaj, aby ukryć powiadomienie</string>
+    <string name="notification_usage_title">Powiadomienie o użyciu uprawnień</string>
+    <string name="notification_usage_desc">To powiadomienie pojawi się po użyciu aparatu, mikrofonu i uprawnień do lokalizacji.</string>
+    <string name="notification_app_unknown">Nieznana aplikacja</string>
+    <string name="notification_app_using">"Używanie "</string>
+    <string name="notification_app_and">" W przypadku gdy państwo członkowskie lub Szwajcaria stwierdzi, że dane państwo członkowskie lub Szwajcaria spełniają warunki określone w art. 4 ust. 1 lit. a) i b) oraz w art. 5 ust. 1 lit. b) i c) rozporządzenia (WE) nr 207/2009 oraz w art. 5 ust. 1 lit. b) i c) rozporządzenia (WE) nr 207/2009 oraz w art. 5 ust. 1 lit. b) tego rozporządzenia i art. 6 ust. 1 lit. b) tego rozporządzenia i c) tego rozporządzenia stosuje się od dnia 1 stycznia 2018 r. "</string>
+    <string name="notification_app_permission">" uprawnienie"</string>
+    <string name="notification_app_permissions">" uprawnienia"</string>
+    <!--Release dialog-->
+    <string name="app_release_button">Gotowe</string>
+    <!--Start permission dialog-->
+    <string name="start_title">Automatyczne uruchamianie uprawnień</string>
+    <string name="start_permission_info">Twoje urządzenie zakończy usługę aplikacji w tle. Aplikacja będzie potrzebowała uprawnienia AutoStart aby działać poprawnie.</string>
+    <string name="start_setup">Ustawienia</string>
+    <!--Delete permission dialog-->
+    <string name="delete_logs_title">Usuń logi #ALIAS#</string>
+    <string name="delete_logs_info">Czy na pewno chcesz usunąć wszystkie logi uprawnień #ALIAS# ?</string>
+    <string name="delete_logs_title2">Usuń logi</string>
+    <string name="delete_logs_info2">Czy na pewno chcesz usunąć dzienniki użycia aplikacji dla wszystkich uprawnień?</string>
+    <!--Help dialog-->
+    <string name="help_title">Ograniczenie aplikacji</string>
+    <string name="help_info">Gdy jakiekolwiek uprawnienie jest używane, moja aplikacja sprawdza, która aplikacja jest uruchomiona na pierwszym planie i rejestruje ją w bazie danych.\n\nAle czasami może się zdarzyć, że aplikacja Systemowy UI, Launcher lub Keyboard jest uruchomiona przez główną aplikację, tak źle te aplikacje będą logowane do bazy danych zamiast prawdziwej aplikacji, która korzysta z uprawnień.\n\nJest to ograniczenie dla tej aplikacji, ponieważ trudno jest znaleźć aplikację, która działa w tle.</string>
+    <!--Generic dialog buttons-->
+    <string name="dialog_close">Zamknij</string>
+    <string name="dialog_yes">Tak</string>
+    <string name="dialog_no">Nie</string>
+    <!--Menu-->
+    <string name="menu_theme">Motyw</string>
+    <string name="menu_delete">Usuń</string>
+    <string name="menu_whats_new">Co nowego</string>
+    <string name="menu_refresh">Odśwież</string>
+    <string name="menu_refresh_info">Logi zaktualizowane</string>
+    <!--Theme Dialog-->
+    <string name="theme_title">Motyw</string>
+    <string name="dialog_theme_title">Wybierz motyw</string>
+    <string name="dialog_theme_light">Światło</string>
+    <string name="dialog_theme_dark">Ciemny</string>
+    <string name="dialog_theme_system">Domyślne systemowe</string>
+    <string name="dialog_theme_battery">Ustaw przez Oszczędzanie baterii</string>
+    <!--Permissions-->
+    <string name="permission_camera">Aparat</string>
+    <string name="permission_location">Lokalizacja</string>
+    <string name="permission_microphone">Mikrofon</string>
+    <string name="permission_microphone_short">Mikrofon</string>
+    <string name="permission_more">Zobacz inne uprawnienia</string>
+    <string name="permission_more_info">Czujniki ciała, kalendarz i więcej w ustawieniach</string>
+    <string name="permission_info">Używane dziś przez #ALIAS# aplikacje</string>
+    <string name="permission_no_apps">Nie używany dzisiaj</string>
+    <!--Settings-->
+    <string name="settings_title">Ustawienia aplikacji</string>
+    <string name="settings_info">Zarządzaj motywem aplikacji, uprawnieniami itp</string>
+    <string name="settings_dots">Wskaźniki prywatności</string>
+    <string name="settings_dots_info">Gdy uprawnienie jest używane, ikona będzie wyświetlana w prawym górnym rogu</string>
+    <string name="settings_dots_custom">Dostosowanie wskaźnika</string>
+    <string name="dots_custom_type">Typ</string>
+    <string name="dots_custom_type_icon">Ikony uprawnień</string>
+    <string name="dots_custom_type_dot">Kolorowe kropki</string>
+    <string name="dots_custom_position">Położenie</string>
+    <string name="dots_custom_position_tl">Lewy górny róg</string>
+    <string name="dots_custom_position_tc">Górny środek</string>
+    <string name="dots_custom_position_tr">Prawy górny</string>
+    <string name="dots_custom_position_rc">Prawy środek</string>
+    <string name="dots_custom_position_br">Prawy dół</string>
+    <string name="dots_custom_position_bc">Dolny środek</string>
+    <string name="dots_custom_position_bl">Dolny lewy róg</string>
+    <string name="dots_custom_position_lc">Lewy środek</string>
+    <string name="dots_custom_margin">Dodaj margines Bezel</string>
+    <string name="dots_custom_margin_info">Gdy włączone, dodaje margines do wskaźnika, aby nie przylegał do dzwonków urządzenia.</string>
+    <string name="dots_custom_click">Akcja kliknięć</string>
+    <string name="dots_custom_click_info">Gdy włączone, możesz kliknąć wskaźnik i przenieś Cię do określonego dziennika uprawnień.</string>
+    <string name="dots_custom_size">Rozmiar</string>
+    <string name="dots_custom_size_unit">%</string>
+    <string name="dots_custom_opacity">Przezroczystość</string>
+    <string name="dots_custom_minimize">Minimalizuj do kropki (beta)</string>
+    <string name="dots_custom_minimize_info">Gdy włączone, jeśli uprawnienie jest używane przez więcej niż 3 sek, wskaźnik zostanie zminimalizowany do małej kropki.</string>
+    <string name="settings_notification">Powiadomienie</string>
+    <string name="settings_notification_info">Kiedy włączone, otrzymasz powiadomienie za każdym razem, gdy jest używane uprawnienie</string>
+    <string name="settings_notification_custom">Dostosowywanie powiadomień</string>
+    <string name="notification_custom_ongoing">Powiadomienie ciągłe</string>
+    <string name="notification_custom_ongoing_info">Jeśli włączona aplikacja wyświetli ciągłe powiadomienie, gdy jest używana zgoda, która zniknie po zatrzymaniu korzystania z uprawnień.</string>
+    <string name="notification_custom_icon">Ikona aplikacji</string>
+    <string name="notification_custom_icon_info">Jeśli włączona ikona aplikacji będzie wyświetlana w powiadomieniu dla odpowiedniego użycia uprawnień</string>
+    <string name="settings_accessibility">Ustawienia ułatwień dostępu</string>
+    <string name="settings_accessibility_on">Włącz ustawienia dostępności</string>
+    <string name="settings_accessibility_off">Wyłącz ustawienia dostępności</string>
+    <string name="settings_accessibility_button">Otwórz ustawienia</string>
+    <string name="settings_accessibility_info">Aplikacja wymaga uprawnień dostępu do logowania użycia kamery i mikrofonu. Jest to możliwe, aby uniknąć dostępu do kamery i mikrofonu dla prywatności.</string>
+    <string name="settings_accessibility_info_short">To uprawnienie jest używane do logowania użycia kamery i mikrofonu.</string>
+    <string name="settings_location">Dostęp do lokalizacji</string>
+    <string name="settings_location_on">Włącz uprawnienia do lokalizacji</string>
+    <string name="settings_location_off">Wyłącz uprawnienia do lokalizacji</string>
+    <string name="settings_location_button">Zezwalaj na dostęp</string>
+    <string name="settings_location_info">Dostęp do lokalizacji jest wymagany aby zalogować użycie aplikacji lokalizacyjnej.</string>
+    <string name="settings_location_info_short">To uprawnienie jest używane do rejestrowania użycia aplikacji lokalizacyjnej.</string>
+    <string name="settings_hide_notification">Ukryj powiadomienie</string>
+    <string name="settings_hide_notification_info">Kliknij tutaj, aby ukryć uruchomione powiadomienie</string>
+    <string name="settings_limitation">Ograniczenie aplikacji</string>
+    <string name="settings_limitation_info">Kliknij tutaj, aby dowiedzieć się o ograniczeniach aplikacji</string>
+    <string name="settings_delete_logs">Usuń wszystkie logi</string>
+    <string name="settings_delete_logs_info">Wyczyść wszystkie dzienniki użycia aplikacji dla wszystkich uprawnień</string>
+    <string name="settings_release">Lista zmian</string>
+    <string name="settings_release_info">Zobacz co nowego w wersji -</string>
+    <string name="settings_telegram">Telegram</string>
+    <string name="settings_telegram_info">Dołącz do grupy wsparcia telegramu</string>
+    <string name="settings_twitter">Twitter</string>
+    <string name="settings_twitter_info">Śledź mnie na Twitterze</string>
+    <!--Donations-->
+    <string name="donation_title">Wesprzyj</string>
+    <string name="donation_info">Wesprzyj rozwój</string>
+    <!--Pie chart-->
+    <string name="chart_title">Podgląd dziennika</string>
+    <string name="chart_center_text">Ostatnie\n 24 godziny</string>
+    <!--Permission history-->
+    <string name="log_title">Historia uprawnień</string>
+    <string name="log_info">Oś czasu, kiedy aplikacje używały uprawnienia #ALIAS#</string>
+    <string name="log_info_app">Oś czasu, kiedy #ALIAS# użyła Twoich uprawnień</string>
+    <string name="log_empty">Brak użycia aplikacji</string>
+    <string name="log_button_manage">Zarządzaj uprawnieniami</string>
+    <string name="log_usage">użycie</string>
+    <string name="log_today">Dziś</string>
+    <string name="log_yesterday">Wczoraj</string>
+    <string name="log_permission_start">Rozpoczęto</string>
+    <string name="log_permission_stop">Zatrzymano</string>
+    <string name="log_permission_invalid">Nieznane</string>
+    <!--Donations-->
+    <string name="donation_free">ZA DARMO</string>
+    <string name="donation_free_info">Oceń w sklepie Play</string>
+    <string name="donation_support_info">Wesprzyj rozwój</string>
+    <string name="donation_tea_info">Kup mi herbatę</string>
+    <string name="donation_latte_info">Kup mi latte/kawę</string>
+    <string name="donation_breakfast_info">Kup mi śniadanie</string>
+    <string name="donation_movie_info">Kup mój bilet filmowy</string>
+    <string name="donation_dinner_info">Kup mi pizza i koks</string>
+    <string name="donation_ads_info">Pomóż mi w utrzymaniu bez reklam</string>
+    <string name="donation_all_apps_info">Pomóż mi tworzyć aplikacje</string>
+    <string name="donation_super_info">Super Duper obsługuje &#10084;\nTa darowizna będzie skierowana do nowego urządzenia testującego i nowego laptopa.</string>
+</resources>

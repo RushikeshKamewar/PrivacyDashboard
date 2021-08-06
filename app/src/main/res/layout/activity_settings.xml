@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".activities.settings.SettingsActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:background="?attr/colorBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/main_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <rk.android.app.privacydashboard.views.SettingsView
+                android:id="@+id/settings_theme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:settings_title="@string/theme_title"
+                app:settings_info="@string/dialog_theme_system"
+                app:settings_icon="@drawable/menu_theme"
+                app:settings_switch_visibility="8"/>
+
+            <rk.android.app.privacydashboard.views.SettingsView
+                android:id="@+id/settings_dots"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:settings_title="@string/settings_dots"
+                app:settings_info="@string/settings_dots_info"
+                app:settings_icon="@drawable/icon_dot_camera"
+                app:settings_switch_visibility="0"/>
+
+            <RelativeLayout
+                android:id="@+id/rl_dots_custom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingStart="8dp"
+                android:paddingEnd="24dp"
+                android:background="?attr/selectableItemBackground">
+
+                <ImageView
+                    android:id="@+id/image_dots_custom"
+                    android:visibility="invisible"
+                    android:contentDescription="@string/image_descriptions"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="1.5dp"
+                    android:padding="8dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_centerVertical="true"
+                    app:tint="?attr/colorIcon"
+                    android:src="@drawable/settings_dots_custom"/>
+
+                <TextView
+                    android:id="@+id/text_dots_custom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/image_dots_custom"
+                    android:layout_toStartOf="@id/image_dots_custom2"
+                    android:paddingBottom="3dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/settings_dots_custom"
+                    android:fontFamily="@font/medium"
+                    android:textColor="?attr/colorPrimaryText"
+                    android:textSize="16sp"/>
+
+                <ImageView
+                    android:id="@+id/image_dots_custom2"
+                    android:contentDescription="@string/image_descriptions"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:padding="8dp"
+                    app:tint="?attr/colorIcon"
+                    android:src="@drawable/settings_open"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:alpha="0.3"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="?attr/colorSecondaryText" />
+
+            <rk.android.app.privacydashboard.views.SettingsView
+                android:id="@+id/settings_notification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:settings_title="@string/settings_notification"
+                app:settings_info="@string/settings_notification_info"
+                app:settings_icon="@drawable/settings_notification"
+                app:settings_switch_visibility="0"/>
+
+            <RelativeLayout
+                android:id="@+id/rl_notification_custom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingStart="8dp"
+                android:paddingEnd="24dp"
+                android:background="?attr/selectableItemBackground">
+
+                <ImageView
+                    android:id="@+id/image_notification_custom"
+                    android:visibility="invisible"
+                    android:contentDescription="@string/image_descriptions"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="1.5dp"
+                    android:padding="8dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_centerVertical="true"
+                    app:tint="?attr/colorIcon"
+                    android:src="@drawable/settings_dots_custom"/>
+
+                <TextView
+                    android:id="@+id/text_notification_custom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/image_notification_custom"
+                    android:layout_toStartOf="@id/image_notification_custom2"
+                    android:paddingBottom="3dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/settings_notification_custom"
+                    android:fontFamily="@font/medium"
+                    android:textColor="?attr/colorPrimaryText"
+                    android:textSize="16sp"/>
+
+                <ImageView
+                    android:id="@+id/image_notification_custom2"
+                    android:contentDescription="@string/image_descriptions"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:padding="8dp"
+                    app:tint="?attr/colorIcon"
+                    android:src="@drawable/settings_open"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:alpha="0.3"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="?attr/colorSecondaryText" />
+
+            <rk.android.app.privacydashboard.views.SettingsView
+                android:id="@+id/settings_excluded"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:settings_title="@string/settings_exclude"
+                app:settings_info="@string/settings_exclude_info"
+                app:settings_icon="@drawable/settings_exclude"
+                app:settings_switch_visibility="8"
+                app:settings_open_visibility="0"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:alpha="0.3"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="?attr/colorSecondaryText" />
+
+            <rk.android.app.privacydashboard.views.SettingsView
+                android:id="@+id/settings_accessibility"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:settings_title="@string/settings_accessibility"
+                app:settings_info="@string/settings_accessibility_info_short"
+                app:settings_icon="@drawable/settings_accessibility"
+                app:settings_switch_visibility="0"/>
+
+            <rk.android.app.privacydashboard.views.SettingsView
+                android:id="@+id/settings_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:settings_title="@string/settings_location"
+                app:settings_info="@string/settings_location_info_short"
+                app:settings_icon="@drawable/settings_location"
+                app:settings_switch_visibility="0"/>
+
+            <rk.android.app.privacydashboard.views.SettingsView
+                android:id="@+id/settings_limitation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:settings_title="@string/settings_limitation"
+                app:settings_info="@string/settings_limitation_info"
+                app:settings_icon="@drawable/log_help"
+                app:settings_switch_visibility="8"/>
+
+            <rk.android.app.privacydashboard.views.SettingsView
+                android:id="@+id/settings_hide_notification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:settings_title="@string/settings_hide_notification"
+                app:settings_info="@string/settings_hide_notification_info"
+                app:settings_icon="@drawable/notification_icon"
+                app:settings_switch_visibility="8"/>
+
+            <rk.android.app.privacydashboard.views.SettingsView
+                android:id="@+id/settings_delete_logs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:settings_title="@string/settings_delete_logs"
+                app:settings_info="@string/settings_delete_logs_info"
+                app:settings_icon="@drawable/menu_delete"
+                app:settings_switch_visibility="8"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:alpha="0.3"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="?attr/colorSecondaryText" />
+
+            <rk.android.app.privacydashboard.views.SettingsView
+                android:id="@+id/settings_release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:settings_title="@string/settings_release"
+                app:settings_info="@string/settings_release_info"
+                app:settings_icon="@drawable/menu_release"
+                app:settings_switch_visibility="8"/>
+
+            <rk.android.app.privacydashboard.views.SettingsView
+                android:id="@+id/settings_telegram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:settings_title="@string/settings_telegram"
+                app:settings_info="@string/settings_telegram_info"
+                app:settings_icon="@drawable/profile_telegram"
+                app:settings_switch_visibility="8"/>
+
+            <rk.android.app.privacydashboard.views.SettingsView
+                android:id="@+id/settings_twitter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:settings_title="@string/settings_twitter"
+                app:settings_info="@string/settings_twitter_info"
+                app:settings_icon="@drawable/profile_twitter"
+                app:settings_switch_visibility="8"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:alpha="0.3"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="?attr/colorSecondaryText" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Test strings-->
+    <string name="permission_name">Locație</string>
+    <string name="permission_name2">Utilizarea locației</string>
+    <string name="permission_info2">Astăzi</string>
+    <string name="permission_info3">2 minute</string>
+    <string name="permission_time">13:07</string>
+    <string name="permission_app">Telegramă</string>
+
+    <string name="app_info">Realizat cu &#10084; în India</string>
+    <string name="profile_made_by">Realizat de Rushikesh Kamewar</string>
+    <string name="profile_version">Versiune -</string>
+    <string name="profile_donate">Donează</string>
+    <string name="profile_contact">Contact</string>
+    <!--Notification Service-->
+    <string name="service_name">Serviciul Tablou De Bord De Confidențialitate</string>
+    <string name="service_desc">Această permisiune este necesară pentru a afișa indicatorii de confidențialitate și pentru a înregistra utilizarea camerei, microfonului și locației.\n\ntoate jurnalele sunt stocate local pe dispozitiv.</string>
+    <string name="service_summary">Activează acest lucru pentru a activa panoul de control pentru confidențialitate</string>
+    <string name="notification_desc">Tabloul de bord de confidențialitate rulează în fundal</string>
+    <string name="notification_hide">Faceți clic aici pentru a ascunde notificarea</string>
+    <string name="notification_usage_title">Notificare Privind Utilizarea Permisiunilor</string>
+    <string name="notification_usage_desc">Această notificare va apărea atunci când se utilizează permisiunea pentru cameră, microfon și locație.</string>
+    <string name="notification_app_unknown">Aplicație necunoscută</string>
+    <string name="notification_app_using">"Utilizarea "</string>
+    <string name="notification_app_and">" și "</string>
+    <string name="notification_app_permission">" permisiune"</string>
+    <string name="notification_app_permissions">" permisiuni"</string>
+    <!--Release dialog-->
+    <string name="app_release_button">Terminat</string>
+    <!--Start permission dialog-->
+    <string name="start_title">Permisiune de pornire automată</string>
+    <string name="start_permission_info">Dispozitivul dvs. va termina serviciul aplicației de fundal. Aplicația va avea nevoie de permisiunea de pornire automată pentru a funcționa corect.</string>
+    <string name="start_setup">Configurare</string>
+    <!--Delete permission dialog-->
+    <string name="delete_logs_title">Șterge # ALIAS # logs</string>
+    <string name="delete_logs_info">Sunteți sigur că doriți să ștergeți toate jurnalele de permisiune# ALIAS#?</string>
+    <string name="delete_logs_title2">Șterge jurnalele</string>
+    <string name="delete_logs_info2">Sunteți sigur că doriți să ștergeți jurnalele de utilizare a aplicațiilor pentru toate permisiunile?</string>
+    <!--Help dialog-->
+    <string name="help_title">Limitarea aplicației</string>
+    <string name="help_info">Când este utilizată orice permisiune, aplicația mea verifică ce aplicație rulează în prim-plan și o înregistrează în baza de date.\n\nDar uneori se poate întâmpla ca Sistemul UI, Lansator sau o aplicație de Tastatură se execută de-a lungul app principal, astfel încât în mod eronat aceste aplicații vor fi înregistrate în baza de date în loc de app real, care utilizează permisiunea.\n\naceasta este o limitare pentru această aplicație, deoarece este dificil să găsiți ce aplicație rulează în fundal.</string>
+    <!--Generic dialog buttons-->
+    <string name="dialog_close">Închide</string>
+    <string name="dialog_yes">Da</string>
+    <string name="dialog_no">Nu</string>
+    <!--Menu-->
+    <string name="menu_theme">Temă</string>
+    <string name="menu_delete">Șterge</string>
+    <string name="menu_whats_new">Ce este nou</string>
+    <string name="menu_refresh">Actualizează</string>
+    <string name="menu_refresh_info">Jurnalele Actualizate</string>
+    <!--Theme Dialog-->
+    <string name="theme_title">Temă</string>
+    <string name="dialog_theme_title">Alege Tema</string>
+    <string name="dialog_theme_light">Lumina</string>
+    <string name="dialog_theme_dark">Întuneric</string>
+    <string name="dialog_theme_system">Implicit De Sistem</string>
+    <string name="dialog_theme_battery">Set de economisire a bateriei</string>
+    <!--Permissions-->
+    <string name="permission_camera">Cameră</string>
+    <string name="permission_location">Locație</string>
+    <string name="permission_microphone">Microfon</string>
+    <string name="permission_microphone_short">Mic</string>
+    <string name="permission_more">Vedeți alte permisiuni</string>
+    <string name="permission_more_info">Senzori de corp, Calendar și multe altele în Setări</string>
+    <string name="permission_info">Folosit de# ALIAS # apps astăzi</string>
+    <string name="permission_no_apps">Nu este folosit astăzi</string>
+    <!--Settings-->
+    <string name="settings_title">Configurări Aplicație</string>
+    <string name="settings_info">Gestionați tema aplicației, permisiunile etc</string>
+    <string name="settings_dots">Indicatori De Confidențialitate</string>
+    <string name="settings_dots_info">Când permisiunea este în uz pictograma respectivă va fi afișată în colțul din dreapta sus</string>
+    <string name="settings_dots_custom">Personalizare Indicator</string>
+    <string name="dots_custom_type">Tip</string>
+    <string name="dots_custom_type_icon">Pictograme de permisiune</string>
+    <string name="dots_custom_type_dot">Puncte colorate</string>
+    <string name="dots_custom_position">Poziție</string>
+    <string name="dots_custom_position_tl">Sus-Stânga</string>
+    <string name="dots_custom_position_tc">Centru De Sus</string>
+    <string name="dots_custom_position_tr">Sus-Dreapta</string>
+    <string name="dots_custom_position_rc">Centru Dreapta</string>
+    <string name="dots_custom_position_br">Dreapta-Jos</string>
+    <string name="dots_custom_position_bc">Centru De Jos</string>
+    <string name="dots_custom_position_bl">Jos-Stânga</string>
+    <string name="dots_custom_position_lc">Centru Stânga</string>
+    <string name="dots_custom_margin">Adăugați Marginea Ramei</string>
+    <string name="dots_custom_margin_info">Când este activat, adaugă marjă indicatorului, astfel încât să nu se lipească de ramele dispozitivului.</string>
+    <string name="dots_custom_click">Faceți clic pe acțiune</string>
+    <string name="dots_custom_click_info">Când este activat, puteți face clic pe indicator și vă va duce la un anumit jurnal de permisiuni.</string>
+    <string name="dots_custom_size">Dimensiune</string>
+    <string name="dots_custom_size_unit">%</string>
+    <string name="dots_custom_opacity">Opacitate</string>
+    <string name="dots_custom_minimize">Minimizați până la punct (beta)</string>
+    <string name="dots_custom_minimize_info">Când este activată dacă permisiunea este utilizată pentru mai mult de 3 sec indicator va fi minimizat la punct mic.</string>
+    <string name="settings_notification">Alertă de notificare</string>
+    <string name="settings_notification_info">Când este activată, veți primi o notificare ori de câte ori se utilizează o permisiune</string>
+    <string name="settings_notification_custom">Personalizare Notificare</string>
+    <string name="notification_custom_ongoing">Notificare continuă</string>
+    <string name="notification_custom_ongoing_info">Dacă aplicația activată va afișa o notificare continuă atunci când se utilizează permisiunea, care va dispărea după oprirea utilizării permisiunii.</string>
+    <string name="notification_custom_icon">Pictograma aplicației</string>
+    <string name="notification_custom_icon_info">Dacă pictograma aplicației activată va fi afișată în notificare pentru utilizarea permisiunii respective</string>
+    <string name="settings_accessibility">Setarea Accesibilității</string>
+    <string name="settings_accessibility_on">Activează setările de accesibilitate</string>
+    <string name="settings_accessibility_off">Dezactivați setările de accesibilitate</string>
+    <string name="settings_accessibility_button">Deschide Configurări</string>
+    <string name="settings_accessibility_info">Aplicația necesită permisiunea de accesibilitate pentru a înregistra utilizarea camerei și a microfonului. Acest lucru se face pentru a evita accesul la cameră și microfon pentru confidențialitate.</string>
+    <string name="settings_accessibility_info_short">Această permisiune este utilizată pentru a înregistra utilizarea camerei și a microfonului.</string>
+    <string name="settings_location">Acces la locație</string>
+    <string name="settings_location_on">Activați permisiunea de locație</string>
+    <string name="settings_location_off">Dezactivați permisiunea de locație</string>
+    <string name="settings_location_button">Permite Accesul</string>
+    <string name="settings_location_info">Accesul permisiunii de locație este necesar pentru a înregistra utilizarea aplicației de locație.</string>
+    <string name="settings_location_info_short">Această permisiune este utilizată pentru a înregistra utilizarea aplicației de locație.</string>
+    <string name="settings_hide_notification">Ascunde notificarea</string>
+    <string name="settings_hide_notification_info">Faceți clic aici pentru a ascunde notificarea care rulează</string>
+    <string name="settings_limitation">Limitarea aplicației</string>
+    <string name="settings_limitation_info">Faceți clic aici pentru a afla despre limitările aplicațiilor</string>
+    <string name="settings_delete_logs">Șterge toate jurnalele</string>
+    <string name="settings_delete_logs_info">Ștergeți toate jurnalele de utilizare a aplicațiilor pentru toate permisiunile</string>
+    <string name="settings_release">Changelog</string>
+    <string name="settings_release_info">Vedeți ce este nou în versiune -</string>
+    <string name="settings_telegram">Telegramă</string>
+    <string name="settings_telegram_info">Alăturați-vă grupului de asistență telegram</string>
+    <string name="settings_twitter">Stare de nervozitate</string>
+    <string name="settings_twitter_info">Urmați-mă pe twitter</string>
+    <!--Donations-->
+    <string name="donation_title">Donează</string>
+    <string name="donation_info">Sprijinirea dezvoltării</string>
+    <!--Pie chart-->
+    <string name="chart_title">Prezentare generală jurnal</string>
+    <string name="chart_center_text">Trecut\n 24 de ore</string>
+    <!--Permission history-->
+    <string name="log_title">Istoricul permisiunilor</string>
+    <string name="log_info">Cronologia momentului în care aplicațiile ți-au folosit# ALIAS # permission</string>
+    <string name="log_info_app">Cronologie de când # ALIAS # folosit permisiunile</string>
+    <string name="log_empty">Nici o utilizare a aplicației</string>
+    <string name="log_button_manage">Gestionați permisiunea</string>
+    <string name="log_usage">utilizare</string>
+    <string name="log_today">Astăzi</string>
+    <string name="log_yesterday">Ieri</string>
+    <string name="log_permission_start">Început</string>
+    <string name="log_permission_stop">Oprit</string>
+    <string name="log_permission_invalid">Necunoscut</string>
+    <!--Donations-->
+    <string name="donation_free">Gratuit</string>
+    <string name="donation_free_info">Rata pe play store</string>
+    <string name="donation_support_info">Sprijinirea dezvoltării</string>
+    <string name="donation_tea_info">Cumpără-mi ceai</string>
+    <string name="donation_latte_info">Cumpără-mi latte / cafea</string>
+    <string name="donation_breakfast_info">Cumpără-mi micul dejun</string>
+    <string name="donation_movie_info">Cumpără-mi bilet la film</string>
+    <string name="donation_dinner_info">Cumpără-mi pizza și o cola</string>
+    <string name="donation_ads_info">Ajută-mă să păstrez aplicația fără anunțuri</string>
+    <string name="donation_all_apps_info">Ajută-mă să creez aplicații</string>
+    <string name="donation_super_info">Super Duper suport &#10084;\nAceastă donație va merge spre un nou dispozitiv de testare și laptop nou.</string>
+</resources>

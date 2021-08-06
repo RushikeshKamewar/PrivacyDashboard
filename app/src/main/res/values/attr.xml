@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AppTheme">
+        <attr name="colorPrimary" format="color"/>
+        <attr name="colorSecondary" format="color"/>
+        <attr name="colorPrimaryText" format="color"/>
+        <attr name="colorSecondaryText" format="color"/>
+        <attr name="colorIcon" format="color"/>
+        <attr name="colorBackground" format="color"/>
+        <attr name="colorCardBackground" format="color"/>
+        <attr name="colorCamera" format="color"/>
+        <attr name="colorMicrophone" format="color"/>
+        <attr name="colorLocation" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="PermissionView">
+        <attr name="textTitle" format="string"/>
+        <attr name="textInfo" format="string"/>
+        <attr name="imageIcon" format="reference"/>
+        <attr name="tintColor" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="SettingsView">
+        <attr name="settings_title" format="string"/>
+        <attr name="settings_info" format="string"/>
+        <attr name="settings_icon" format="reference"/>
+        <attr name="settings_icon_tint" format="integer"/>
+        <attr name="settings_switch_visibility" format="integer"/>
+        <attr name="settings_open_visibility" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="SeekbarView">
+        <attr name="seekbar_title" format="string"/>
+        <attr name="progressUnit" format="string"/>
+        <attr name="progressMin" format="integer"/>
+        <attr name="progressMax" format="integer"/>
+        <attr name="progressDefault" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="DonationView">
+        <attr name="donation_price" format="string"/>
+        <attr name="donation_info" format="string"/>
+        <attr name="donation_icon" format="reference"/>
+        <attr name="donation_color" format="integer"/>
+    </declare-styleable>
+
+
+</resources>

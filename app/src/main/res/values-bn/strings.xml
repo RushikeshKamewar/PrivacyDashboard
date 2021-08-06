@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Test strings-->
+    <string name="permission_name">অবস্থান</string>
+    <string name="permission_name2">অবস্থান ব্যবহার</string>
+    <string name="permission_info2">আজ</string>
+    <string name="permission_info3">2 মিনিট</string>
+    <string name="permission_time">13:07</string>
+    <string name="permission_app">আরো জানুন</string>
+
+    <string name="app_info">ভারতে &#10084; সঙ্গে গঠিত</string>
+    <string name="profile_made_by">দ্বারা তৈরি Rushikesh Kamewar</string>
+    <string name="profile_version">সংস্করণ -</string>
+    <string name="profile_donate">দান করা</string>
+    <string name="profile_contact">পরিচিতি</string>
+    <!--Notification Service-->
+    <string name="service_name">গোপনীয়তা ড্যাশবোর্ড সেবা</string>
+    <string name="service_desc">এই অনুমতি গোপনীয়তা সূচক দেখাতে এবং ক্যামেরা লগ ইন করতে প্রয়োজন বোধ করা হয়, মাইক্রোফোন এবং অবস্থান ব্যবহার.\n\nসব লগ আপনার ডিভাইসের উপর স্থানীয়ভাবে সংরক্ষণ করা হয়.</string>
+    <string name="service_summary">গোপনীয়তা ড্যাশবোর্ড সক্রিয় করার জন্য এই চালু</string>
+    <string name="notification_desc">গোপনীয়তা ড্যাশবোর্ড পটভূমিতে চলমান</string>
+    <string name="notification_hide">বিজ্ঞপ্তি আড়াল করার জন্য এখানে ক্লিক করুন</string>
+    <string name="notification_usage_title">অনুমতি ব্যবহারের বিজ্ঞপ্তি</string>
+    <string name="notification_usage_desc">ক্যামেরা, মাইক্রোফোন এবং অবস্থান অনুমতি ব্যবহার করা হচ্ছে যখন এই বিজ্ঞপ্তি প্রদর্শিত হবে.</string>
+    <string name="notification_app_unknown">অজানা অ্যাপ্লিকেশন</string>
+    <string name="notification_app_using">"ব্যবহার করা হচ্ছে "</string>
+    <string name="notification_app_and">" এবং "</string>
+    <string name="notification_app_permission">" অনুমতি"</string>
+    <string name="notification_app_permissions">" অনুমতি"</string>
+    <!--Release dialog-->
+    <string name="app_release_button">সম্পন্ন</string>
+    <!--Start permission dialog-->
+    <string name="start_title">অটোস্টার্ট অনুমতি</string>
+    <string name="start_permission_info">আপনার ডিভাইস পটভূমি অ্যাপ্লিকেশন পরিষেবা বিনষ্ট হবে. অ্যাপ্লিকেশন সঠিকভাবে কাজ স্বয়ংক্রিয় অনুমতি প্রয়োজন হবে.</string>
+    <string name="start_setup">ব্যবস্থাপনা</string>
+    <!--Delete permission dialog-->
+    <string name="delete_logs_title">ছবি গ্যালারীর থাম্বনেইল</string>
+    <string name="delete_logs_info">আপনি কি নিশ্চিত যে আপনি সব #ওরফে মুছে ফেলতে চান# অনুমতি লগ?</string>
+    <string name="delete_logs_title2">লগ মুছে ফেলো</string>
+    <string name="delete_logs_info2">আপনি কি সব অনুমতি জন্য অ্যাপ্লিকেশন ব্যবহার লগ মুছে ফেলতে চান নিশ্চিত?</string>
+    <!--Help dialog-->
+    <string name="help_title">অ্যাপ সীমাবদ্ধতা</string>
+    <string name="help_info">কোনো অনুমতি ব্যবহার করা হলে, অ্যাপ্লিকেশন পুরোভূমি মধ্যে চলমান এবং ডাটাবেসের মধ্যে এটি লগ করা হয়, যা আমার অ্যাপ্লিকেশন চেক.\n\n, কিন্তু কখনও কখনও, এটা যে ঘটতে পারে, সিস্টেম UI \' তে, লঞ্চ বা কীবোর্ড অ্যাপ্লিকেশন চলমান উপর প্রধান অ্যাপ্লিকেশন, তাই ভুল করে এই অ্যাপ্লিকেশন লগ করা হবে ডাটাবেসের মধ্যে পরিবর্তে বাস্তব অ্যাপ্লিকেশন ব্যবহার করা হয়, যা অনুমতি.\n\nএই অ্যাপ্লিকেশন জন্য একটি সীমাবদ্ধতা, এটা অ্যাপ্লিকেশন পটভূমিতে চলমান হয়, যা খুঁজে পাওয়া কঠিন হিসাবে.</string>
+    <!--Generic dialog buttons-->
+    <string name="dialog_close">বন্ধ</string>
+    <string name="dialog_yes">হ্যাঁ</string>
+    <string name="dialog_no">না</string>
+    <!--Menu-->
+    <string name="menu_theme">থিম</string>
+    <string name="menu_delete">মুছে ফেলা হবে</string>
+    <string name="menu_whats_new">নতুন কী</string>
+    <string name="menu_refresh">রিফ্রেশ</string>
+    <string name="menu_refresh_info">লগ আপডেট করা হয়েছে</string>
+    <!--Theme Dialog-->
+    <string name="theme_title">থিম</string>
+    <string name="dialog_theme_title">থীম নির্বাচন করুন</string>
+    <string name="dialog_theme_light">আলো</string>
+    <string name="dialog_theme_dark">অন্ধকার</string>
+    <string name="dialog_theme_system">সিস্টেম ডিফল্ট</string>
+    <string name="dialog_theme_battery">ব্যাটারি বাঁচায় দ্বারা সেট করুন</string>
+    <!--Permissions-->
+    <string name="permission_camera">চিত্র সংরক্ষন ব্যর্থ হয়েছে</string>
+    <string name="permission_location">অবস্থান</string>
+    <string name="permission_microphone">মাইক্রোফোন</string>
+    <string name="permission_microphone_short">মাইক</string>
+    <string name="permission_more">অন্যান্য অনুমতি দেখুন</string>
+    <string name="permission_more_info">শারীরিক সেন্সর, ক্যালেন্ডার এবং সেটিংস আরো</string>
+    <string name="permission_info">অনুসরণ করুন অনুসরণ করা কর্মসমূহ: অনুসরণ না করা অবরুদ্ধ অবরোধ মুক্ত মুলতুবি বাতিল</string>
+    <string name="permission_no_apps">আজকের তারিখ ব্যবহার করা হয়নি</string>
+    <!--Settings-->
+    <string name="settings_title">অ্যাপ্লিকেশন সংক্রান্ত বৈশিষ্ট্য</string>
+    <string name="settings_info">অ্যাপ্লিকেশন থিম, অনুমতি, ইত্যাদি পরিচালনা</string>
+    <string name="settings_dots">গোপনীয়তা সূচক</string>
+    <string name="settings_dots_info">অনুমতি ব্যবহার নিজ নিজ আইকন যখন উপরের ডান দিকের কোণায় অবস্থিত প্রদর্শন করা হবে</string>
+    <string name="settings_dots_custom">নির্দেশক কাস্টমাইজেশন</string>
+    <string name="dots_custom_type">ধরন</string>
+    <string name="dots_custom_type_icon">অনুমতি আইকন</string>
+    <string name="dots_custom_type_dot">রঙীন বিন্দু</string>
+    <string name="dots_custom_position">অবস্থান</string>
+    <string name="dots_custom_position_tl">উপরে-বাঁদিকে</string>
+    <string name="dots_custom_position_tc">শীর্ষ-কেন্দ্র</string>
+    <string name="dots_custom_position_tr">উপরে-ডানদিকে</string>
+    <string name="dots_custom_position_rc">ডান-কেন্দ্র</string>
+    <string name="dots_custom_position_br">নীচে</string>
+    <string name="dots_custom_position_bc">নীচে-কেন্দ্র</string>
+    <string name="dots_custom_position_bl">নীচে-বাঁদিকে</string>
+    <string name="dots_custom_position_lc">বাম কেন্দ্র</string>
+    <string name="dots_custom_margin">মার্জিন যোগ করো</string>
+    <string name="dots_custom_margin_info">সক্রিয় করা হলে এটি ডিভাইসের বিজেলগুলিতে লাগিয়া থাকা না যাতে সূচক মার্জিন যোগ.</string>
+    <string name="dots_custom_click">কাজ ক্লিক করুন</string>
+    <string name="dots_custom_click_info">সক্রিয় করা হলে, আপনি সূচক ক্লিক করতে পারেন এবং এটি বিশেষ অনুমতি লগ আপনি নেব.</string>
+    <string name="dots_custom_size">আকার</string>
+    <string name="dots_custom_size_unit">%</string>
+    <string name="dots_custom_opacity">স্বচ্ছতা</string>
+    <string name="dots_custom_minimize">বিন্দু কমান (বিটা)</string>
+    <string name="dots_custom_minimize_info">অনুমতি বেশী ব্যবহার করা হয় যদি সক্রিয় করা হলে 3 সেকেন্ড সূচক ছোট বিন্দু কমিয়ে আনা হবে.</string>
+    <string name="settings_notification">বিজ্ঞপ্তি সতর্কতা</string>
+    <string name="settings_notification_info">অনুমতি ব্যবহার করা হচ্ছে যখনই আপনি একটি বিজ্ঞপ্তি পাবেন সক্রিয় যখন</string>
+    <string name="settings_notification_custom">বিজ্ঞপ্তি স্বনির্ধারণ</string>
+    <string name="notification_custom_ongoing">ক্রমাগত বিজ্ঞপ্তি</string>
+    <string name="notification_custom_ongoing_info">যদি সক্রিয় অ্যাপ্লিকেশন একটি একটানা বিজ্ঞপ্তি যখন অনুমতি ব্যবহার বন্ধ থাকে পরে তারপর অদৃশ্য হয়ে যাবে, যা ব্যবহার করা হচ্ছে প্রদর্শন করা হবে.</string>
+    <string name="notification_custom_icon">অ্যাপ্লিকেশন আইকন</string>
+    <string name="notification_custom_icon_info">সক্রিয় অ্যাপ্লিকেশন আইকন নিজ নিজ অনুমতি ব্যবহারের জন্য বিজ্ঞপ্তি প্রদর্শন করা হবে যদি</string>
+    <string name="settings_accessibility">স্বাচ্ছন্দ্যকরণ সেটিং</string>
+    <string name="settings_accessibility_on">স্বাচ্ছন্দ্যকরণ সেটিংস চালু করুন</string>
+    <string name="settings_accessibility_off">স্বাচ্ছন্দ্যকরণ সেটিংস বন্ধ করুন</string>
+    <string name="settings_accessibility_button">সেটিংস খুলুন</string>
+    <string name="settings_accessibility_info">অ্যাপ্লিকেশন ক্যামেরা এবং মাইক্রোফোন ব্যবহার লগ ইন করতে অভিগম্যতা অনুমতি প্রয়োজন. এই গোপনীয়তা জন্য ক্যামেরা এবং মাইক্রোফোন ব্যবহার করেও এড়ানো সম্পন্ন করা হয়.</string>
+    <string name="settings_accessibility_info_short">এই অনুমতি ক্যামেরা এবং মাইক্রোফোন ব্যবহার লগ ইন করতে ব্যবহৃত হয়.</string>
+    <string name="settings_location">অবস্থান এক্সেস</string>
+    <string name="settings_location_on">অবস্থান অনুমতি চালু করুন</string>
+    <string name="settings_location_off">অবস্থান অনুমতি বন্ধ করুন</string>
+    <string name="settings_location_button">ব্যবহারের অনুমতি দিন</string>
+    <string name="settings_location_info">অবস্থান অনুমতি অ্যাক্সেস অবস্থান অ্যাপ্লিকেশন ব্যবহার লগ ইন করতে প্রয়োজন বোধ করা হয়.</string>
+    <string name="settings_location_info_short">এই অনুমতি অবস্থান অ্যাপ্লিকেশন ব্যবহার লগ ইন করতে ব্যবহৃত হয়.</string>
+    <string name="settings_hide_notification">বিজ্ঞপ্তি লুকাও</string>
+    <string name="settings_hide_notification_info">চলমান বিজ্ঞপ্তি লুকানোর জন্য এখানে ক্লিক করুন</string>
+    <string name="settings_limitation">অ্যাপ সীমাবদ্ধতা</string>
+    <string name="settings_limitation_info">অ্যাপ সীমাবদ্ধতা সম্পর্কে জানতে এখানে ক্লিক করুন</string>
+    <string name="settings_delete_logs">সব লগ মুছে ফেলো</string>
+    <string name="settings_delete_logs_info">সমস্ত অনুমতির জন্য সব অ্যাপ্লিকেশন ব্যবহার লগ পরিষ্কার</string>
+    <string name="settings_release">পরিবর্তণের</string>
+    <string name="settings_release_info">কি সংস্করণ নতুন -</string>
+    <string name="settings_telegram">আরো জানুন</string>
+    <string name="settings_telegram_info">টেলিগ্রাম সাপোর্ট গ্রুপের যোগদান</string>
+    <string name="settings_twitter">টুইটার</string>
+    <string name="settings_twitter_info">আমাকে অনুসরণ করুন.</string>
+    <!--Donations-->
+    <string name="donation_title">দান করা</string>
+    <string name="donation_info">উন্নয়ন সমর্থন</string>
+    <!--Pie chart-->
+    <string name="chart_title">লগ সংক্ষিপ্ত বিবরণ</string>
+    <string name="chart_center_text">গত\n 24 ঘন্টা</string>
+    <!--Permission history-->
+    <string name="log_title">অনুমতি ইতিহাস</string>
+    <string name="log_info">অ্যাপ্লিকেশন আপনার ব্যবহৃত যখন টাইমলাইনে #ওরফে# অনুমতি</string>
+    <string name="log_info_app">#যখন # ওরফে এর সময়রেখা# আপনার অনুমতি ব্যবহৃত</string>
+    <string name="log_empty">কোন অ্যাপ্লিকেশন ব্যবহার</string>
+    <string name="log_button_manage">অনুমতি পরিচালনা</string>
+    <string name="log_usage">ব্যবহার প্রণালী</string>
+    <string name="log_today">আজ</string>
+    <string name="log_yesterday">পশ্চিমা</string>
+    <string name="log_permission_start">আরম্ভ</string>
+    <string name="log_permission_stop">(কপি করা হচ্ছে)</string>
+    <string name="log_permission_invalid">অজানা</string>
+    <!--Donations-->
+    <string name="donation_free">মুক্ত</string>
+    <string name="donation_free_info">প্লে স্টোর রেট</string>
+    <string name="donation_support_info">উন্নয়ন সমর্থন</string>
+    <string name="donation_tea_info">আমাকে চা দেন</string>
+    <string name="donation_latte_info">আমার সম্পর্কে ল্যাট্টে/কফি কিনুন</string>
+    <string name="donation_breakfast_info">আমার ব্রেকফাস্ট কিনুন</string>
+    <string name="donation_movie_info">আমার মুভি টিকেট কিনুন</string>
+    <string name="donation_dinner_info">পিজা এবং কোক কিনুন</string>
+    <string name="donation_ads_info">আমাকে অ্যাপ্লিকেশন বিজ্ঞাপন মুক্ত রাখতে সাহায্য</string>
+    <string name="donation_all_apps_info">আমার অ্যাপ্লিকেশান তৈরি করতে সাহায্য</string>
+    <string name="donation_super_info">সুপার ডেরা সমর্থন &#10084;\nএই দান একটি নতুন পরীক্ষার ডিভাইস এবং নতুন ল্যাপটপ দিকে যেতে হবে.</string>
+</resources>

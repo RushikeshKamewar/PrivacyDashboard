@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="rk.android.app.privacydashboard">
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <uses-permission
+        android:name="android.permission.QUERY_ALL_PACKAGES"
+        tools:ignore="QueryAllPackagesPermission" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.splash.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activities.main.MainActivity"/>
+
+        <activity android:name=".activities.log.LogsActivity"/>
+
+        <activity android:name=".activities.appinfo.AppInfoActivity"/>
+
+        <activity android:name=".activities.settings.SettingsActivity"/>
+
+        <activity android:name=".activities.settings.indicator.IndicatorActivity"
+            android:theme="@style/AppTheme.Transparent"/>
+
+        <activity android:name=".activities.settings.notification.NotificationActivity"/>
+
+        <activity android:name=".activities.settings.excluded.ExcludeActivity"/>
+        <activity android:name=".activities.settings.excluded.ExcludedActivity"/>
+
+        <activity android:name=".activities.donation.DonationActivity"/>
+
+        <service android:name=".service.PrivacyService"
+            android:enabled="true"
+            android:exported="true"
+            android:foregroundServiceType="camera|microphone|location"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/privacy_service" />
+        </service>
+        
+    </application>
+</manifest>

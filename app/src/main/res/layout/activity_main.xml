@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".activities.main.MainActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:background="?attr/colorBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/main_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/pie_chart"
+                android:layout_width="match_parent"
+                android:layout_height="212dp"/>
+
+            <View
+                android:id="@+id/view_settings"
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:alpha="0.3"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="?attr/colorSecondaryText" />
+
+            <LinearLayout
+                android:id="@+id/ly_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical"
+                android:background="@drawable/permission_background">
+
+                <rk.android.app.privacydashboard.views.PermissionView
+                    android:id="@+id/permission_location_setting"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:textTitle="@string/settings_location"
+                    app:textInfo="@string/settings_location_info"
+                    app:imageIcon="@drawable/settings_location"
+                    app:tintColor="?attr/colorPrimary"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/button_location_setting"
+                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="68dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="@string/settings_location_button"
+                    android:textColor="?attr/colorBackground"
+                    app:backgroundTint="?attr/colorPrimary"
+                    android:textAllCaps="false"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ly_accessibility"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:orientation="vertical"
+                android:background="@drawable/permission_background">
+
+                <rk.android.app.privacydashboard.views.PermissionView
+                    android:id="@+id/permission_setting"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:textTitle="@string/settings_accessibility"
+                    app:textInfo="@string/settings_accessibility_info"
+                    app:imageIcon="@drawable/settings_accessibility"
+                    app:tintColor="?attr/colorPrimary"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/button_access_setting"
+                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="68dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="@string/settings_accessibility_button"
+                    android:textColor="?attr/colorBackground"
+                    app:backgroundTint="?attr/colorPrimary"
+                    android:textAllCaps="false"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:alpha="0.3"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="?attr/colorSecondaryText" />
+
+            <rk.android.app.privacydashboard.views.PermissionView
+                android:id="@+id/permission_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:textTitle="@string/permission_location"
+                app:textInfo="@string/permission_info"
+                app:imageIcon="@drawable/icon_location"/>
+
+            <rk.android.app.privacydashboard.views.PermissionView
+                android:id="@+id/permission_camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:textTitle="@string/permission_camera"
+                app:textInfo="@string/permission_info"
+                app:imageIcon="@drawable/icon_camera"/>
+
+            <rk.android.app.privacydashboard.views.PermissionView
+                android:id="@+id/permission_microphone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:textTitle="@string/permission_microphone"
+                app:textInfo="@string/permission_info"
+                app:imageIcon="@drawable/icon_microphone"/>
+
+            <rk.android.app.privacydashboard.views.PermissionView
+                android:id="@+id/permission_more"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:textTitle="@string/permission_more"
+                app:textInfo="@string/permission_more_info"
+                app:imageIcon="@drawable/icon_more"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:alpha="0.3"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="?attr/colorSecondaryText" />
+
+            <rk.android.app.privacydashboard.views.PermissionView
+                android:id="@+id/settings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:textTitle="@string/settings_title"
+                app:textInfo="@string/settings_info"
+                app:imageIcon="@drawable/icon_settings"/>
+
+            <rk.android.app.privacydashboard.views.PermissionView
+                android:id="@+id/donation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:textTitle="@string/donation_title"
+                app:textInfo="@string/donation_info"
+                app:imageIcon="@drawable/icon_donate"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:alpha="0.3"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="?attr/colorSecondaryText" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/button_telegram"
+                            android:contentDescription="@string/image_descriptions"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            app:tint="?attr/colorSecondaryText"
+                            android:padding="10dp"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/profile_telegram"/>
+
+                        <ImageButton
+                            android:id="@+id/button_twitter"
+                            android:contentDescription="@string/image_descriptions"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            app:tint="?attr/colorSecondaryText"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/profile_twitter"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/bold"
+                        android:textColor="?attr/colorSecondaryText"
+                        android:text="@string/profile_made_by"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/versionText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="50dp"
+                        android:fontFamily="@font/regular"
+                        android:textColor="?attr/colorSecondaryText"
+                        android:text="@string/profile_version"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".activities.settings.indicator.IndicatorActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_widget"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <include android:id="@+id/dots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            layout="@layout/overlay_dot"/>
+
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:background="?attr/colorBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/main_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:alpha="0.3"
+                android:elevation="10dp"
+                android:background="?attr/colorSecondaryText" />
+
+            <rk.android.app.privacydashboard.views.SettingsView
+                android:id="@+id/indicator_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:settings_title="@string/dots_custom_type"
+                app:settings_info="@string/dots_custom_type_icon"
+                app:settings_icon="@drawable/icon_dot_camera"
+                app:settings_switch_visibility="8"/>
+
+            <rk.android.app.privacydashboard.views.SettingsView
+                android:id="@+id/indicator_position"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:settings_title="@string/dots_custom_position"
+                app:settings_info="@string/dots_custom_position_tr"
+                app:settings_icon="@drawable/indicator_position"
+                app:settings_switch_visibility="8"/>
+
+            <rk.android.app.privacydashboard.views.SeekbarView
+                android:id="@+id/indicator_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:seekbar_title="@string/dots_custom_size"
+                app:progressUnit="@string/dots_custom_size_unit"/>
+
+            <rk.android.app.privacydashboard.views.SeekbarView
+                android:id="@+id/indicator_opacity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:seekbar_title="@string/dots_custom_opacity"
+                app:progressUnit="@string/dots_custom_size_unit"/>
+
+            <rk.android.app.privacydashboard.views.SettingsView
+                android:id="@+id/indicator_minimize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:settings_title="@string/dots_custom_minimize"
+                app:settings_info="@string/dots_custom_minimize_info"
+                app:settings_icon="@drawable/indicator_dot"
+                app:settings_switch_visibility="0"/>
+
+            <rk.android.app.privacydashboard.views.SeekbarView
+                android:id="@+id/indicator_minimize_timer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:progressMin="1"
+                app:progressMax="15"
+                app:progressDefault="3"
+                app:seekbar_title="@string/dots_custom_minimize_timer"
+                app:progressUnit="@string/dots_custom_minimize_timer_unit"/>
+
+            <rk.android.app.privacydashboard.views.SettingsView
+                android:id="@+id/indicator_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:settings_title="@string/dots_custom_margin"
+                app:settings_info="@string/dots_custom_margin_info"
+                app:settings_icon="@drawable/indicator_margin"
+                app:settings_switch_visibility="0"/>
+
+            <rk.android.app.privacydashboard.views.SettingsView
+                android:id="@+id/indicator_click"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:settings_title="@string/dots_custom_click"
+                app:settings_info="@string/dots_custom_click_info"
+                app:settings_icon="@drawable/indicator_click"
+                app:settings_switch_visibility="0"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

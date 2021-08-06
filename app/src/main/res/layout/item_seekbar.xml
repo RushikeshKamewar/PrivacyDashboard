@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="16dp"
+    android:paddingTop="16dp">
+
+    <TextView
+        android:id="@+id/text_size"
+        android:fontFamily="@font/bold"
+        android:layout_centerVertical="true"
+        android:textAlignment="center"
+        android:textColor="?attr/colorIcon"
+        android:layout_width="70dp"
+        android:textSize="13sp"
+        android:text="@string/dots_custom_size_unit"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_marginBottom="8dp"
+        android:layout_toEndOf="@id/text_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3dp"
+        android:text="@string/permission_name"
+        android:fontFamily="@font/medium"
+        android:textColor="?attr/colorPrimaryText"
+        android:textSize="16sp"/>
+
+    <ImageView
+        android:id="@+id/image_remove"
+        android:layout_toEndOf="@id/text_size"
+        android:layout_below="@id/text_title"
+        android:contentDescription="@string/image_descriptions"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="10dp"
+        android:src="@drawable/seekbar_remove"/>
+
+    <SeekBar
+        android:id="@+id/seek_bar"
+        android:layout_below="@id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_toEndOf="@id/image_remove"
+        android:layout_toStartOf="@id/image_add"
+        android:thumbTint="?attr/colorPrimary"/>
+
+    <ImageView
+        android:id="@+id/image_add"
+        android:layout_below="@id/text_title"
+        android:contentDescription="@string/image_descriptions"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="10dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/seekbar_add"/>
+
+</RelativeLayout>

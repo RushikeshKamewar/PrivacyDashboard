@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Test strings-->
+    <string name="permission_name">الموقع</string>
+    <string name="permission_name2">استخدام الموقع</string>
+    <string name="permission_info2">اليوم</string>
+    <string name="permission_info3">2 دقيقة</string>
+    <string name="permission_time">13:07</string>
+    <string name="permission_app">تيليجرام</string>
+
+    <string name="app_info">صنع مع &#10084; في الهند</string>
+    <string name="profile_version">الإصدار -</string>
+    <string name="profile_donate">تبرع</string>
+    <string name="profile_contact">الاتصال</string>
+    <!--Notification Service-->
+    <string name="service_name">خدمة لوحة تحكم الخصوصية</string>
+    <string name="service_desc">هذا الإذن مطلوب لعرض مؤشرات الخصوصية وتسجيل الكاميرا، والميكروفون واستخدام الموقع.\n\nيتم تخزين جميع السجلات محليا على جهازك.</string>
+    <string name="service_summary">قم بتشغيل هذا لتمكين لوحة تحكم الخصوصية</string>
+    <string name="notification_desc">لوحة تحكم الخصوصية تعمل في الخلفية</string>
+    <string name="notification_hide">انقر هنا لإخفاء الإشعار</string>
+    <string name="notification_usage_title">إشعار استخدام الإذن</string>
+    <string name="notification_usage_desc">سيظهر هذا الإشعار عند استخدام تصريح الكاميرا والميكروفون والموقع.</string>
+    <string name="notification_app_unknown">تطبيق غير معروف</string>
+    <string name="notification_app_using">"استخدام "</string>
+    <string name="notification_app_and">" و "</string>
+    <string name="notification_app_permission">" إذن"</string>
+    <string name="notification_app_permissions">" الأذونات"</string>
+    <!--Release dialog-->
+     <string name="app_release_button">تم</string>
+    <!--Start permission dialog-->
+    <string name="start_title">إذن البدء التلقائي</string>
+    <string name="start_permission_info">سيقوم جهازك بإنهاء خدمة تطبيق الخلفية. سيحتاج التطبيق إلى إذن البدء التلقائي للعمل بشكل صحيح.</string>
+    <string name="start_setup">الإعداد</string>
+    <!--Delete permission dialog-->
+    <string name="delete_logs_title">حذف سجلات #ALIAS#</string>
+    <string name="delete_logs_info">هل أنت متأكد من أنك تريد حذف جميع سجلات الأذونات #ALIAS# ؟</string>
+    <string name="delete_logs_title2">حذف السجلات</string>
+    <string name="delete_logs_info2">هل أنت متأكد من أنك تريد حذف سجلات استخدام التطبيق لجميع الأذونات؟</string>
+    <!--Help dialog-->
+    <string name="help_title">حدود التطبيق</string>
+    <string name="help_info">عندما يكون أي إذن قيد الاستخدام، يقوم تطبيقي بالتحقق من التطبيق الذي يتم تشغيله في المقدمة وسجله في قاعدة البيانات.\n\nولكن قد يحدث أحياناً أن تطبيق نظام واجهة المستخدم أو مشغل أو لوحة المفاتيح يعمل فوق التطبيق الرئيسي، لذلك سيتم تسجيل هذه التطبيقات خطأ في قاعدة البيانات بدلا من التطبيق الحقيقي الذي يستخدم الإذن.\n\nهذا قيد لهذا التطبيق، لأنه من الصعب العثور على أي تطبيق يعمل في الخلفية.</string>
+    <!--Generic dialog buttons-->
+    <string name="dialog_close">أغلق</string>
+    <string name="dialog_yes">نعم</string>
+    <string name="dialog_no">لا</string>
+    <!--Menu-->
+    <string name="menu_theme">السمة</string>
+    <string name="menu_delete">حذف</string>
+    <string name="menu_whats_new">ما الجديد</string>
+    <string name="menu_refresh">تحديث</string>
+    <string name="menu_refresh_info">تم تحديث السجلات</string>
+    <!--Theme Dialog-->
+    <string name="theme_title">السمة</string>
+    <string name="dialog_theme_title">اختر السمة</string>
+    <string name="dialog_theme_light">فاتح</string>
+    <string name="dialog_theme_dark">داكن</string>
+    <string name="dialog_theme_system">النظام الافتراضي</string>
+    <string name="dialog_theme_battery">تعيين بواسطة توفير البطارية</string>
+    <!--Permissions-->
+    <string name="permission_camera">الكاميرا</string>
+    <string name="permission_location">الموقع</string>
+    <string name="permission_microphone">الميكروفون</string>
+    <string name="permission_microphone_short">ميكروفون</string>
+    <string name="permission_more">مشاهدة أذونات أخرى</string>
+    <string name="permission_more_info">مستشعرات الجسم والتقويم والمزيد في الإعدادات</string>
+    <string name="permission_info">تستخدم من قبل تطبيقات #ALIAS# اليوم</string>
+    <string name="permission_no_apps">غير مستخدم اليوم</string>
+    <!--Settings-->
+    <string name="settings_title">إعدادات التطبيق</string>
+    <string name="settings_info">إدارة سمة التطبيق، الأذونات، إلخ</string>
+    <string name="settings_dots">مؤشرات الخصوصية</string>
+    <string name="settings_dots_info">عندما يكون الإذن قيد الاستخدام سيتم عرض أيقونة ذات صلة في الزاوية اليمنى العليا</string>
+    <string name="settings_dots_custom">تخصيص المؤشر</string>
+    <string name="dots_custom_type">نوع</string>
+    <string name="dots_custom_type_icon">أيقونات الصلاحيات</string>
+    <string name="dots_custom_type_dot">النقاط الملونة</string>
+    <string name="dots_custom_position">الموضع</string>
+    <string name="dots_custom_position_tl">أعلى اليسار</string>
+    <string name="dots_custom_position_tc">أعلى الوسط</string>
+    <string name="dots_custom_position_tr">أعلى يمين</string>
+    <string name="dots_custom_position_rc">المركز الأيمن</string>
+    <string name="dots_custom_position_br">أسفل اليمين</string>
+    <string name="dots_custom_position_bc">الوسط السفلي</string>
+    <string name="dots_custom_position_bl">أسفل اليسار</string>
+    <string name="dots_custom_position_lc">اليسار</string>
+    <string name="dots_custom_margin">إضافة هامش بيزل</string>
+    <string name="dots_custom_margin_info">عند التمكين، يضيف الهامش إلى المؤشر بحيث لا يلتزم بوحدات الجهاز.</string>
+    <string name="dots_custom_click">انقر على إجراء</string>
+    <string name="dots_custom_click_info">عند التمكين، يمكنك النقر على المؤشر وسوف تأخذك إلى سجل إذن معين.</string>
+    <string name="dots_custom_size">الحجم</string>
+    <string name="dots_custom_size_unit">%</string>
+    <string name="dots_custom_opacity">التعتيم</string>
+    <string name="dots_custom_minimize">تصغير إلى نقطة (بيتا)</string>
+    <string name="dots_custom_minimize_info">عند التمكين إذا تم استخدام الإذن لأكثر من 3 ثواني سيتم تصغير مؤشر إلى نقطة صغيرة.</string>
+    <string name="settings_notification">تنبيه الإشعارات</string>
+    <string name="settings_notification_info">عند التمكين سوف تتلقى إشعارا كلما تم استخدام إذن</string>
+    <string name="settings_notification_custom">تخصيص الإشعارات</string>
+    <string name="notification_custom_ongoing">إشعار مستمر</string>
+    <string name="notification_custom_ongoing_info">إذا تم تمكين التطبيق سيظهر إشعارا مستمرا عند استخدام الإذن الذي سيختفي بعد إيقاف استخدام الإذن.</string>
+    <string name="notification_custom_icon">أيقونة التطبيق</string>
+    <string name="notification_custom_icon_info">إذا تم تمكين أيقونة التطبيق سيتم عرضها في الإشعارات لاستخدام الإذن الخاص بها</string>
+    <string name="settings_accessibility">إعدادات إمكانية الوصول</string>
+    <string name="settings_accessibility_on">تشغيل إعدادات الوصول</string>
+    <string name="settings_accessibility_off">إيقاف تشغيل إعدادات الوصول</string>
+    <string name="settings_accessibility_button">فتح الإعدادات</string>
+    <string name="settings_accessibility_info">يتطلب التطبيق إذن الوصول لتسجيل استخدام الكاميرا والميكروفون. يتم هذا لتجنب الوصول إلى الكاميرا والميكروفون للخصوصية.</string>
+    <string name="settings_accessibility_info_short">يستخدم هذا الإذن لتسجيل استخدام الكاميرا والميكروفون.</string>
+    <string name="settings_location">الوصول إلى الموقع</string>
+    <string name="settings_location_on">تشغيل إذن الموقع</string>
+    <string name="settings_location_off">إيقاف إذن الموقع</string>
+    <string name="settings_location_button">السماح بالوصول</string>
+    <string name="settings_location_info">الوصول إلى إذن الموقع مطلوب لتسجيل استخدام تطبيق الموقع.</string>
+    <string name="settings_location_info_short">يستخدم هذا الإذن لتسجيل استخدام تطبيق الموقع.</string>
+    <string name="settings_hide_notification">إخفاء الإشعار</string>
+    <string name="settings_hide_notification_info">انقر هنا لإخفاء الإشعار قيد التشغيل</string>
+    <string name="settings_limitation">حدود التطبيق</string>
+    <string name="settings_limitation_info">انقر هنا لمعرفة حدود التطبيق</string>
+    <string name="settings_delete_logs">حذف جميع السجلات</string>
+    <string name="settings_delete_logs_info">مسح جميع سجلات استخدام التطبيقات لجميع الأذونات</string>
+    <string name="settings_release">تغيير</string>
+    <string name="settings_release_info">شاهد ما هو الجديد في الإصدار -</string>
+    <string name="settings_telegram">تيليجرام</string>
+    <string name="settings_telegram_info">الانضمام إلى مجموعة دعم برقية</string>
+    <string name="settings_twitter">تويتر</string>
+    <string name="settings_twitter_info">تابعني على تويتر</string>
+    <!--Donations-->
+    <string name="donation_title">تبرع</string>
+    <string name="donation_info">دعم التطوير</string>
+    <!--Pie chart-->
+    <string name="chart_title">نظرة عامة للسجل</string>
+    <string name="chart_center_text">الماضي\n 24 ساعة</string>
+    <!--Permission history-->
+    <string name="log_title">سجل الأذونات</string>
+    <string name="log_info">الخط الزمني عند استخدام التطبيقات إذن #ALIAS# الخاص بك</string>
+    <string name="log_info_app">الخط الزمني عند استخدام #ALIAS# الأذونات الخاصة بك</string>
+    <string name="log_empty">لا يوجد استخدام للتطبيق</string>
+    <string name="log_button_manage">إدارة الإذن</string>
+    <string name="log_usage">الاستخدام</string>
+    <string name="log_today">اليوم</string>
+    <string name="log_yesterday">أمس</string>
+    <string name="log_permission_start">بدأ</string>
+    <string name="log_permission_stop">توقفت</string>
+    <string name="log_permission_invalid">غير معروف</string>
+    <!--Donations-->
+    <string name="donation_free">مجاناً</string>
+    <string name="donation_free_info">قيم على متجر التشغيل</string>
+    <string name="donation_support_info">دعم التطوير</string>
+    <string name="donation_tea_info">اشتري لي الشاي</string>
+    <string name="donation_latte_info">اشتري لي ملابس/قهوة</string>
+    <string name="donation_breakfast_info">اشتري لي الإفطار</string>
+    <string name="donation_movie_info">اشتري لي تذكرة فيلم</string>
+    <string name="donation_dinner_info">اشتري لي بيتزا وكوك</string>
+    <string name="donation_ads_info">ساعدني على إبقاء التطبيق خالية من الإعلانات</string>
+    <string name="donation_all_apps_info">ساعدني على إنشاء تطبيقات</string>
+    <string name="donation_super_info">يدعم Super Duper &#10084;\nهذا التبرع سيذهب نحو جهاز اختبار جديد وحاسب محمول جديد.</string>
+</resources>

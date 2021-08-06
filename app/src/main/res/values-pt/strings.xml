@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Test strings-->
+    <string name="permission_name">Local:</string>
+    <string name="permission_name2">Uso de localização</string>
+    <string name="permission_info2">hoje</string>
+    <string name="permission_info3">2 min</string>
+    <string name="permission_time">13:07</string>
+    <string name="permission_app">Telegram</string>
+
+    <string name="app_info">Feito com &#10084; na Índia</string>
+    <string name="profile_version">Versão -</string>
+    <string name="profile_donate">Doar</string>
+    <string name="profile_contact">contato</string>
+    <!--Notification Service-->
+    <string name="service_name">Serviço do Painel de Privacidade</string>
+    <string name="service_desc">Esta permissão é necessária para mostrar indicadores de privacidade e registrar o uso da câmera, microfone e localização.\n\nTodos os logs são armazenados localmente no seu dispositivo.</string>
+    <string name="service_summary">Ative isto para ativar o painel de privacidade</string>
+    <string name="notification_desc">O Painel de Privacidade está sendo executado em segundo plano</string>
+    <string name="notification_hide">Clique aqui para ocultar a notificação</string>
+    <string name="notification_usage_title">Notificação de Uso da Permissão</string>
+    <string name="notification_usage_desc">Esta notificação aparecerá quando a permissão de acesso a câmera, microfone e localização estiver sendo utilizada.</string>
+    <string name="notification_app_unknown">Aplicativo desconhecido</string>
+    <string name="notification_app_using">"Usando "</string>
+    <string name="notification_app_and">" e "</string>
+    <string name="notification_app_permission">" permissões"</string>
+    <string name="notification_app_permissions">" permissões"</string>
+    <!--Release dialog-->
+    <string name="app_release_button">Concluído</string>
+    <!--Start permission dialog-->
+    <string name="start_title">Permissão de auto-inicialização</string>
+    <string name="start_permission_info">Seu dispositivo encerrará o serviço do aplicativo em segundo plano. O aplicativo precisará da permissão de AutoStart para funcionar corretamente.</string>
+    <string name="start_setup">Configuração</string>
+    <!--Delete permission dialog-->
+    <string name="delete_logs_title">Excluir logs #ALIAS#</string>
+    <string name="delete_logs_info">Você tem certeza que deseja excluir todos os logs de permissões #ALIAS#?</string>
+    <string name="delete_logs_title2">Excluir registros</string>
+    <string name="delete_logs_info2">Tem certeza que deseja excluir logs de uso do aplicativo para todas as permissões?</string>
+    <!--Help dialog-->
+    <string name="help_title">Limitação de aplicativos</string>
+    <string name="help_info">Quando qualquer permissão estiver em uso, meu aplicativo verifica qual aplicativo está sendo executado em primeiro plano e registra-o no banco de dados.\n\nMas às vezes isso pode acontecer que a interface do sistema, o Launcher ou o aplicativo do teclado estejam sendo executados através do aplicativo principal, então erroneamente esses aplicativos serão logados no banco de dados ao invés de um aplicativo real que está usando a permissão.\n\nEssa é uma limitação para este aplicativo, pois é difícil encontrar qual aplicativo está sendo executado em segundo plano.</string>
+    <!--Generic dialog buttons-->
+    <string name="dialog_close">FECHAR</string>
+    <string name="dialog_yes">sim</string>
+    <string name="dialog_no">Não</string>
+    <!--Menu-->
+    <string name="menu_theme">Tema</string>
+    <string name="menu_delete">excluir</string>
+    <string name="menu_whats_new">Novidades</string>
+    <string name="menu_refresh">atualizar</string>
+    <string name="menu_refresh_info">Registros Atualizados</string>
+    <!--Theme Dialog-->
+    <string name="theme_title">Tema</string>
+    <string name="dialog_theme_title">Escolha o tema</string>
+    <string name="dialog_theme_light">Fino</string>
+    <string name="dialog_theme_dark">Escuro</string>
+    <string name="dialog_theme_system">Padrão do Sistema</string>
+    <string name="dialog_theme_battery">Configurado pela Economia de bateria</string>
+    <!--Permissions-->
+    <string name="permission_camera">Câmera</string>
+    <string name="permission_location">Local:</string>
+    <string name="permission_microphone">Microfone</string>
+    <string name="permission_microphone_short">Microfone</string>
+    <string name="permission_more">Ver outras permissões</string>
+    <string name="permission_more_info">Sensores de corpo, calendário e muito mais em configurações</string>
+    <string name="permission_info">Usado por #ALIAS# apps hoje</string>
+    <string name="permission_no_apps">Não usado hoje</string>
+    <!--Settings-->
+    <string name="settings_title">Configurações do aplicativo</string>
+    <string name="settings_info">Gerenciar temas do aplicativo, permissões, etc</string>
+    <string name="settings_dots">Indicadores de Privacidade</string>
+    <string name="settings_dots_info">Quando a permissão estiver em uso o respectivo ícone será exibido no canto superior direito</string>
+    <string name="settings_dots_custom">Personalização do indicador</string>
+    <string name="dots_custom_type">tipo</string>
+    <string name="dots_custom_type_icon">Ícones de permissão</string>
+    <string name="dots_custom_type_dot">Pontos coloridos</string>
+    <string name="dots_custom_position">Posição</string>
+    <string name="dots_custom_position_tl">Superior-esquerdo</string>
+    <string name="dots_custom_position_tc">Top-Centro</string>
+    <string name="dots_custom_position_tr">Superior-Direito</string>
+    <string name="dots_custom_position_rc">Direito-Centro</string>
+    <string name="dots_custom_position_br">Direita-Inferior</string>
+    <string name="dots_custom_position_bc">Inferior</string>
+    <string name="dots_custom_position_bl">Inferior-Esquerdo</string>
+    <string name="dots_custom_position_lc">Esquerdo-Centro</string>
+    <string name="dots_custom_margin">Adicionar Margem de Bezel</string>
+    <string name="dots_custom_margin_info">Quando habilitado, adiciona margem ao indicador para que ele não fique nos bezels do dispositivo.</string>
+    <string name="dots_custom_click">Ação ao clicar</string>
+    <string name="dots_custom_click_info">Quando ativado, você pode clicar no indicador e ele levará você ao log de permissões em particular.</string>
+    <string name="dots_custom_size">Tamanho</string>
+    <string name="dots_custom_size_unit">%</string>
+    <string name="dots_custom_opacity">Transparência</string>
+    <string name="dots_custom_minimize">Minimizar para ponto (beta)</string>
+    <string name="dots_custom_minimize_info">Quando habilitado se permissão é usada para um indicador de mais de 3 segundos será minimizado para um pequeno ponto.</string>
+    <string name="settings_notification">Alerta de notificação</string>
+    <string name="settings_notification_info">Quando ativado, você receberá uma notificação sempre que uma permissão estiver sendo usada</string>
+    <string name="settings_notification_custom">Personalização de notificação</string>
+    <string name="notification_custom_ongoing">Notificação contínua</string>
+    <string name="notification_custom_ongoing_info">Se ativado, o aplicativo exibirá uma notificação contínua quando a permissão estiver sendo usada e então desaparecerá depois que o uso da permissão for interrompida.</string>
+    <string name="notification_custom_icon">Ícone do aplicativo</string>
+    <string name="notification_custom_icon_info">Se habilitado, o ícone do aplicativo será exibido na notificação para o uso da respectiva permissão</string>
+    <string name="settings_accessibility">Configurações de Acessibilidade</string>
+    <string name="settings_accessibility_on">Ativar configurações de acessibilidade</string>
+    <string name="settings_accessibility_off">Desativar configurações de acessibilidade</string>
+    <string name="settings_accessibility_button">Abrir configurações</string>
+    <string name="settings_accessibility_info">O app requer permissão de acessibilidade para registrar o uso da câmera e do microfone. Isto é feito para evitar ter acesso à câmera e ao microfone para privacidade.</string>
+    <string name="settings_accessibility_info_short">Esta permissão é usada para registrar o uso da câmera e do microfone.</string>
+    <string name="settings_location">Acesso à localização</string>
+    <string name="settings_location_on">Ativar permissão de localização</string>
+    <string name="settings_location_off">Desativar permissão de localização</string>
+    <string name="settings_location_button">Permitir Acesso</string>
+    <string name="settings_location_info">É necessário permissão de acesso ao local para registrar o uso do local do aplicativo.</string>
+    <string name="settings_location_info_short">Essa permissão é usada para registrar o uso do aplicativo de localização.</string>
+    <string name="settings_hide_notification">Ocultar notificação</string>
+    <string name="settings_hide_notification_info">Clique aqui para ocultar a notificação executando</string>
+    <string name="settings_limitation">Limitação de aplicativos</string>
+    <string name="settings_limitation_info">Clique aqui para saber sobre limitações do aplicativo</string>
+    <string name="settings_delete_logs">Excluir todos os logs</string>
+    <string name="settings_delete_logs_info">Limpar todos os logs de uso do app para todas as permissões</string>
+    <string name="settings_release">Mudanças</string>
+    <string name="settings_release_info">Veja o que há de novo na versão -</string>
+    <string name="settings_telegram">Telegram</string>
+    <string name="settings_telegram_info">Entrar no grupo de suporte do telegram</string>
+    <string name="settings_twitter">Twitter</string>
+    <string name="settings_twitter_info">Siga-me no twitter</string>
+    <!--Donations-->
+    <string name="donation_title">Doar</string>
+    <string name="donation_info">Apoie o desenvolvimento</string>
+    <!--Pie chart-->
+    <string name="chart_title">Resumo do log</string>
+    <string name="chart_center_text">Últimas\n 24 horas</string>
+    <!--Permission history-->
+    <string name="log_title">Histórico de permissões</string>
+    <string name="log_info">Linha do tempo de quando os aplicativos usaram sua permissão #ALIAS#</string>
+    <string name="log_info_app">Linha do tempo de quando #ALIAS# usou suas permissões</string>
+    <string name="log_empty">Sem uso de apps</string>
+    <string name="log_button_manage">Gerenciar permissões</string>
+    <string name="log_usage">Uso</string>
+    <string name="log_today">hoje</string>
+    <string name="log_yesterday">ontem</string>
+    <string name="log_permission_start">Iniciado</string>
+    <string name="log_permission_stop">Parado</string>
+    <string name="log_permission_invalid">Desconhecido</string>
+    <!--Donations-->
+    <string name="donation_free">GRATUITO</string>
+    <string name="donation_free_info">Avalie na Play Store</string>
+    <string name="donation_support_info">Apoie o desenvolvimento</string>
+    <string name="donation_tea_info">Pague para mim chá</string>
+    <string name="donation_latte_info">Compre-me latte/café</string>
+    <string name="donation_breakfast_info">Compre o café da manhã</string>
+    <string name="donation_movie_info">Me compre bilhetes de cinema</string>
+    <string name="donation_dinner_info">Compre-me pizza e uma coque</string>
+    <string name="donation_ads_info">Ajude-me a manter o aplicativo livre de anúncios</string>
+    <string name="donation_all_apps_info">Ajude-me a criar apps</string>
+    <string name="donation_super_info">Suporte de Super Duper &#10084;\nEsta doação irá para um novo dispositivo de teste e um novo laptop.</string>
+</resources>

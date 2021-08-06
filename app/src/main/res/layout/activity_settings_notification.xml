@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".activities.settings.notification.NotificationActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:background="?attr/colorBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/main_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <rk.android.app.privacydashboard.views.SettingsView
+                android:id="@+id/notification_ongoing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:settings_title="@string/notification_custom_ongoing"
+                app:settings_info="@string/notification_custom_ongoing_info"
+                app:settings_icon="@drawable/notification_continuous"
+                app:settings_switch_visibility="0"/>
+
+            <rk.android.app.privacydashboard.views.SettingsView
+                android:id="@+id/notification_icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:settings_title="@string/notification_custom_icon"
+                app:settings_info="@string/notification_custom_icon_info"
+                app:settings_icon="@drawable/notification_app_icon"
+                app:settings_switch_visibility="0"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

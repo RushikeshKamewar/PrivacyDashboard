@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".activities.settings.excluded.ExcludeActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:background="?attr/colorBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/main_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <rk.android.app.privacydashboard.views.SettingsView
+                android:id="@+id/exclude_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:settings_title="@string/settings_exclude_type"
+                app:settings_info="@string/settings_exclude_type_indicator"
+                app:settings_icon="@drawable/exclude_type"
+                app:settings_switch_visibility="8"/>
+
+            <rk.android.app.privacydashboard.views.SettingsView
+                android:id="@+id/exclude_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:settings_title="@string/settings_excluded_title"
+                app:settings_info="@string/settings_excluded_info"
+                app:settings_icon="@drawable/exclude_apps_list"
+                app:settings_switch_visibility="8"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

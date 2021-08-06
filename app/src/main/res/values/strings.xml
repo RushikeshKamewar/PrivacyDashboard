@@ -1,0 +1,226 @@
+<resources>
+
+    <!--Test strings-->
+    <string name="permission_name">Location</string>
+    <string name="permission_name2">Location usage</string>
+    <string name="permission_info2">Today</string>
+    <string name="permission_info3">2 mins</string>
+    <string name="permission_time">13:07</string>
+    <string name="permission_app">Telegram</string>
+
+    <string name="app_name" translatable="false">Privacy Dashboard</string>
+    <string name="app_name_colored" translatable="false">"<font color='#8bc34a'>Privacy Dashboard</font></string>
+    <string name="app_package" translatable="false">rk.android.privacydashboard</string>
+    <string name="image_descriptions" translatable="false"> </string>
+
+    <string name="app_info">Made with &#10084; in India</string>
+
+    <string name="profile_made_by" translatable="false">Made by Rushikesh Kamewar</string>
+    <string name="profile_version">Version -</string>
+    <string name="profile_donate">Donate</string>
+    <string name="profile_contact">Contact</string>
+
+    <!--Notification Service-->
+    <string name="service_name">Privacy Dashboard Service</string>
+    <string name="service_desc">This permission is required to show privacy indicators and to log camera, microphone and location usage.\n\nAll logs are stored locally on your device.</string>
+    <string name="service_summary">Turn this on to enable privacy dashboard</string>
+    <string name="notification_desc">Privacy Dashboard is running in the background</string>
+    <string name="notification_hide">Click here to hide notification</string>
+    <string name="notification_usage_title">Permission Usage Notification</string>
+    <string name="notification_usage_desc">This notification will appear when camera, microphone and location permission is being used.</string>
+
+    <string name="notification_app_unknown">Unknown app</string>
+    <string name="notification_app_using">"Using "</string>
+    <string name="notification_app_and">" and "</string>
+    <string name="notification_app_permission">" permission"</string>
+    <string name="notification_app_permissions">" permissions"</string>
+
+    <!--Release dialog-->
+    <string name="app_release_title" translatable="false">What\'s new in v1.5</string>
+    <string name="app_release" translatable="false">1. Now logs are more accurate than ever, hopefully no more incorrect system UI, launcher or keyboard logs &#10084;\n\n
+                                2. Now you can add apps to excluded list to exclude them from log, notification or indicator. Check app settings.\n\n
+                                3. Added languages: Bengali and Tamil. Russian language is removed as there were many wrong translations\n\n
+                                4. Added indicator customization: minimize dot timer</string>
+    <string name="app_release_button">Done</string>
+
+    <!--Start permission dialog-->
+    <string name="start_title">AutoStart permission</string>
+    <string name="start_permission_info">Your device will terminate the background app service. App will need AutoStart permission to work properly.</string>
+    <string name="start_setup">Setup</string>
+
+    <!--Delete permission dialog-->
+    <string name="delete_logs_title">Delete #ALIAS# logs</string>
+    <string name="delete_logs_info">Are you sure you want to delete all #ALIAS# permission logs?</string>
+
+    <string name="delete_logs_title2">Delete logs</string>
+    <string name="delete_logs_info2">Are you sure you want delete app usage logs for all permissions?</string>
+
+    <!--Help dialog-->
+    <string name="help_title">App limitation</string>
+    <string name="help_info">When any permission is in use, my app checks which app is running in foreground and logs it in the database.\n\nBut sometimes it may happen that System UI, Launcher or Keyboard app is running over the main app, so mistakenly these apps will be logged in database instead of real app which is using the permission.\n\nThis is a limitation for this app, as it\'s difficult to find which app is running in the background.</string>
+
+    <!--Generic dialog buttons-->
+    <string name="dialog_done" translatable="false">Done</string>
+    <string name="dialog_close">Close</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+
+    <!--Menu-->
+    <string name="menu_theme">Theme</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_whats_new">What\'s new</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_exclude" translatable="false">Exclude</string>
+    <string name="menu_include" translatable="false">Include</string>
+
+    <string name="menu_refresh_info">Logs Updated</string>
+
+    <!--Theme Dialog-->
+    <string name="theme_title">Theme</string>
+    <string name="dialog_theme_title">Choose Theme</string>
+    <string name="dialog_theme_light">Light</string>
+    <string name="dialog_theme_dark">Dark</string>
+    <string name="dialog_theme_system">System Default</string>
+    <string name="dialog_theme_battery">Set by Battery Saver</string>
+
+    <!--Permissions-->
+    <string name="permission_camera">Camera</string>
+    <string name="permission_location">Location</string>
+    <string name="permission_microphone">Microphone</string>
+    <string name="permission_microphone_short">Mic</string>
+    <string name="permission_more">See other permissions</string>
+    <string name="permission_more_info">Body sensors, Calendar and more in settings</string>
+    <string name="permission_info">Used by #ALIAS# apps today</string>
+    <string name="permission_no_apps">Not used today</string>
+
+    <!--Settings-->
+    <string name="settings_title">App Settings</string>
+    <string name="settings_info">Manage app theme, permissions, etc</string>
+
+    <string name="settings_dots">Privacy Indicators</string>
+    <string name="settings_dots_info">When permission is in use respective icon will be displayed in top-right corner</string>
+
+    <string name="settings_dots_custom">Indicator Customization</string>
+    <string name="dots_custom_type">Type</string>
+    <string name="dots_custom_type_icon">Permission icons</string>
+    <string name="dots_custom_type_dot">Colored dots</string>
+    <string name="dots_custom_position">Position</string>
+    <string name="dots_custom_position_tl">Top-Left</string>
+    <string name="dots_custom_position_tc">Top-Center</string>
+    <string name="dots_custom_position_tr">Top-Right</string>
+    <string name="dots_custom_position_rc">Right-Center</string>
+    <string name="dots_custom_position_br">Right-Bottom</string>
+    <string name="dots_custom_position_bc">Bottom-Center</string>
+    <string name="dots_custom_position_bl">Bottom-Left</string>
+    <string name="dots_custom_position_lc">Left-Center</string>
+    <string name="dots_custom_margin">Add Bezel Margin</string>
+    <string name="dots_custom_margin_info">When enabled adds margin to the indicator so that it doesn\'t stick to device bezels.</string>
+    <string name="dots_custom_click">Click action</string>
+    <string name="dots_custom_click_info">When enabled, you can click on indicator and it\'ll take you to particular permission log.</string>
+    <string name="dots_custom_size">Size</string>
+    <string name="dots_custom_size_unit">%</string>
+    <string name="dots_custom_opacity">Opacity</string>
+    <string name="dots_custom_minimize">Minimize to dot (beta)</string>
+    <string name="dots_custom_minimize_info">When enabled if permission is used for more than selected minimize time, indicator will be minimized to small dot.</string>
+    <string name="dots_custom_minimize_timer" translatable="false">Minimize dot time</string>
+    <string name="dots_custom_minimize_timer_unit" translatable="false">" sec"</string>
+
+    <string name="settings_notification">Notification alert</string>
+    <string name="settings_notification_info">When enabled you\'ll receive a notification whenever a permission is being used</string>
+
+    <string name="settings_notification_custom">Notification Customization</string>
+    <string name="notification_custom_ongoing">Continuous notification</string>
+    <string name="notification_custom_ongoing_info">If enabled app will show a continuous notification when permission is being used which will then disappear after permission usage is stopped.</string>
+    <string name="notification_custom_icon">App icon</string>
+    <string name="notification_custom_icon_info">If enabled app icon will be displayed in the notification for respective permission usage</string>
+
+    <string name="settings_accessibility">Accessibility Setting</string>
+    <string name="settings_accessibility_on">Turn on accessibility settings</string>
+    <string name="settings_accessibility_off">Turn off accessibility settings</string>
+    <string name="settings_accessibility_button">Open Settings</string>
+    <string name="settings_accessibility_info">App requires accessibility permission to log camera and microphone usage. This is done to avoid having access to camera and microphone for privacy.</string>
+    <string name="settings_accessibility_info_short">This permission is used to log camera and microphone usage.</string>
+
+    <string name="settings_location">Location access</string>
+    <string name="settings_location_on">Turn on location permission</string>
+    <string name="settings_location_off">Turn off location permission</string>
+    <string name="settings_location_button">Allow Access</string>
+    <string name="settings_location_info">Location permission access is required to log the location app usage.</string>
+    <string name="settings_location_info_short">This permission is used to log the location app usage.</string>
+
+    <string name="settings_hide_notification">Hide notification</string>
+    <string name="settings_hide_notification_info">Click here to hide running notification</string>
+
+    <string name="settings_limitation">App limitation</string>
+    <string name="settings_limitation_info">Click here to know about app limitations</string>
+
+    <string name="settings_delete_logs">Delete all logs</string>
+    <string name="settings_delete_logs_info">Clear all app usage logs for all permissions</string>
+
+    <string name="settings_release">Changelog</string>
+    <string name="settings_release_info">See whats\'s new in version -</string>
+
+    <string name="settings_telegram">Telegram</string>
+    <string name="settings_telegram_info">Join telegram support group</string>
+
+    <string name="settings_twitter">Twitter</string>
+    <string name="settings_twitter_info">Follow me on twitter</string>
+
+    <!--Donations-->
+    <string name="donation_title">Donate</string>
+    <string name="donation_info">Support the development</string>
+
+    <!--Pie chart-->
+    <string name="chart_title">Log overview</string>
+    <string name="chart_center_text">Past\n 24 hours</string>
+    
+    <!--Permission history-->
+    <string name="log_title">Permission history</string>
+    <string name="log_info">Timeline of when apps used your #ALIAS# permission</string>
+    <string name="log_info_app">Timeline of when #ALIAS# used your permissions</string>
+    <string name="log_empty">No app usage</string>
+    <string name="log_button_manage">Manage permission</string>
+    <string name="log_usage">usage</string>
+    <string name="log_today">Today</string>
+    <string name="log_yesterday">Yesterday</string>
+    <string name="log_permission_start">Started</string>
+    <string name="log_permission_stop">Stopped</string>
+    <string name="log_permission_invalid">Unknown</string>
+
+    <!--Donations-->
+    <string name="donation_free">FREE</string>
+    <string name="donation_free_info">Rate on play store</string>
+    <string name="donation_support_info">Support the development</string>
+    <string name="donation_tea_info">Buy me tea</string>
+    <string name="donation_latte_info">Buy me latte/coffee</string>
+    <string name="donation_breakfast_info">Buy me breakfast</string>
+    <string name="donation_movie_info">Buy me movie ticket</string>
+    <string name="donation_dinner_info">Buy me pizza and a coke</string>
+    <string name="donation_ads_info">Help me keep app ad-free</string>
+    <string name="donation_all_apps_info">Help me create apps</string>
+    <string name="donation_super_info">Super Duper support &#10084;\nThis donation will go towards a new testing device and new laptop.</string>
+
+    <!--App Exclusion-->
+    <string name="settings_exclude" translatable="false">Exclude apps</string>
+    <string name="settings_exclude_info" translatable="false">Exclude apps from indicator, notification or log</string>
+
+    <string name="settings_exclude_type" translatable="false">Exclude from</string>
+    <string name="settings_exclude_type_indicator" translatable="false">Indicator</string>
+    <string name="settings_exclude_type_notification" translatable="false">Notification</string>
+    <string name="settings_exclude_type_logs" translatable="false">Logs</string>
+
+    <string name="settings_excluded_title" translatable="false">Excluded apps</string>
+    <string name="settings_excluded_info" translatable="false">" apps are excluded"</string>
+    <string name="settings_excluded_app_info" translatable="false">" logs"</string>
+    <string name="settings_excluded_no_apps" translatable="false">No apps found!</string>
+    <string name="settings_excluded_toast_on" translatable="false">" is now added to excluded list"</string>
+    <string name="settings_excluded_toast_off" translatable="false">" is now removed from excluded list"</string>
+
+    <!--Delete exclusion dialog-->
+    <string name="exclude_title" translatable="false">Add to excluded list</string>
+    <string name="exclude_info" translatable="false">Are you sure you want to exclude this app from indicator, notification or log?\n\nYou can change the exclusion type from app settings >> excluded apps >> exclude type </string>
+    <string name="include_title" translatable="false">Remove from excluded list</string>
+    <string name="include_info" translatable="false">Are you sure you want to remove this app from excluded list?</string>
+
+
+</resources>

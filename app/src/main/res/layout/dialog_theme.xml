@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_margin="30dp"
+        android:background="@drawable/dialog_background"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/alertTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/medium"
+            android:text="@string/dialog_theme_title"
+            android:textColor="?attr/colorPrimaryText"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <LinearLayout
+            android:id="@+id/rl_limit"
+            android:layout_below="@id/alertTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:id="@+id/radio_light"
+                android:text="@string/dialog_theme_light"
+                android:fontFamily="@font/regular"
+                android:padding="10dp"
+                android:background="@android:color/transparent"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:textColor="?attr/colorPrimaryText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+
+            <RadioButton
+                android:id="@+id/radio_dark"
+                android:text="@string/dialog_theme_dark"
+                android:fontFamily="@font/regular"
+                android:padding="10dp"
+                android:background="@android:color/transparent"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:textColor="?attr/colorPrimaryText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+            <RadioButton
+                android:id="@+id/radio_system"
+                android:text="@string/dialog_theme_system"
+                android:fontFamily="@font/regular"
+                android:padding="10dp"
+                android:background="@android:color/transparent"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:textColor="?attr/colorPrimaryText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+            <RadioButton
+                android:id="@+id/radio_battery"
+                android:text="@string/dialog_theme_battery"
+                android:fontFamily="@font/regular"
+                android:padding="10dp"
+                android:background="@android:color/transparent"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:textColor="?attr/colorPrimaryText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <View
+        android:id="@+id/view_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:alpha="0.3"
+        android:layout_marginBottom="16dp"
+        android:background="?attr/colorSecondaryText" />
+
+    <TextView
+        android:id="@+id/text_date"
+        android:layout_below="@id/view_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:textAllCaps="true"
+        android:text="@string/permission_info2"
+        android:textSize="12sp"
+        android:textColor="?attr/colorPrimary"
+        android:fontFamily="@font/bold"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_app_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_date"
+        android:background="?attr/selectableItemBackground">
+
+        <TextView
+            android:id="@+id/text_time"
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:textAllCaps="true"
+            android:text="@string/permission_time"
+            android:textSize="14sp"
+            android:textColor="?attr/colorSecondaryText"
+            android:fontFamily="@font/medium"/>
+
+        <ImageView
+            android:id="@+id/image_app"
+            android:contentDescription="@string/image_descriptions"
+            android:layout_toEndOf="@id/text_time"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="2dp"
+            android:padding="6dp"
+            app:tint="?attr/colorPrimaryText"
+            android:backgroundTint="?attr/colorBackground"
+            android:background="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/text_app_name"
+            android:layout_toEndOf="@id/image_app"
+            android:layout_toStartOf="@id/image_help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/permission_app"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="?attr/colorPrimaryText"
+            android:fontFamily="@font/medium"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/text_session"
+            android:layout_below="@id/text_app_name"
+            android:layout_toStartOf="@id/image_help"
+            android:layout_alignStart="@id/text_app_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/permission_info3"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:fontFamily="@font/medium"
+            android:textColor="?attr/colorIcon"
+            android:textSize="13sp"/>
+
+        <View
+            android:id="@+id/view_vertical"
+            android:layout_below="@id/text_session"
+            android:layout_toEndOf="@id/text_time"
+            android:background="@drawable/log_separator"
+            android:layout_width="28dp"
+            android:layout_height="28dp"/>
+
+        <ImageView
+            android:id="@+id/image_help"
+            android:visibility="gone"
+            android:contentDescription="@string/image_descriptions"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/log_help"
+            android:padding="2dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:tint="?attr/colorSecondaryText"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

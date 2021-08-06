@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_donation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="0dp"
+        app:cardBackgroundColor="?attr/colorBackground"
+        app:rippleColor="?attr/colorPrimary"
+        app:strokeColor="?attr/colorSecondaryText"
+        app:strokeWidth="0.5dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/image_icon"
+                android:contentDescription="@string/image_descriptions"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="1.5dp"
+                android:padding="4dp"
+                android:layout_marginEnd="16dp"
+                app:tint="?attr/colorIcon"
+                android:layout_centerVertical="true"
+                android:src="@drawable/profile_donate"/>
+
+            <TextView
+                android:id="@+id/text_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="3dp"
+                android:layout_toEndOf="@id/image_icon"
+                android:fontFamily="@font/medium"
+                android:textColor="?attr/colorPrimary"
+                android:text="@string/donation_free"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/text_info"
+                android:layout_below="@id/text_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/image_icon"
+                android:fontFamily="@font/medium"
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:text="@string/donation_free_info"
+                android:textColor="?attr/colorIcon"
+                android:textSize="13sp"/>
+
+        </RelativeLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>

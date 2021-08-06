@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Test strings-->
+    <string name="permission_name">Poloha</string>
+    <string name="permission_name2">Využití polohy</string>
+    <string name="permission_info2">Dnes</string>
+    <string name="permission_info3">2 minuty</string>
+    <string name="permission_time">13:07</string>
+    <string name="permission_app">Telegram</string>
+
+    <string name="app_info">Vyrobeno s &#10084; v Indii</string>
+    <string name="profile_version">Verze -</string>
+    <string name="profile_donate">Přispět</string>
+    <string name="profile_contact">Kontakt</string>
+    <!--Notification Service-->
+    <string name="service_name">Služba ochrany soukromí</string>
+    <string name="service_desc">Toto oprávnění je vyžadováno pro zobrazení indikátorů ochrany osobních údajů a pro zaznamenávání použití kamery, mikrofonu a polohy.\n\nVšechny logy jsou uloženy lokálně na vašem zařízení.</string>
+    <string name="service_summary">Zapněte toto pro povolení řídícího panelu pro soukromí</string>
+    <string name="notification_desc">Dashboard ochrany soukromí je spuštěn na pozadí</string>
+    <string name="notification_hide">Klikněte zde pro skrytí oznámení</string>
+    <string name="notification_usage_title">Oznámení o využití oprávnění</string>
+    <string name="notification_usage_desc">Toto oznámení se zobrazí při použití kamery, mikrofonu a polohy.</string>
+    <string name="notification_app_unknown">Neznámá aplikace</string>
+    <string name="notification_app_using">"Použití "</string>
+    <string name="notification_app_and">" a "</string>
+    <string name="notification_app_permission">" oprávnění"</string>
+    <string name="notification_app_permissions">" oprávnění"</string>
+    <!--Release dialog-->
+    <string name="app_release_button">Hotovo</string>
+    <!--Start permission dialog-->
+    <string name="start_title">Oprávnění AutoStart</string>
+    <string name="start_permission_info">Vaše zařízení ukončí službu aplikace na pozadí. Aplikace bude potřebovat oprávnění AutoSpustit aby fungovala správně.</string>
+    <string name="start_setup">Nastavení</string>
+    <!--Delete permission dialog-->
+    <string name="delete_logs_title">Odstranit #ALIAS# logů</string>
+    <string name="delete_logs_info">Jste si jisti, že chcete odstranit všechny #ALIAS# protokoly oprávnění?</string>
+    <string name="delete_logs_title2">Odstranit logy</string>
+    <string name="delete_logs_info2">Jste si jisti, že chcete odstranit protokoly používání aplikace pro všechna oprávnění?</string>
+    <!--Help dialog-->
+    <string name="help_title">Omezení aplikace</string>
+    <string name="help_info">Pokud se používá nějaké oprávnění, moje aplikace kontroluje, která aplikace běží v popředí a zaznamenává ji v databázi.\n\nNěkdy se ale může stát, že aplikace System UI, Launcher nebo klávesnice běží přes hlavní aplikaci, chybně budou tyto aplikace zaznamenány do databáze namísto skutečné aplikace, která používá oprávnění.\n\nToto je omezení pro tuto aplikaci, protože je obtížné zjistit, která aplikace běží na pozadí.</string>
+    <!--Generic dialog buttons-->
+    <string name="dialog_close">Zavřít</string>
+    <string name="dialog_yes">Ano</string>
+    <string name="dialog_no">Ne</string>
+    <!--Menu-->
+    <string name="menu_theme">Téma</string>
+    <string name="menu_delete">Vymazat</string>
+    <string name="menu_whats_new">Co je nového</string>
+    <string name="menu_refresh">Aktualizovat</string>
+    <string name="menu_refresh_info">Protokoly aktualizovány</string>
+    <!--Theme Dialog-->
+    <string name="theme_title">Téma</string>
+    <string name="dialog_theme_title">Vybrat motiv</string>
+    <string name="dialog_theme_light">Světlý</string>
+    <string name="dialog_theme_dark">Tmavý</string>
+    <string name="dialog_theme_system">Výchozí nastavení systému</string>
+    <string name="dialog_theme_battery">Nastavit podle spořiče baterie</string>
+    <!--Permissions-->
+    <string name="permission_camera">Fotoaparát</string>
+    <string name="permission_location">Poloha</string>
+    <string name="permission_microphone">Mikrofon</string>
+    <string name="permission_microphone_short">Mikrofon</string>
+    <string name="permission_more">Zobrazit další oprávnění</string>
+    <string name="permission_more_info">Tělesné senzory, kalendář a další v nastavení</string>
+    <string name="permission_info">Používá #ALIAS# aplikace dnes</string>
+    <string name="permission_no_apps">Nepoužívá se dnes</string>
+    <!--Settings-->
+    <string name="settings_title">Nastavení aplikace</string>
+    <string name="settings_info">Spravovat motiv aplikací, oprávnění atd.</string>
+    <string name="settings_dots">Indikátory ochrany soukromí</string>
+    <string name="settings_dots_info">Při použití oprávnění se v pravém horním rohu zobrazí příslušná ikona</string>
+    <string name="settings_dots_custom">Přizpůsobení indikátoru</string>
+    <string name="dots_custom_type">Typ</string>
+    <string name="dots_custom_type_icon">Ikony oprávnění</string>
+    <string name="dots_custom_type_dot">Barevné tečky</string>
+    <string name="dots_custom_position">Pozice</string>
+    <string name="dots_custom_position_tl">Vlevo nahoře</string>
+    <string name="dots_custom_position_tc">Nahoře uprostřed</string>
+    <string name="dots_custom_position_tr">Vpravo nahoře</string>
+    <string name="dots_custom_position_rc">Pravý střed</string>
+    <string name="dots_custom_position_br">Právo - ottom</string>
+    <string name="dots_custom_position_bc">Dolních uprostřed</string>
+    <string name="dots_custom_position_bl">Vlevo dole</string>
+    <string name="dots_custom_position_lc">Levé uprostřed</string>
+    <string name="dots_custom_margin">Přidat Bezelovu okraj</string>
+    <string name="dots_custom_margin_info">Pokud je povoleno, přidá do indikátoru okraj tak, aby se nedržel zařízení bezelů.</string>
+    <string name="dots_custom_click">Akce kliknutím</string>
+    <string name="dots_custom_click_info">Pokud je povoleno, můžete kliknout na indikátor a to vás dovede do konkrétního logu oprávnění.</string>
+    <string name="dots_custom_size">Velikost</string>
+    <string name="dots_custom_size_unit">%</string>
+    <string name="dots_custom_opacity">Neprůhlednost</string>
+    <string name="dots_custom_minimize">Minimalizovat tečku (beta)</string>
+    <string name="dots_custom_minimize_info">Pokud je povoleno, pokud je oprávnění použito pro více než 3 sekundy, bude minimalizováno na malé tečky.</string>
+    <string name="settings_notification">Upozornění na oznámení</string>
+    <string name="settings_notification_info">Pokud je povoleno, obdržíte oznámení při použití oprávnění</string>
+    <string name="settings_notification_custom">Přizpůsobení oznámení</string>
+    <string name="notification_custom_ongoing">Nepřetržité upozornění</string>
+    <string name="notification_custom_ongoing_info">Pokud je povoleno, aplikace zobrazí při používání oprávnění průběžné upozornění, které zmizí po ukončení oprávnění.</string>
+    <string name="notification_custom_icon">Ikona aplikace</string>
+    <string name="notification_custom_icon_info">Pokud je povoleno, ikona aplikace se zobrazí v oznámení pro příslušné použití oprávnění</string>
+    <string name="settings_accessibility">Nastavení přístupnosti</string>
+    <string name="settings_accessibility_on">Zapnout nastavení přístupnosti</string>
+    <string name="settings_accessibility_off">Vypnout nastavení přístupnosti</string>
+    <string name="settings_accessibility_button">Otevřít nastavení</string>
+    <string name="settings_accessibility_info">Aplikace vyžaduje oprávnění k přístupu pro záznam využití kamery a mikrofonu. To se provádí proto, aby nedocházelo k přístupu k fotoaparátu a mikrofonu pro ochranu soukromí.</string>
+    <string name="settings_accessibility_info_short">Toto oprávnění slouží k záznamu využití kamery a mikrofonu.</string>
+    <string name="settings_location">Přístup k poloze</string>
+    <string name="settings_location_on">Zapnout oprávnění k poloze</string>
+    <string name="settings_location_off">Vypnout oprávnění k poloze</string>
+    <string name="settings_location_button">Povolit přístup</string>
+    <string name="settings_location_info">Přístup k poloze je vyžadován pro záznam využití lokalizační aplikace.</string>
+    <string name="settings_location_info_short">Toto oprávnění slouží k zaznamenávání využití lokalizační aplikace.</string>
+    <string name="settings_hide_notification">Skrýt oznámení</string>
+    <string name="settings_hide_notification_info">Klikněte zde pro skrytí běžících oznámení</string>
+    <string name="settings_limitation">Omezení aplikace</string>
+    <string name="settings_limitation_info">Klikněte zde pro informace o omezeních aplikací</string>
+    <string name="settings_delete_logs">Odstranit všechny logy</string>
+    <string name="settings_delete_logs_info">Vymazat záznamy využití všech aplikací pro všechna oprávnění</string>
+    <string name="settings_release">Seznam změn</string>
+    <string name="settings_release_info">Podívejte se, co je nového ve verzi -</string>
+    <string name="settings_telegram">Telegram</string>
+    <string name="settings_telegram_info">Připojte se ke skupině podpory telegram</string>
+    <string name="settings_twitter">Twitter</string>
+    <string name="settings_twitter_info">Následuj mě na twitteru</string>
+    <!--Donations-->
+    <string name="donation_title">Přispět</string>
+    <string name="donation_info">Podpořte vývoj</string>
+    <!--Pie chart-->
+    <string name="chart_title">Přehled záznamů</string>
+    <string name="chart_center_text">Posledních\n 24 hodin</string>
+    <!--Permission history-->
+    <string name="log_title">Historie oprávnění</string>
+    <string name="log_info">Časová řada, kdy aplikace používá vaše #ALIAS# oprávnění</string>
+    <string name="log_info_app">Časová řada, kdy #ALIAS# použil vaše oprávnění</string>
+    <string name="log_empty">Žádné využití aplikace</string>
+    <string name="log_button_manage">Správa oprávnění</string>
+    <string name="log_usage">použití</string>
+    <string name="log_today">Dnes</string>
+    <string name="log_yesterday">Včera</string>
+    <string name="log_permission_start">Začínáno</string>
+    <string name="log_permission_stop">Zastaveno</string>
+    <string name="log_permission_invalid">Neznámý</string>
+    <!--Donations-->
+    <string name="donation_free">ZDARMA</string>
+    <string name="donation_free_info">Ohodnotit v obchodě Play</string>
+    <string name="donation_support_info">Podpořte vývoj</string>
+    <string name="donation_tea_info">Koupit mi čaj</string>
+    <string name="donation_latte_info">Koupit mi latte/kávu</string>
+    <string name="donation_breakfast_info">Koupit mi snídani</string>
+    <string name="donation_movie_info">Koupit lístek do filmu</string>
+    <string name="donation_dinner_info">Koupit mi pizzu a koks</string>
+    <string name="donation_ads_info">Pomozte mi ponechat aplikaci bez reklam</string>
+    <string name="donation_all_apps_info">Pomozte mi vytvořit aplikace</string>
+    <string name="donation_super_info">Podpora Super Duper &#10084;\nTento příspěvek bude směřovat k novému testovacímu zařízení a novému notebooku.</string>
+</resources>

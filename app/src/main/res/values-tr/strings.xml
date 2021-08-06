@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Test strings-->
+    <string name="permission_name">Konum</string>
+    <string name="permission_name2">Konum kullanımı</string>
+    <string name="permission_info2">Bugün</string>
+    <string name="permission_info3">2 dakika</string>
+    <string name="permission_time">13:07</string>
+    <string name="permission_app">Telgraf</string>
+
+    <string name="app_info">Hindistan\'da &#10084; ile yapılan</string>
+    <string name="profile_made_by">Rushikesh Kamewar tarafından yapılan</string>
+    <string name="profile_version">Versiyon -</string>
+    <string name="profile_donate">Bağış</string>
+    <string name="profile_contact">Bağlantı</string>
+    <!--Notification Service-->
+    <string name="service_name">Gizlilik Kontrol Paneli Hizmeti</string>
+    <string name="service_desc">Bu izin, gizlilik göstergelerini göstermek ve kamera, mikrofon ve konum kullanımını kaydetmek için gereklidir.\n\ntüm günlükler cihazınızda yerel olarak saklanır.</string>
+    <string name="service_summary">Gizlilik panosunu etkinleştirmek için bunu açın</string>
+    <string name="notification_desc">Gizlilik Kontrol Paneli arka planda çalışıyor</string>
+    <string name="notification_hide">Bildirimi gizlemek için buraya tıklayın</string>
+    <string name="notification_usage_title">İzin Kullanım Bildirimi</string>
+    <string name="notification_usage_desc">Bu bildirim, kamera, mikrofon ve konum izni kullanıldığında görünecektir.</string>
+    <string name="notification_app_unknown">Bilinmeyen uygulama</string>
+    <string name="notification_app_using">"Kullanım "</string>
+    <string name="notification_app_and">" ve "</string>
+    <string name="notification_app_permission">" izin"</string>
+    <string name="notification_app_permissions">" izinler"</string>
+    <!--Release dialog-->
+    <string name="app_release_button">Yapılı</string>
+    <!--Start permission dialog-->
+    <string name="start_title">Otomatik başlatma izni</string>
+    <string name="start_permission_info">Cihazınız arka plan uygulaması hizmetini sonlandıracaktır. Uygulamanın düzgün çalışması için Otomatik başlatma iznine ihtiyacı olacaktır.</string>
+    <string name="start_setup">Kurulum</string>
+    <!--Delete permission dialog-->
+    <string name="delete_logs_title"># ALİAS # günlüklerini sil</string>
+    <string name="delete_logs_info">Tüm #ALİAS# izin günlüklerini silmek istediğinizden emin misiniz?</string>
+    <string name="delete_logs_title2">Günlükleri sil</string>
+    <string name="delete_logs_info2">Tüm izinler için uygulama kullanım günlüklerini silmek istediğinizden emin misiniz?</string>
+    <!--Help dialog-->
+    <string name="help_title">Uygulama sınırlaması</string>
+    <string name="help_info">Herhangi bir izin kullanıldığında, uygulamam hangi uygulamanın ön planda çalıştığını kontrol eder ve veritabanında günlüğe kaydeder.\n\nancak bazen sistem kullanıcı arayüzü, başlatıcı veya klavye uygulamasının ana uygulama üzerinde çalıştığı ortaya çıkabilir, bu nedenle yanlışlıkla bu uygulamalar izni kullanan gerçek uygulama yerine veritabanına kaydedilir.\n\nbu, arka planda hangi uygulamanın çalıştığını bulmak zor olduğu için bu uygulama için bir sınırlamadır.</string>
+    <!--Generic dialog buttons-->
+    <string name="dialog_close">Kapatma</string>
+    <string name="dialog_yes">Evet</string>
+    <string name="dialog_no">Hayır</string>
+    <!--Menu-->
+    <string name="menu_theme">Tema</string>
+    <string name="menu_delete">Silmek</string>
+    <string name="menu_whats_new">Ne var ne yok</string>
+    <string name="menu_refresh">Yenilemek</string>
+    <string name="menu_refresh_info">Günlükler Güncellendi</string>
+    <!--Theme Dialog-->
+    <string name="theme_title">Tema</string>
+    <string name="dialog_theme_title">Bir Tema Seçin</string>
+    <string name="dialog_theme_light">Işık</string>
+    <string name="dialog_theme_dark">Karanlık</string>
+    <string name="dialog_theme_system">Sistem Varsayılanı</string>
+    <string name="dialog_theme_battery">Pil tasarrufu ile ayarla</string>
+    <!--Permissions-->
+    <string name="permission_camera">Kamera</string>
+    <string name="permission_location">Konum</string>
+    <string name="permission_microphone">Mikrofon</string>
+    <string name="permission_microphone_short">Mikrofon</string>
+    <string name="permission_more">Diğer izinlere bakın</string>
+    <string name="permission_more_info">Ayarlarda vücut sensörleri, takvim ve daha fazlası</string>
+    <string name="permission_info">Bugün # ALİAS # apps tarafından kullanılıyor</string>
+    <string name="permission_no_apps">Bugün kullanılmıyor</string>
+    <!--Settings-->
+    <string name="settings_title">Uygulama Ayarları</string>
+    <string name="settings_info">Uygulama temasını, izinleri vb. yönetin</string>
+    <string name="settings_dots">Gizlilik Göstergeleri</string>
+    <string name="settings_dots_info">İzin kullanıldığında, ilgili simge sağ üst köşede görüntülenir</string>
+    <string name="settings_dots_custom">Gösterge Özelleştirme</string>
+    <string name="dots_custom_type">Tip</string>
+    <string name="dots_custom_type_icon">İzin simgeleri</string>
+    <string name="dots_custom_type_dot">Renkli noktalar</string>
+    <string name="dots_custom_position">Pozisyon</string>
+    <string name="dots_custom_position_tl">Sol Üst</string>
+    <string name="dots_custom_position_tc">Üst Merkez</string>
+    <string name="dots_custom_position_tr">Sağ Üst</string>
+    <string name="dots_custom_position_rc">Sağ Merkezi</string>
+    <string name="dots_custom_position_br">Sağ Alt</string>
+    <string name="dots_custom_position_bc">Alt Kısma</string>
+    <string name="dots_custom_position_bl">ALT-Sol</string>
+    <string name="dots_custom_position_lc">Merkez Sol</string>
+    <string name="dots_custom_margin">Çerçeve Kenar Boşluğu Ekle</string>
+    <string name="dots_custom_margin_info">Etkinleştirildiğinde, göstergeye kenar boşluğu ekler, böylece cihaz çerçevelerine yapışmaz.</string>
+    <string name="dots_custom_click">Eylem\'i tıklayın</string>
+    <string name="dots_custom_click_info">Etkinleştirildiğinde, göstergeye tıklayabilir ve sizi belirli bir izin günlüğüne götürür.</string>
+    <string name="dots_custom_size">Boyut</string>
+    <string name="dots_custom_size_unit">%</string>
+    <string name="dots_custom_opacity">Donukluk</string>
+    <string name="dots_custom_minimize">En aza indirmek için nokta (beta)</string>
+    <string name="dots_custom_minimize_info">İzin 3 saniyeden fazla kullanılırsa etkinleştirildiğinde, gösterge küçük bir noktaya küçültülür.</string>
+    <string name="settings_notification">Bildirim uyarısı</string>
+    <string name="settings_notification_info">Etkinleştirildiğinde, bir izin kullanıldığında bir bildirim alırsınız</string>
+    <string name="settings_notification_custom">Bildirim Özelleştirme</string>
+    <string name="notification_custom_ongoing">Sürekli bildirim</string>
+    <string name="notification_custom_ongoing_info">Etkinleştirildiğinde, uygulama izin kullanıldığında sürekli bir bildirim gösterecektir, bu da izin kullanımı durdurulduktan sonra kaybolacaktır.</string>
+    <string name="notification_custom_icon">Uygulama simgesi</string>
+    <string name="notification_custom_icon_info">Etkinleştirildiğinde, ilgili izinlerin kullanımı için bildirimde bir uygulama simgesi görünecektir</string>
+    <string name="settings_accessibility">Erişilebilirlik Ayarı</string>
+    <string name="settings_accessibility_on">Erişilebilirlik ayarlarını aç</string>
+    <string name="settings_accessibility_off">Erişilebilirlik ayarlarını devre dışı bırak</string>
+    <string name="settings_accessibility_button">Ayarları Aç</string>
+    <string name="settings_accessibility_info">Uygulama, kamera ve mikrofon kullanımını kaydetmek için erişilebilirlik izni gerektirir. Bu, Gizlilik için kameraya ve mikrofona erişmekten kaçınmak için yapılır.</string>
+    <string name="settings_accessibility_info_short">Bu izin, kamera ve mikrofon kullanımını kaydetmek için kullanılır.</string>
+    <string name="settings_location">Konum erişimi</string>
+    <string name="settings_location_on">Konum iznini aç</string>
+    <string name="settings_location_off">Konum iznini devre dışı bırak</string>
+    <string name="settings_location_button">Erişime İzin Ver</string>
+    <string name="settings_location_info">Konum uygulamasının kullanımını kaydetmek için konum iznine erişim gereklidir.</string>
+    <string name="settings_location_info_short">Bu izin, konum uygulamasının kullanımını kaydetmek için kullanılır.</string>
+    <string name="settings_hide_notification">Bildirimi gizle</string>
+    <string name="settings_hide_notification_info">Çalışan bildirimi gizlemek için buraya tıklayın</string>
+    <string name="settings_limitation">Uygulama sınırlaması</string>
+    <string name="settings_limitation_info">Burada uygulama ile ilgili sınırlamalar bilmek tıklayın</string>
+    <string name="settings_delete_logs">Tüm günlükleri sil</string>
+    <string name="settings_delete_logs_info">Tüm izinler için tüm uygulama kullanım günlüklerini Temizle</string>
+    <string name="settings_release">Değişiklik günlüğü</string>
+    <string name="settings_release_info">Sürümdeki yenilikleri görün -</string>
+    <string name="settings_telegram">Telgraf</string>
+    <string name="settings_telegram_info">Telegram destek grubuna katılın</string>
+    <string name="settings_twitter">Twitter</string>
+    <string name="settings_twitter_info">Twitter\'da beni takip et</string>
+    <!--Donations-->
+    <string name="donation_title">Bağış</string>
+    <string name="donation_info">Gelişimini desteklemek</string>
+    <!--Pie chart-->
+    <string name="chart_title">Günlüğe genel bakış</string>
+    <string name="chart_center_text">Geçmiş\n 24 saat</string>
+    <!--Permission history-->
+    <string name="log_title">İzin geçmişi</string>
+    <string name="log_info">Uygulamaların# ALİAS # izninizi ne zaman kullandığı zaman çizelgesi</string>
+    <string name="log_info_app"># ALİAS # izinlerinizi ne zaman kullandığınızın zaman çizelgesi</string>
+    <string name="log_empty">Uygulama kullanımı yok</string>
+    <string name="log_button_manage">İzni Yönet</string>
+    <string name="log_usage">kullanım</string>
+    <string name="log_today">Bugün</string>
+    <string name="log_yesterday">Dün</string>
+    <string name="log_permission_start">Başladı</string>
+    <string name="log_permission_stop">Durmuş</string>
+    <string name="log_permission_invalid">Bilinmeyen</string>
+    <!--Donations-->
+    <string name="donation_free">ÜCRETSİZ</string>
+    <string name="donation_free_info">Play Store\'da oranı</string>
+    <string name="donation_support_info">Gelişimini desteklemek</string>
+    <string name="donation_tea_info">Bana çay al</string>
+    <string name="donation_latte_info">Bana latte/kahve al</string>
+    <string name="donation_breakfast_info">Bana kahvaltı ısmarla</string>
+    <string name="donation_movie_info">Bana sinema bileti al</string>
+    <string name="donation_dinner_info">Bana pizza ve kola al</string>
+    <string name="donation_ads_info">Uygulamayı reklamsız tutmama yardım et</string>
+    <string name="donation_all_apps_info">Uygulamalar oluşturmama yardım et</string>
+    <string name="donation_super_info">Süper Duper desteği &#10084;\nbu bağış yeni bir test cihazına ve yeni dizüstü bilgisayara doğru gidecek.</string>
+</resources>

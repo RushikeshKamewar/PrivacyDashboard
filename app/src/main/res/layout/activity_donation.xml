@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".activities.donation.DonationActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:background="?attr/colorBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/main_container"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <rk.android.app.privacydashboard.views.DonationView
+                    android:id="@+id/donation_free"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    app:donation_price="@string/donation_free"
+                    app:donation_info="@string/donation_free_info"
+                    app:donation_icon="@drawable/donate_free"/>
+
+                <rk.android.app.privacydashboard.views.DonationView
+                    android:id="@+id/donation_support"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    app:donation_price="@string/donation_free"
+                    app:donation_info="@string/donation_support_info"
+                    app:donation_icon="@drawable/donate_support"
+                    app:donation_color="?attr/colorIcon"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <rk.android.app.privacydashboard.views.DonationView
+                    android:id="@+id/donation_tea"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    app:donation_price="@string/donation_free"
+                    app:donation_info="@string/donation_tea_info"
+                    app:donation_icon="@drawable/donate_tea"
+                    app:donation_color="?attr/colorIcon"/>
+
+                <rk.android.app.privacydashboard.views.DonationView
+                    android:id="@+id/donation_latte"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    app:donation_price="@string/donation_free"
+                    app:donation_info="@string/donation_latte_info"
+                    app:donation_icon="@drawable/donate_latte"
+                    app:donation_color="?attr/colorIcon"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <rk.android.app.privacydashboard.views.DonationView
+                    android:id="@+id/donation_movie"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    app:donation_price="@string/donation_free"
+                    app:donation_info="@string/donation_movie_info"
+                    app:donation_icon="@drawable/donate_movie"
+                    app:donation_color="?attr/colorIcon"/>
+
+                <rk.android.app.privacydashboard.views.DonationView
+                    android:id="@+id/donation_dinner"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    app:donation_price="@string/donation_free"
+                    app:donation_info="@string/donation_dinner_info"
+                    app:donation_icon="@drawable/donate_dinner"
+                    app:donation_color="?attr/colorIcon"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <rk.android.app.privacydashboard.views.DonationView
+                    android:id="@+id/donation_ad_free"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    app:donation_price="@string/donation_free"
+                    app:donation_info="@string/donation_ads_info"
+                    app:donation_icon="@drawable/donate_ads"
+                    app:donation_color="?attr/colorIcon"/>
+
+                <rk.android.app.privacydashboard.views.DonationView
+                    android:id="@+id/donation_create_apps"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    app:donation_price="@string/donation_free"
+                    app:donation_info="@string/donation_all_apps_info"
+                    app:donation_icon="@drawable/donate_all_apps"
+                    app:donation_color="?attr/colorIcon"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <rk.android.app.privacydashboard.views.DonationView
+                    android:id="@+id/donation_super"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    app:donation_price="@string/donation_free"
+                    app:donation_info="@string/donation_super_info"
+                    app:donation_icon="@drawable/donate_super"
+                    app:donation_color="?attr/colorIcon"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/ly_overlay"
+    android:paddingStart="5dp"
+    android:paddingEnd="5dp">
+
+    <ImageView
+        android:id="@+id/icon_camera"
+        android:contentDescription="@string/permission_camera"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:padding="7dp"/>
+
+    <ImageView
+        android:id="@+id/icon_microphone"
+        android:contentDescription="@string/permission_microphone"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:padding="7dp"/>
+
+    <ImageView
+        android:id="@+id/icon_location"
+        android:contentDescription="@string/permission_location"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:padding="7dp"/>
+
+    <ImageView
+        android:id="@+id/icon_dot"
+        android:contentDescription="@string/permission_location"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/indicator_dot"
+        android:visibility="gone"/>
+
+</LinearLayout>

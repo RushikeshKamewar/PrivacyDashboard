@@ -1,0 +1,47 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="AppTheme.Dark">
+        <item name="colorPrimary">@color/darkPrimary</item>
+        <item name="colorSecondary">@color/darkSecondary</item>
+        <item name="colorPrimaryDark">@color/darkBackground</item>
+        <item name="colorAccent">@color/darkPrimary</item>
+        <item name="android:navigationBarColor">@color/darkBackground</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <style name="AppTheme.Dark" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimaryText">@color/darkPrimaryText</item>
+        <item name="colorSecondaryText">@color/darkSecondaryText</item>
+        <item name="colorIcon">@color/darkIcon</item>
+        <item name="colorBackground">@color/darkBackground</item>
+        <item name="colorCardBackground">@color/darkCardBackground</item>
+        <item name="colorCamera">@color/darkCamera</item>
+        <item name="colorMicrophone">@color/darkMicrophone</item>
+        <item name="colorLocation">@color/darkLocation</item>
+    </style>
+
+    <style name="AppTheme.Transparent" parent="AppTheme">
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="ToolBarStyle" parent="ThemeOverlay.MaterialComponents.Light">
+        <item name="android:textColorPrimary">?attr/colorPrimaryText</item>
+        <item name="fontFamily">@font/medium</item>
+        <item name="android:itemTextAppearance">@style/menu_item</item>
+    </style>
+
+    <style name="menu_item" parent="ThemeOverlay.MaterialComponents.Light">
+        <item name="android:textColor">?attr/colorPrimaryText</item>
+    </style>
+
+    <style name="TabText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">15sp</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">?attr/colorPrimaryText</item>
+        <item name="android:fontFamily">@font/bold</item>
+    </style>
+
+</resources>

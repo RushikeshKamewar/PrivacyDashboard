@@ -1,3 +1,5 @@
+<img src="https://play-lh.googleusercontent.com/dHgIlNJcMifkKVNgm8FBeDbZVZigg52elT49JEABSkXMDeouMgNcA-VPidYyYUOB8Wlw=s180" width="120"/>
+
 # PrivacyDashboard
 
 This app brings Privacy dashboard features from Android 12 to older android devices.
@@ -22,6 +24,10 @@ This app mainly focuses on bringing features of "Privacy Dashboard" as seen in D
 
 - Accessibility Setting: To get app usage for location, microphone and camera without having the direct access to camera or microphone, so more privacy.
 - Location Access: To get the location app usage.
+
+## Install
+
+[<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Google Play Download" height="80">](https://play.google.com/store/apps/details?id=rk.android.app.privacydashboard)
 
 ## Screenshots
 

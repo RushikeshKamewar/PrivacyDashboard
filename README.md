@@ -36,4 +36,9 @@ Special Thanks to MaterialSearchView (Thanks MiguelCatalan! :)) for providing a 
 https://github.com/MiguelCatalan/MaterialSearchView
 
 
-![Alt text](https://play-lh.googleusercontent.com/g5YyFmM6Oerqy00zbL471ZK3YDA1GrOtOQI7SwjMW3IV0SNNGshzyIGecBTCogMX6NY=w1680-h907-rw "Optional title")
+![Alt text](https://play-lh.googleusercontent.com/g5YyFmM6Oerqy00zbL471ZK3YDA1GrOtOQI7SwjMW3IV0SNNGshzyIGecBTCogMX6NY=w1680-h907-rw "Screenshot 1")
+![Alt text](https://play-lh.googleusercontent.com/nLB-jiTqKWMBtp4ltqIIPccgoX6q4jF0xrcxlz1KUIb8NTjPAA-fPt4RMuQPugB4iYM=w1680-h907-rw "Screenshot 2")
+![Alt text](https://play-lh.googleusercontent.com/Zqd2OS9fJ4DcY6Ei3WmWwMr274IYKaae2OruuMjRPqhVw217EDQF8HF12PpgRFyiww=w1680-h907-rw "Screenshot 3")
+![Alt text](https://play-lh.googleusercontent.com/6PZmXm-PcAJIOgeLn5TuzUdJWCycL-01YnqvaoiWW3pAbn6sb4beoMLPf5jeoaUCGw=w1680-h907-rw "Screenshot 4")
+![Alt text](https://play-lh.googleusercontent.com/Q9TXQ_Brn1F1WDukA55Xhjt6rBU-smIyqQqASTKz3nEBO8OecX4Cet3sw4Yz5Razjw=w1680-h907-rw "Screenshot 5")
+![Alt text](https://play-lh.googleusercontent.com/XMgfNpIdOo8AO3LHb_MnmupowF1NQv0VZpro7-BDho5dNoLvUXuqpmpXXTVMW4f1uN0=w1680-h907-rw "Screenshot 6")

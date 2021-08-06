@@ -31,14 +31,18 @@ This app mainly focuses on bringing features of "Privacy Dashboard" as seen in D
 <img src="https://play-lh.googleusercontent.com/Q9TXQ_Brn1F1WDukA55Xhjt6rBU-smIyqQqASTKz3nEBO8OecX4Cet3sw4Yz5Razjw=w1680-h907-rw" width="200"/>|
 <img src="https://play-lh.googleusercontent.com/XMgfNpIdOo8AO3LHb_MnmupowF1NQv0VZpro7-BDho5dNoLvUXuqpmpXXTVMW4f1uN0=w1680-h907-rw" width="200"/>
 
-This app will always be free and ad-free, so feel free to support the development via donations.
-
 ## Credits
 
-- Special Thanks to MPAndroidCharts (Thanks Phil! :)) for providing a free API service for charts. Here's the link the library I used for plotting charts in the app:
+<details>
+  <summary>Credits</summary>
+  
+#### Charts API
 
-https://github.com/PhilJay/MPAndroidChart
+* Special Thanks to MPAndroidCharts (Thanks [PhilJay](https://github.com/PhilJay)! :)) for providing a free API service for charts. Here's the link the library I used for plotting charts in the app: [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
 
-- Special Thanks to MaterialSearchView (Thanks MiguelCatalan! :)) for providing a free searchview with a clean UI with simple implementation. Here's the link the library I used for this:
+#### Search view
+* Special Thanks to MaterialSearchView (Thanks [MiguelCatalan](https://github.com/MiguelCatalan)! :)) for providing a free searchview with a clean UI with simple implementation. Here's the link the library I used for this: [MaterialSearchView](https://github.com/MiguelCatalan/MaterialSearchView)
+  
+</details>
 
-https://github.com/MiguelCatalan/MaterialSearchView
+This app will always be free and ad-free, so feel free to support the development via donations.

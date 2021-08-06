@@ -34,3 +34,6 @@ https://github.com/PhilJay/MPAndroidChart
 Special Thanks to MaterialSearchView (Thanks MiguelCatalan! :)) for providing a free searchview with a clean UI with simple implementation. Here's the link the library I used for this:
 
 https://github.com/MiguelCatalan/MaterialSearchView
+
+
+![Alt text](https://play-lh.googleusercontent.com/g5YyFmM6Oerqy00zbL471ZK3YDA1GrOtOQI7SwjMW3IV0SNNGshzyIGecBTCogMX6NY=w1680-h907-rw "Optional title")

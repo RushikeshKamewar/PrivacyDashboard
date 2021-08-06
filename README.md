@@ -40,7 +40,7 @@ This app mainly focuses on bringing features of "Privacy Dashboard" as seen in D
 ## Credits
 
 <details>
-  <summary>Credits</summary>
+  <summary>Credits (click to expand)</summary>
   
 #### Charts API
 

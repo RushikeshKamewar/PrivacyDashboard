@@ -12,12 +12,12 @@ App has simple and clear timeline view of accesses to location, microphone and c
 This app mainly focuses on bringing features of "Privacy Dashboard" as seen in DP2 of android 12 to older devices.
 
 ## Features:
-- Beautiful Interface.
+- Beautiful Interface
 - Privacy Indicators (permission icon will appear in top-right corner when permission is used)
-- Light/Dark Theme.
-- Dashboard for 24 hour app usage on home screen.
-- Detailed view of permission/app usage.
-- No unnecessary permissions.
+- Light/Dark Theme
+- Dashboard for 24 hour app usage on home screen
+- Detailed view of permission/app usage
+- No unnecessary permissions
 
 
 ## Permission Details:

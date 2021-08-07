@@ -1,4 +1,10 @@
+<img src="https://play-lh.googleusercontent.com/dHgIlNJcMifkKVNgm8FBeDbZVZigg52elT49JEABSkXMDeouMgNcA-VPidYyYUOB8Wlw=s180" width="120"/>
+
 # PrivacyDashboard
+
+[![GitHub repo size](https://img.shields.io/github/repo-size/RushikeshKamewar/PrivacyDashboard)](https://github.com/RushikeshKamewar/PrivacyDashboard)
+[![GitHub issues](https://img.shields.io/github/issues/RushikeshKamewar/PrivacyDashboard?color=red)](https://github.com/RushikeshKamewar/PrivacyDashboard/issues)
+[![GitHub license](https://img.shields.io/github/license/RushikeshKamewar/PrivacyDashboard?color=lightgrey)](https://github.com/RushikeshKamewar/PrivacyDashboard/blob/master/LICENSE)
 
 This app brings Privacy dashboard features from Android 12 to older android devices.
 
@@ -9,34 +15,54 @@ App has simple and clear timeline view of accesses to location, microphone and c
 
 This app mainly focuses on bringing features of "Privacy Dashboard" as seen in DP2 of android 12 to older devices.
 
-Features:
-- Beautiful Interface.
+## Features:
+- Beautiful Interface
 - Privacy Indicators (permission icon will appear in top-right corner when permission is used)
-- Light/Dark Theme.
-- Dashboard for 24 hour app usage on home screen.
-- Detailed view of permission/app usage.
-- No unnecessary permissions.
+- Light/Dark Theme
+- Dashboard for 24 hour app usage on home screen
+- Detailed view of permission/app usage
+- No unnecessary permissions
 
 
-Permission Details:
+## Permission Details:
 
-Accessibility Setting: To get app usage for location, microphone and camera without having the direct access to camera or microphone, so more privacy.
+- Accessibility Setting: To get app usage for location, microphone and camera without having the direct access to camera or microphone, so more privacy.
+- Location Access: To get the location app usage.
 
-Location Access: To get the location app usage.
+## Install
 
+[<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Google Play Download" height="80">](https://play.google.com/store/apps/details?id=rk.android.app.privacydashboard)
 
-This app will always be free and ad-free, so feel free to support the development via donations.
+## Screenshots
 
-Special Thanks to MPAndroidCharts (Thanks Phil! :)) for providing a free API service for charts. Here's the link the library I used for plotting charts in the app:
+<img src="https://play-lh.googleusercontent.com/nLB-jiTqKWMBtp4ltqIIPccgoX6q4jF0xrcxlz1KUIb8NTjPAA-fPt4RMuQPugB4iYM=w1680-h907-rw" width="200"/>|
+<img src="https://play-lh.googleusercontent.com/Zqd2OS9fJ4DcY6Ei3WmWwMr274IYKaae2OruuMjRPqhVw217EDQF8HF12PpgRFyiww=w1680-h907-rw" width="200"/>|
+<img src="https://play-lh.googleusercontent.com/6PZmXm-PcAJIOgeLn5TuzUdJWCycL-01YnqvaoiWW3pAbn6sb4beoMLPf5jeoaUCGw=w1680-h907-rw" width="200"/>|
 
-https://github.com/PhilJay/MPAndroidChart
+<details>
+  <summary>More screenshots</summary>
+ 
+<img src="https://play-lh.googleusercontent.com/Q9TXQ_Brn1F1WDukA55Xhjt6rBU-smIyqQqASTKz3nEBO8OecX4Cet3sw4Yz5Razjw=w1680-h907-rw" width="200"/>|
+<img src="https://play-lh.googleusercontent.com/XMgfNpIdOo8AO3LHb_MnmupowF1NQv0VZpro7-BDho5dNoLvUXuqpmpXXTVMW4f1uN0=w1680-h907-rw" width="200"/>
 
-Special Thanks to MaterialSearchView (Thanks MiguelCatalan! :)) for providing a free searchview with a clean UI with simple implementation. Here's the link the library I used for this:
+</details>
 
-https://github.com/MiguelCatalan/MaterialSearchView
+## Join the team
+  * Test the app with different devices
+  * Report issues in the [issue tracker](https://github.com/RushikeshKamewar/PrivacyDashboard/issues)
+  * Create a [Pull Request](https://opensource.guide/how-to-contribute/#opening-a-pull-request)
 
-![Alt text](https://play-lh.googleusercontent.com/nLB-jiTqKWMBtp4ltqIIPccgoX6q4jF0xrcxlz1KUIb8NTjPAA-fPt4RMuQPugB4iYM=w1680-h907-rw "Screenshot 2")
-![Alt text](https://play-lh.googleusercontent.com/Zqd2OS9fJ4DcY6Ei3WmWwMr274IYKaae2OruuMjRPqhVw217EDQF8HF12PpgRFyiww=w1680-h907-rw "Screenshot 3")
-![Alt text](https://play-lh.googleusercontent.com/6PZmXm-PcAJIOgeLn5TuzUdJWCycL-01YnqvaoiWW3pAbn6sb4beoMLPf5jeoaUCGw=w1680-h907-rw "Screenshot 4")
-![Alt text](https://play-lh.googleusercontent.com/Q9TXQ_Brn1F1WDukA55Xhjt6rBU-smIyqQqASTKz3nEBO8OecX4Cet3sw4Yz5Razjw=w1680-h907-rw "Screenshot 5")
-![Alt text](https://play-lh.googleusercontent.com/XMgfNpIdOo8AO3LHb_MnmupowF1NQv0VZpro7-BDho5dNoLvUXuqpmpXXTVMW4f1uN0=w1680-h907-rw "Screenshot 6")
+## Credits
+
+<details>
+  <summary>Credits</summary>
+  
+#### Charts API
+* Special Thanks to [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) (Thanks [PhilJay](https://github.com/PhilJay)! :)) for providing a free API service for charts.
+
+#### Search view
+* Special Thanks to [MaterialSearchView](https://github.com/MiguelCatalan/MaterialSearchView) (Thanks [MiguelCatalan](https://github.com/MiguelCatalan)! :)) for providing a free searchview with a clean UI with simple implementation.
+  
+</details>
+
+*This app will always be free and ad-free, so feel free to support the development via donations.*

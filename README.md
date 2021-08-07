@@ -43,12 +43,11 @@ This app mainly focuses on bringing features of "Privacy Dashboard" as seen in D
   <summary>Credits (click to expand)</summary>
   
 #### Charts API
-
-* Special Thanks to MPAndroidCharts (Thanks [PhilJay](https://github.com/PhilJay)! :)) for providing a free API service for charts. Here's the link the library I used for plotting charts in the app: [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
+* Special Thanks to [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) (Thanks [PhilJay](https://github.com/PhilJay)! :)) for providing a free API service for charts.
 
 #### Search view
-* Special Thanks to MaterialSearchView (Thanks [MiguelCatalan](https://github.com/MiguelCatalan)! :)) for providing a free searchview with a clean UI with simple implementation. Here's the link the library I used for this: [MaterialSearchView](https://github.com/MiguelCatalan/MaterialSearchView)
+* Special Thanks to [MaterialSearchView](https://github.com/MiguelCatalan/MaterialSearchView) (Thanks [MiguelCatalan](https://github.com/MiguelCatalan)! :)) for providing a free searchview with a clean UI with simple implementation.
   
 </details>
 
-This app will always be free and ad-free, so feel free to support the development via donations.
+*This app will always be free and ad-free, so feel free to support the development via donations.*

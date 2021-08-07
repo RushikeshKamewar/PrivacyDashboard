@@ -41,6 +41,11 @@ This app mainly focuses on bringing features of "Privacy Dashboard" as seen in D
 <img src="https://play-lh.googleusercontent.com/Q9TXQ_Brn1F1WDukA55Xhjt6rBU-smIyqQqASTKz3nEBO8OecX4Cet3sw4Yz5Razjw=w1680-h907-rw" width="200"/>|
 <img src="https://play-lh.googleusercontent.com/XMgfNpIdOo8AO3LHb_MnmupowF1NQv0VZpro7-BDho5dNoLvUXuqpmpXXTVMW4f1uN0=w1680-h907-rw" width="200"/>
 
+## Join the team
+  * Test the app with different devices
+  * Report issues in the [issue tracker](https://github.com/RushikeshKamewar/PrivacyDashboard/issues)
+  * Create a [Pull Request](https://opensource.guide/how-to-contribute/#opening-a-pull-request)
+
 ## Credits
 
 <details>

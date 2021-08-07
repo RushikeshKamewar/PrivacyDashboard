@@ -2,6 +2,10 @@
 
 # PrivacyDashboard
 
+[![GitHub repo size](https://img.shields.io/github/repo-size/RushikeshKamewar/PrivacyDashboard)](https://github.com/RushikeshKamewar/PrivacyDashboard)
+[![GitHub issues](https://img.shields.io/github/issues/RushikeshKamewar/PrivacyDashboard?color=red)](https://github.com/RushikeshKamewar/PrivacyDashboard/issues)
+[![GitHub license](https://img.shields.io/github/license/RushikeshKamewar/PrivacyDashboard?color=lightgrey)](https://github.com/RushikeshKamewar/PrivacyDashboard/blob/master/LICENSE)
+
 This app brings Privacy dashboard features from Android 12 to older android devices.
 
 Have you ever thought which apps are accessing your privacy permission without telling you?

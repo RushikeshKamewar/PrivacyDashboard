@@ -63,7 +63,7 @@
     <string name="permission_microphone_short">Micro</string>
     <string name="permission_more">Voir les autres autorisations</string>
     <string name="permission_more_info">Capteurs corporels, calendrier et plus dans les paramètres</string>
-    <string name="permission_info">Utilisé par #ALIAS# applications aujourd\'hui</string>
+    <string name="permission_info">Utilisé par #ALIAS# application(s) aujourd\'hui</string>
     <string name="permission_no_apps">Non utilisé aujourd\'hui</string>
     <!--Settings-->
     <string name="settings_title">Paramètres de l\'application</string>

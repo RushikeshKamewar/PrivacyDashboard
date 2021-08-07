@@ -90,7 +90,7 @@
     <string name="permission_microphone_short">Mic</string>
     <string name="permission_more">See other permissions</string>
     <string name="permission_more_info">Body sensors, Calendar and more in settings</string>
-    <string name="permission_info">Used by #ALIAS# apps today</string>
+    <string name="permission_info">Used by #ALIAS# app(s) today</string>
     <string name="permission_no_apps">Not used today</string>
 
     <!--Settings-->

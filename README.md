@@ -55,7 +55,7 @@ This app mainly focuses on bringing features of "Privacy Dashboard" as seen in D
 ## Credits
 
 <details>
-  <summary>Credits (click to expand)</summary>
+  <summary>Credits</summary>
   
 #### Charts API
 * Special Thanks to [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) (Thanks [PhilJay](https://github.com/PhilJay)! :)) for providing a free API service for charts.

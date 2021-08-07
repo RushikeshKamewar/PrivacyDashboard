@@ -63,7 +63,7 @@
     <string name="permission_microphone_short">Mikrofon</string>
     <string name="permission_more">Andere Berechtigungen anzeigen</string>
     <string name="permission_more_info">Körper-Sensoren, Kalender und mehr in den Einstellungen</string>
-    <string name="permission_info">Heute von #ALIAS# Apps verwendet</string>
+    <string name="permission_info">Heute von #ALIAS# App(s) verwendet</string>
     <string name="permission_no_apps">Heute nicht verwendet</string>
     <!--Settings-->
     <string name="settings_title">App-Einstellungen</string>

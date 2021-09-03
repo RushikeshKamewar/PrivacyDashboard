@@ -145,6 +145,8 @@ public class MainActivity extends AppCompatActivity {
 
         binding.donation.setOnClickListener(view -> startActivity(new Intent(context, DonationActivity.class), bundle));
 
+        binding.buttonGithub.setOnClickListener(view -> Utils.openLink(context, Constants.LINK_GITHUB));
+
         binding.buttonTelegram.setOnClickListener(view -> Utils.openLink(context, Constants.LINK_TELEGRAM));
 
         binding.buttonTwitter.setOnClickListener(view -> Utils.openLink(context,Constants.LINK_TWITTER));

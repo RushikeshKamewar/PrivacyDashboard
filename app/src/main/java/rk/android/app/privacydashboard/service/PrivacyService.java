@@ -9,12 +9,14 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ServiceInfo;
+import android.content.res.ColorStateList;
 import android.graphics.PixelFormat;
 import android.hardware.camera2.CameraManager;
 import android.location.GnssStatus;
 import android.location.LocationManager;
 import android.media.AudioManager;
 import android.media.AudioRecordingConfiguration;
+import android.net.Uri;
 import android.os.Build;
 import android.provider.Settings;
 import android.util.Log;
@@ -193,7 +195,6 @@ public class PrivacyService extends AccessibilityService {
                 super.onCameraUnavailable(cameraId);
                 isCamInUse = true;
                 isCamUseStart = true;
-                showOnUseNotification();
                 showDots(Constants.PERMISSION_CAMERA);
                 makeLog(Constants.PERMISSION_CAMERA);
             }
@@ -209,7 +210,6 @@ public class PrivacyService extends AccessibilityService {
                 isMicInUse = configs.size() > 0;
                 isMicUseStart = true;
                 if (isMicInUse) {
-                    showOnUseNotification();
                     showDots(Constants.PERMISSION_MICROPHONE);
                 }else {
                     dismissOnUseNotification();
@@ -229,7 +229,6 @@ public class PrivacyService extends AccessibilityService {
                 super.onStarted();
                 isLocUseStart = true;
                 isLocInUse = true;
-                showOnUseNotification();
                 showDots(Constants.PERMISSION_LOCATION);
                 makeLog(Constants.PERMISSION_LOCATION);
             }
@@ -296,6 +295,7 @@ public class PrivacyService extends AccessibilityService {
             if (!excludedRepository.isExcluded(runningAppPackage) || !preferenceManager.isPrivacyExcludeLogs()) {
                 Logs log = new Logs(Calendar.getInstance().getTimeInMillis(), runningAppPackage, permission, state, Utils.getDateFromTimestamp(Calendar.getInstance().getTimeInMillis()));
                 repository.insertLogs(log);
+                showOnUseNotification();
             }
         }
 
@@ -372,6 +372,7 @@ public class PrivacyService extends AccessibilityService {
                     dotMic.setImageDrawable(ContextCompat.getDrawable(getApplicationContext(), R.drawable.icon_microphone));
                     dotLoc.setImageDrawable(ContextCompat.getDrawable(getApplicationContext(), R.drawable.icon_location));
                     lyDots.setBackgroundResource(R.drawable.overlay_background);
+                    lyDots.setBackgroundTintList(ColorStateList.valueOf(preferenceManager.getIconColor()));
                     break;
 
                 case Constants.DOTS_TYPE_DOT:
@@ -460,6 +461,24 @@ public class PrivacyService extends AccessibilityService {
                             }, 400);
                         }
                     }, preferenceManager.getPrivacyDotAutoHideTimer() * 1000);
+                }
+
+                if (preferenceManager.isPrivacyDotHide()) {
+                    lyDots.postDelayed(() -> {
+                        if (!isPermissionStopped) {
+                            Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.bounce);
+                            lyDots.startAnimation(animation);
+                            lyDots.postDelayed(() -> {
+                                if (!isPermissionStopped) {
+                                    dotCamera.setVisibility(View.GONE);
+                                    dotMic.setVisibility(View.GONE);
+                                    dotLoc.setVisibility(View.GONE);
+                                    lyDots.setBackground(null);
+                                    dotIcon.setVisibility(View.GONE);
+                                }
+                            }, 400);
+                        }
+                    }, preferenceManager.getPrivacyDotHideTimer() * 1000);
                 }
 
                 layoutParams.gravity = preferenceManager.getPrivacyDotPosition();
@@ -581,8 +600,15 @@ public class PrivacyService extends AccessibilityService {
 
     private PendingIntent getPendingIntent(String packageName) {
 
-        Intent i = new Intent(getApplicationContext(), AppInfoActivity.class);
-        i.putExtra(Constants.EXTRA_APP,packageName);
+        Intent i;
+        if (!preferenceManager.isPrivacyNotificationClick()) {
+            i = new Intent(getApplicationContext(), AppInfoActivity.class);
+            i.putExtra(Constants.EXTRA_APP, packageName);
+        }else {
+            i = new Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
+            i.setData(Uri.parse("package:" + packageName));
+        }
+
         i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 
         return PendingIntent.getActivity(getApplicationContext(), 1,i, FLAG_UPDATE_CURRENT);

@@ -69,6 +69,10 @@ public class SettingsView extends RelativeLayout {
         imageOpen.setVisibility(arr.getInteger(R.styleable.SettingsView_settings_open_visibility, View.GONE));
     }
 
+    public void setIconTint(int color) {
+        this.imageIcon.setImageTintList(ColorStateList.valueOf(color));
+    }
+
     public void setInfo(String info) {
         this.textInfo.setText(info);
     }

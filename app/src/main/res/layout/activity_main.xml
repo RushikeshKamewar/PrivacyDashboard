@@ -186,6 +186,16 @@
                         android:orientation="horizontal">
 
                         <ImageButton
+                            android:id="@+id/button_github"
+                            android:contentDescription="@string/image_descriptions"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            app:tint="?attr/colorSecondaryText"
+                            android:padding="10dp"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/profile_github"/>
+
+                        <ImageButton
                             android:id="@+id/button_telegram"
                             android:contentDescription="@string/image_descriptions"
                             android:layout_width="48dp"

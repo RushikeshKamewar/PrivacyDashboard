@@ -53,6 +53,17 @@
                 app:settings_switch_visibility="8"/>
 
             <rk.android.app.privacydashboard.views.SettingsView
+                android:id="@+id/indicator_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:settings_title="@string/dots_custom_color"
+                app:settings_info="@string/dots_custom_color_info"
+                app:settings_icon="@drawable/indicator_color"
+                app:settings_icon_tint="@color/overlay_background"
+                app:settings_switch_visibility="8"/>
+
+            <rk.android.app.privacydashboard.views.SettingsView
                 android:id="@+id/indicator_position"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -75,6 +86,26 @@
                 android:layout_height="wrap_content"
                 app:seekbar_title="@string/dots_custom_opacity"
                 app:progressUnit="@string/dots_custom_size_unit"/>
+
+            <rk.android.app.privacydashboard.views.SettingsView
+                android:id="@+id/indicator_hide"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:settings_title="@string/dots_custom_hide"
+                app:settings_info="@string/dots_custom_hide_info"
+                app:settings_icon="@drawable/indicator_hide"
+                app:settings_switch_visibility="0"/>
+
+            <rk.android.app.privacydashboard.views.SeekbarView
+                android:id="@+id/indicator_hide_timer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:progressMin="1"
+                app:progressMax="15"
+                app:progressDefault="3"
+                app:seekbar_title="@string/dots_custom_hide_timer"
+                app:progressUnit="@string/dots_custom_minimize_timer_unit"/>
 
             <rk.android.app.privacydashboard.views.SettingsView
                 android:id="@+id/indicator_minimize"

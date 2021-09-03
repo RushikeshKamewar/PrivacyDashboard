@@ -2,6 +2,7 @@ package rk.android.app.privacydashboard.manager;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.view.Gravity;
 
 import androidx.appcompat.app.AppCompatDelegate;
@@ -20,17 +21,22 @@ public class PreferenceManager {
 
         public static final String PRIVACY_DOTS = "privacy.dots";
         public static final String PRIVACY_DOTS_TYPE = "privacy.dots.type";
+        public static final String PRIVACY_DOTS_COLOR = "privacy.dots.color";
+        public static final String PRIVACY_DOTS_COLOR_TYPE = "privacy.dots.color.type";
         public static final String PRIVACY_DOTS_POSITION = "privacy.dots.position";
         public static final String PRIVACY_DOTS_MARGIN = "privacy.dots.margin";
         public static final String PRIVACY_DOTS_CLICK = "privacy.dots.click";
         public static final String PRIVACY_DOTS_SIZE = "privacy.dots.size";
         public static final String PRIVACY_DOTS_OPACITY = "privacy.dots.opacity";
+        public static final String PRIVACY_DOTS_HIDE = "privacy.dots.hide";
+        public static final String PRIVACY_DOTS_HIDE_TIMER = "privacy.dots.hide.timer";
         public static final String PRIVACY_DOTS_AUTO_HIDE = "privacy.dots.auto_hide";
         public static final String PRIVACY_DOTS_AUTO_HIDE_TIMER = "privacy.dots.auto_hide.timer";
 
         public static final String PRIVACY_NOTIFICATION = "privacy.notification";
         public static final String PRIVACY_NOTIFICATION_ONGOING = "privacy.notification.ongoing";
         public static final String PRIVACY_NOTIFICATION_ICON = "privacy.notification.icon";
+        public static final String PRIVACY_NOTIFICATION_CLICK = "privacy.notification.click";
 
         public static final String EXCLUDE_TYPE_INDICATOR = "exclude.type.indicator";
         public static final String EXCLUDE_TYPE_NOTIFICATION = "exclude.type.notification";
@@ -128,6 +134,26 @@ public class PreferenceManager {
         return sharedPreferences.getBoolean(PREF_CONSTANTS.PRIVACY_DOTS_CLICK, false);
     }
 
+    //Privacy dots color type
+    public void setColorType(String type){
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putString(PREF_CONSTANTS.PRIVACY_DOTS_COLOR_TYPE, type);
+        editor.apply();
+    }
+    public String getColorType(){
+        return sharedPreferences.getString(PREF_CONSTANTS.PRIVACY_DOTS_COLOR_TYPE,Constants.DOTS_COLOR_BASIC);
+    }
+
+    //Privacy dots color selected
+    public void setIconColor(int color){
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putInt(PREF_CONSTANTS.PRIVACY_DOTS_COLOR, color);
+        editor.apply();
+    }
+    public int getIconColor(){
+        return sharedPreferences.getInt(PREF_CONSTANTS.PRIVACY_DOTS_COLOR, Color.parseColor(Constants.DOTS_COLOR_DEFAULT));
+    }
+
     //Privacy dots position
     public void setPrivacyDotSize(int size){
         SharedPreferences.Editor editor = sharedPreferences.edit();
@@ -148,7 +174,27 @@ public class PreferenceManager {
         return sharedPreferences.getInt(PREF_CONSTANTS.PRIVACY_DOTS_OPACITY, 100);
     }
 
-    //Privacy dots auto hide
+    //Privacy dots hide
+    public void setPrivacyDotHide(boolean isHide){
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putBoolean(PREF_CONSTANTS.PRIVACY_DOTS_HIDE, isHide);
+        editor.apply();
+    }
+    public boolean isPrivacyDotHide(){
+        return sharedPreferences.getBoolean(PREF_CONSTANTS.PRIVACY_DOTS_HIDE, false);
+    }
+
+    //Privacy dots hide timer
+    public void setPrivacyDotHideTimer(int time){
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putInt(PREF_CONSTANTS.PRIVACY_DOTS_HIDE_TIMER, time);
+        editor.apply();
+    }
+    public int getPrivacyDotHideTimer(){
+        return sharedPreferences.getInt(PREF_CONSTANTS.PRIVACY_DOTS_HIDE_TIMER, 6);
+    }
+
+    //Privacy dots minimize
     public void setPrivacyDotAutoHide(boolean isHide){
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putBoolean(PREF_CONSTANTS.PRIVACY_DOTS_AUTO_HIDE, isHide);
@@ -158,7 +204,7 @@ public class PreferenceManager {
         return sharedPreferences.getBoolean(PREF_CONSTANTS.PRIVACY_DOTS_AUTO_HIDE, false);
     }
 
-    //Privacy dots auto hide timer
+    //Privacy dots minimize timer
     public void setPrivacyDotAutoHideTimer(int time){
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putInt(PREF_CONSTANTS.PRIVACY_DOTS_AUTO_HIDE_TIMER, time);
@@ -188,7 +234,7 @@ public class PreferenceManager {
         return sharedPreferences.getBoolean(PREF_CONSTANTS.PRIVACY_NOTIFICATION_ONGOING, true);
     }
 
-    //Privacy notification ongoing
+    //Privacy notification icon
     public void setPrivacyNotificationIcon(boolean isIcon){
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putBoolean(PREF_CONSTANTS.PRIVACY_NOTIFICATION_ICON, isIcon);
@@ -196,6 +242,16 @@ public class PreferenceManager {
     }
     public boolean isPrivacyNotificationIcon(){
         return sharedPreferences.getBoolean(PREF_CONSTANTS.PRIVACY_NOTIFICATION_ICON, true);
+    }
+
+    //Privacy notification click
+    public void setPrivacyNotificationClick(boolean isClick){
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putBoolean(PREF_CONSTANTS.PRIVACY_NOTIFICATION_CLICK, isClick);
+        editor.apply();
+    }
+    public boolean isPrivacyNotificationClick(){
+        return sharedPreferences.getBoolean(PREF_CONSTANTS.PRIVACY_NOTIFICATION_CLICK, false);
     }
 
     //Privacy exclude indicator
@@ -227,5 +283,7 @@ public class PreferenceManager {
     public boolean isPrivacyExcludeLogs(){
         return sharedPreferences.getBoolean(PREF_CONSTANTS.EXCLUDE_TYPE_LOGS, false);
     }
+
+
 
 }

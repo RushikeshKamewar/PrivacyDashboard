@@ -36,13 +36,26 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_github"
+            android:layout_toStartOf="@id/button_donate"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/alertInfo"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Dialog"
+            android:text="@string/profile_github"/>
+
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_donate"
             android:layout_toStartOf="@id/button_ok"
             android:layout_marginTop="8dp"
             android:layout_below="@id/alertInfo"
             android:layout_width="wrap_content"
             android:layout_marginBottom="8dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginEnd="8dp"
             android:layout_height="wrap_content"
             android:textAllCaps="false"
             style="@style/Widget.MaterialComponents.Button.TextButton.Dialog"

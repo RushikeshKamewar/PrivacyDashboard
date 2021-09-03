@@ -1,8 +1,7 @@
 package rk.android.app.privacydashboard.activities.settings.excluded.async;
 
-import android.content.Intent;
+import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
-import android.content.pm.ResolveInfo;
 
 import java.util.List;
 
@@ -21,11 +20,9 @@ public class AppsTask extends BaseTask {
 
     @Override
     public Object call() {
-        Intent intent = new Intent(Intent.ACTION_MAIN, null)
-                .addCategory(Intent.CATEGORY_LAUNCHER);
-        List<ResolveInfo> apps = packageManager.queryIntentActivities(intent,0);
-        apps.sort(new ResolveInfo.DisplayNameComparator(packageManager));
-
+        List<ApplicationInfo> apps = packageManager.getInstalledApplications(PackageManager.GET_META_DATA);
+        apps.sort((o1, o2) -> o1.loadLabel(packageManager).toString().toLowerCase()
+                .compareTo(o2.loadLabel(packageManager).toString().toLowerCase()));
         return apps;
     }
 

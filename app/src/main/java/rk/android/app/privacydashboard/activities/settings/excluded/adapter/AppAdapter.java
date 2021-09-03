@@ -1,6 +1,7 @@
 package rk.android.app.privacydashboard.activities.settings.excluded.adapter;
 
 import android.content.Context;
+import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.view.LayoutInflater;
@@ -24,8 +25,8 @@ import rk.android.app.privacydashboard.util.Utils;
 public class AppAdapter extends RecyclerView.Adapter<AppViewHolder> implements Filterable{
 
     CustomItemClickListener listener;
-    List<ResolveInfo> apps = new ArrayList<>();
-    List<ResolveInfo> originalApps = new ArrayList<>();
+    List<ApplicationInfo> apps = new ArrayList<>();
+    List<ApplicationInfo> originalApps = new ArrayList<>();
     LogsRepository logsRepository;
     ExcludedRepository repository;
 
@@ -53,18 +54,18 @@ public class AppAdapter extends RecyclerView.Adapter<AppViewHolder> implements F
     @Override
     public void onBindViewHolder(@NonNull AppViewHolder holder, int position) {
 
-        ResolveInfo app = apps.get(position);
+        ApplicationInfo app = apps.get(position);
 
         holder.textAppName.setText(app.loadLabel(packageManager));
-        holder.textInfo.setText(String.valueOf(logsRepository.getLogsCountForPackage(app.activityInfo.packageName)));
+        holder.textInfo.setText(String.valueOf(logsRepository.getLogsCountForPackage(app.packageName)));
         holder.textInfo.append(context.getString(R.string.settings_excluded_app_info));
-        holder.imageApp.setBackground(Utils.getIconFromPackageName(context,app.activityInfo.packageName));
+        holder.imageApp.setBackground(Utils.getIconFromPackageName(context,app.packageName));
 
-        holder.checkBox.setChecked(repository.isExcluded(app.activityInfo.packageName));
+        holder.checkBox.setChecked(repository.isExcluded(app.packageName));
 
     }
 
-    public ResolveInfo getApp(int position){
+    public ApplicationInfo getApp(int position){
         return apps.get(position);
     }
 
@@ -81,7 +82,7 @@ public class AppAdapter extends RecyclerView.Adapter<AppViewHolder> implements F
         notifyDataSetChanged();
     }
 
-    public void setDataList(List<ResolveInfo> list){
+    public void setDataList(List<ApplicationInfo> list){
         apps = list;
         originalApps = list;
         notifyDataSetChanged();
@@ -105,7 +106,7 @@ public class AppAdapter extends RecyclerView.Adapter<AppViewHolder> implements F
             @Override
             protected FilterResults performFiltering(CharSequence charSequence) {
                 FilterResults results = new FilterResults();
-                List<ResolveInfo> filterResults = new ArrayList<>();
+                List<ApplicationInfo> filterResults = new ArrayList<>();
 
                 if (charSequence == null || charSequence.length() == 0 || charSequence.toString().isEmpty()) {
                     results.count = originalApps.size();
@@ -113,7 +114,7 @@ public class AppAdapter extends RecyclerView.Adapter<AppViewHolder> implements F
                 }else{
                     String filterStr = charSequence.toString().toLowerCase();
 
-                    for (ResolveInfo appObject : originalApps){
+                    for (ApplicationInfo appObject : originalApps){
                         String name = "" + appObject.loadLabel(packageManager);
                         if (name.toLowerCase().contains(filterStr)){
                             filterResults.add(appObject);
@@ -131,7 +132,7 @@ public class AppAdapter extends RecyclerView.Adapter<AppViewHolder> implements F
             @Override
             @SuppressWarnings("unchecked")
             protected void publishResults(CharSequence charSequence, FilterResults filterResults) {
-                apps = (List<ResolveInfo>) filterResults.values; // has the filtered values
+                apps = (List<ApplicationInfo>) filterResults.values; // has the filtered values
                 notifyDataSetChanged();
             }
 

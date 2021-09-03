@@ -59,6 +59,7 @@ public class NotificationActivity extends AppCompatActivity{
 
         binding.notificationOngoing.setSwitchState(preferenceManager.isPrivacyNotificationOngoing());
         binding.notificationIcon.setSwitchState(preferenceManager.isPrivacyNotificationIcon());
+        binding.notificationClick.setSwitchState(preferenceManager.isPrivacyNotificationClick());
 
     }
 
@@ -70,6 +71,9 @@ public class NotificationActivity extends AppCompatActivity{
 
         binding.notificationIcon.setOnSwitchListener((compoundButton, b) -> preferenceManager.setPrivacyNotificationIcon(b));
         binding.notificationIcon.setOnClickListener(view -> binding.notificationIcon.performSwitchClick());
+
+        binding.notificationClick.setOnSwitchListener((compoundButton, b) -> preferenceManager.setPrivacyNotificationClick(b));
+        binding.notificationClick.setOnClickListener(view -> binding.notificationClick.performSwitchClick());
 
     }
 

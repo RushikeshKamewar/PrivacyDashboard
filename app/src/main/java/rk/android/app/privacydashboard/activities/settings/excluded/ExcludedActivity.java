@@ -1,7 +1,7 @@
 package rk.android.app.privacydashboard.activities.settings.excluded;
 
 import android.content.Context;
-import android.content.pm.ResolveInfo;
+import android.content.pm.ApplicationInfo;
 import android.os.Bundle;
 import android.view.View;
 
@@ -74,11 +74,11 @@ public class ExcludedActivity extends AppCompatActivity {
         adapter = new AppAdapter(context, repository, logsRepository);
         binding.recyclerView.setAdapter(adapter);
         adapter.setListener((b, position) -> {
-            ResolveInfo app = adapter.getApp(position);
+            ApplicationInfo app = adapter.getApp(position);
             if (b) {
-                repository.insert(new Apps(app.activityInfo.packageName));
+                repository.insert(new Apps(app.packageName));
             }else {
-                repository.delete(new Apps(adapter.getApp(position).activityInfo.packageName));
+                repository.delete(new Apps(app.packageName));
             }
         });
 
@@ -108,7 +108,7 @@ public class ExcludedActivity extends AppCompatActivity {
 
             @Override
             public void setDataInPageWithResult(Object result) {
-                adapter.setDataList((List<ResolveInfo>) result);
+                adapter.setDataList((List<ApplicationInfo>) result);
 
                 if (adapter.isEmpty()){
                     binding.rlEmpty.setVisibility(View.VISIBLE);

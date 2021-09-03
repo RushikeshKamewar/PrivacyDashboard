@@ -54,8 +54,10 @@ public class Dialogs {
                     .show();
 
             final MaterialButton button = dialogView.findViewById(R.id.button_ok);
+            final MaterialButton github = dialogView.findViewById(R.id.button_github);
             final MaterialButton donate = dialogView.findViewById(R.id.button_donate);
             button.setOnClickListener(view -> dialogs.dismiss());
+            github.setOnClickListener(view -> Utils.openLink(context,Constants.LINK_GITHUB));
             donate.setOnClickListener(view -> {
                 Bundle bundle = ActivityOptions.makeCustomAnimation(context, R.anim.slide_in_right, R.anim.slide_out_left).toBundle();
                 context.startActivity(new Intent(context, DonationActivity.class), bundle);

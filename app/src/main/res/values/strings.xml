@@ -17,6 +17,7 @@
 
     <string name="profile_made_by" translatable="false">Made by Rushikesh Kamewar</string>
     <string name="profile_version">Version -</string>
+    <string name="profile_github" translatable="false">Github</string>
     <string name="profile_donate">Donate</string>
     <string name="profile_contact">Contact</string>
 
@@ -36,11 +37,11 @@
     <string name="notification_app_permissions">" permissions"</string>
 
     <!--Release dialog-->
-    <string name="app_release_title" translatable="false">What\'s new in v1.5</string>
-    <string name="app_release" translatable="false">1. Now logs are more accurate than ever, hopefully no more incorrect system UI, launcher or keyboard logs &#10084;\n\n
-                                2. Now you can add apps to excluded list to exclude them from log, notification or indicator. Check app settings.\n\n
-                                3. Added languages: Bengali and Tamil. Russian language is removed as there were many wrong translations\n\n
-                                4. Added indicator customization: minimize dot timer</string>
+    <string name="app_release_title" translatable="false">What\'s new in v1.6</string>
+    <string name="app_release" translatable="false">1. App is now open source. Click on button below or in app settings to checkout app on github &#10084;\n\n
+                                2. Added indicator customizations: color, auto hide\n\n
+                                3. Added notification customization: click action option\n\n
+                                4. Added system apps to excluded app selection list</string>
     <string name="app_release_button">Done</string>
 
     <!--Start permission dialog-->
@@ -83,6 +84,10 @@
     <string name="dialog_theme_system">System Default</string>
     <string name="dialog_theme_battery">Set by Battery Saver</string>
 
+    <!--Theme Dialog-->
+    <string name="color_title" translatable="false">Color</string>
+    <string name="dialog_color_title" translatable="false">Select Color</string>
+
     <!--Permissions-->
     <string name="permission_camera">Camera</string>
     <string name="permission_location">Location</string>
@@ -104,6 +109,8 @@
     <string name="dots_custom_type">Type</string>
     <string name="dots_custom_type_icon">Permission icons</string>
     <string name="dots_custom_type_dot">Colored dots</string>
+    <string name="dots_custom_color" translatable="false">Color</string>
+    <string name="dots_custom_color_info" translatable="false">#61B773</string>
     <string name="dots_custom_position">Position</string>
     <string name="dots_custom_position_tl">Top-Left</string>
     <string name="dots_custom_position_tc">Top-Center</string>
@@ -120,6 +127,9 @@
     <string name="dots_custom_size">Size</string>
     <string name="dots_custom_size_unit">%</string>
     <string name="dots_custom_opacity">Opacity</string>
+    <string name="dots_custom_hide" translatable="false">Auto hide</string>
+    <string name="dots_custom_hide_info" translatable="false">When enabled if permission is used for more than selected hide time, indicator will be hidden.</string>
+    <string name="dots_custom_hide_timer" translatable="false">Hide time</string>
     <string name="dots_custom_minimize">Minimize to dot (beta)</string>
     <string name="dots_custom_minimize_info">When enabled if permission is used for more than selected minimize time, indicator will be minimized to small dot.</string>
     <string name="dots_custom_minimize_timer" translatable="false">Minimize dot time</string>
@@ -133,6 +143,8 @@
     <string name="notification_custom_ongoing_info">If enabled app will show a continuous notification when permission is being used which will then disappear after permission usage is stopped.</string>
     <string name="notification_custom_icon">App icon</string>
     <string name="notification_custom_icon_info">If enabled app icon will be displayed in the notification for respective permission usage</string>
+    <string name="notification_custom_click" translatable="false">Open app info on click</string>
+    <string name="notification_custom_click_info" translatable="false">If enabled app info page will be opened instead of log for the permission</string>
 
     <string name="settings_accessibility">Accessibility Setting</string>
     <string name="settings_accessibility_on">Turn on accessibility settings</string>
@@ -159,6 +171,9 @@
 
     <string name="settings_release">Changelog</string>
     <string name="settings_release_info">See whats\'s new in version -</string>
+
+    <string name="settings_github" translatable="false">Github</string>
+    <string name="settings_github_info" translatable="false">Checkout app on github</string>
 
     <string name="settings_telegram">Telegram</string>
     <string name="settings_telegram_info">Join telegram support group</string>

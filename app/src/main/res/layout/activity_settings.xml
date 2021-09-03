@@ -246,6 +246,15 @@
                 app:settings_switch_visibility="8"/>
 
             <rk.android.app.privacydashboard.views.SettingsView
+                android:id="@+id/settings_github"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:settings_title="@string/settings_github"
+                app:settings_info="@string/settings_github_info"
+                app:settings_icon="@drawable/profile_github"
+                app:settings_switch_visibility="8"/>
+
+            <rk.android.app.privacydashboard.views.SettingsView
                 android:id="@+id/settings_telegram"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

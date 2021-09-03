@@ -1,6 +1,7 @@
 package rk.android.app.privacydashboard.activities.settings.indicator;
 
 import android.content.Context;
+import android.content.res.ColorStateList;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
@@ -12,6 +13,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
 
 import rk.android.app.privacydashboard.R;
+import rk.android.app.privacydashboard.activities.settings.indicator.color.ColorDialog;
 import rk.android.app.privacydashboard.constant.Constants;
 import rk.android.app.privacydashboard.databinding.ActivitySettingsIndicatorBinding;
 import rk.android.app.privacydashboard.manager.PreferenceManager;
@@ -65,10 +67,14 @@ public class IndicatorActivity extends AppCompatActivity{
         switch (preferenceManager.getPrivacyDotType()) {
             case Constants.DOTS_TYPE_ICON:
                 binding.indicatorType.setInfo(getString(R.string.dots_custom_type_icon));
+                binding.indicatorColor.setAlpha(1f);
+                binding.indicatorColor.setClickable(true);
                 break;
 
             case Constants.DOTS_TYPE_DOT:
                 binding.indicatorType.setInfo(getString(R.string.dots_custom_type_dot));
+                binding.indicatorColor.setAlpha(0.5f);
+                binding.indicatorColor.setClickable(false);
                 break;
         }
 
@@ -106,12 +112,25 @@ public class IndicatorActivity extends AppCompatActivity{
                 break;
         }
 
+
         binding.indicatorMargin.setSwitchState(preferenceManager.isPrivacyDotMargin());
         binding.indicatorClick.setSwitchState(preferenceManager.isPrivacyDotClick());
         binding.indicatorSize.setProgress(preferenceManager.getPrivacyDotSize());
         binding.indicatorOpacity.setProgress(preferenceManager.getPrivacyDotOpacity());
+        binding.indicatorHide.setSwitchState(preferenceManager.isPrivacyDotHide());
+        binding.indicatorHideTimer.setProgress(preferenceManager.getPrivacyDotHideTimer());
         binding.indicatorMinimize.setSwitchState(preferenceManager.isPrivacyDotAutoHide());
         binding.indicatorMinimizeTimer.setProgress(preferenceManager.getPrivacyDotAutoHideTimer());
+
+        if (preferenceManager.isPrivacyDotHide()) {
+            binding.indicatorHideTimer.setAlpha(1f);
+            binding.indicatorHideTimer.setClickable(true);
+            binding.indicatorHideTimer.disableSeekbar(true);
+        }else {
+            binding.indicatorHideTimer.setAlpha(0.5f);
+            binding.indicatorHideTimer.setClickable(false);
+            binding.indicatorHideTimer.disableSeekbar(false);
+        }
 
         if (preferenceManager.isPrivacyDotAutoHide()) {
             binding.indicatorMinimizeTimer.setAlpha(1f);
@@ -151,6 +170,7 @@ public class IndicatorActivity extends AppCompatActivity{
             binding.dots.iconLocation.setImageDrawable(null);
         }
 
+        initColor();
         initPreviewSize();
         initPreviewOpacity();
 
@@ -175,6 +195,14 @@ public class IndicatorActivity extends AppCompatActivity{
 
     }
 
+    private void initColor(){
+        if (preferenceManager.isPrivacyDots()) {
+            binding.dots.lyOverlay.setBackgroundTintList(ColorStateList.valueOf(preferenceManager.getIconColor()));
+            binding.indicatorColor.setInfo(String.format("#%06X", (0xFFFFFF & preferenceManager.getIconColor())));
+            binding.indicatorColor.setIconTint(preferenceManager.getIconColor());
+        }
+    }
+
     private void initPreviewOpacity(){
         binding.dots.lyOverlay.setAlpha((float) preferenceManager.getPrivacyDotOpacity()/100);
     }
@@ -182,6 +210,12 @@ public class IndicatorActivity extends AppCompatActivity{
     private void initOnClickListeners(){
 
         binding.indicatorType.setOnClickListener(view -> Dialogs.showIndicatorType(context, getLayoutInflater(), preferenceManager, this::initValues));
+
+        binding.indicatorColor.setOnClickListener(view -> ColorDialog.showSelection(context, getLayoutInflater(), preferenceManager, (type, color) -> {
+            preferenceManager.setColorType(type);
+            preferenceManager.setIconColor(color);
+            initColor();
+        }));
 
         binding.indicatorPosition.setOnClickListener(view -> Dialogs.showIndicatorPosition(context, getLayoutInflater(), preferenceManager, this::initValues));
 
@@ -200,6 +234,21 @@ public class IndicatorActivity extends AppCompatActivity{
             preferenceManager.setPrivacyDotOpacity(progress);
             initPreviewOpacity();
         });
+
+        binding.indicatorHide.setOnSwitchListener((compoundButton, b) -> {
+            preferenceManager.setPrivacyDotHide(b);
+            if (b) {
+                binding.indicatorHideTimer.setAlpha(1f);
+                binding.indicatorHideTimer.setClickable(true);
+                binding.indicatorHideTimer.disableSeekbar(true);
+            }else {
+                binding.indicatorHideTimer.setAlpha(0.5f);
+                binding.indicatorHideTimer.setClickable(false);
+                binding.indicatorHideTimer.disableSeekbar(false);
+            }
+        });
+        binding.indicatorHide.setOnClickListener(view -> binding.indicatorHide.performSwitchClick());
+        binding.indicatorHideTimer.setListener(progress -> preferenceManager.setPrivacyDotHideTimer(progress));
 
         binding.indicatorMinimize.setOnSwitchListener((compoundButton, b) -> {
             preferenceManager.setPrivacyDotAutoHide(b);

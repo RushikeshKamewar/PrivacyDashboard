@@ -43,6 +43,16 @@
                 app:settings_icon="@drawable/notification_app_icon"
                 app:settings_switch_visibility="0"/>
 
+            <rk.android.app.privacydashboard.views.SettingsView
+                android:id="@+id/notification_click"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:settings_title="@string/notification_custom_click"
+                app:settings_info="@string/notification_custom_click_info"
+                app:settings_icon="@drawable/indicator_click"
+                app:settings_switch_visibility="0"/>
+
         </LinearLayout>
 
     </androidx.core.widget.NestedScrollView>

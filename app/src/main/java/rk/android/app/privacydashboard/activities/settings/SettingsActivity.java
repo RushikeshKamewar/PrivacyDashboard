@@ -17,7 +17,6 @@ import androidx.core.content.ContextCompat;
 import rk.android.app.privacydashboard.BuildConfig;
 import rk.android.app.privacydashboard.R;
 import rk.android.app.privacydashboard.activities.settings.excluded.ExcludeActivity;
-import rk.android.app.privacydashboard.activities.settings.excluded.ExcludedActivity;
 import rk.android.app.privacydashboard.activities.settings.indicator.IndicatorActivity;
 import rk.android.app.privacydashboard.activities.settings.notification.NotificationActivity;
 import rk.android.app.privacydashboard.constant.Constants;
@@ -184,6 +183,8 @@ public class SettingsActivity extends AppCompatActivity {
                 getString(R.string.delete_logs_title2),getString(R.string.delete_logs_info2),null));
 
         binding.settingsRelease.setOnClickListener(view -> Dialogs.showWhatsNewDialog(context,getLayoutInflater(),preferenceManager,true));
+
+        binding.settingsGithub.setOnClickListener(view -> Utils.openLink(context, Constants.LINK_GITHUB));
 
         binding.settingsTelegram.setOnClickListener(view -> Utils.openLink(context, Constants.LINK_TELEGRAM));
 

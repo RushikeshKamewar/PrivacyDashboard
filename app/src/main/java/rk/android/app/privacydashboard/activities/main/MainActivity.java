@@ -17,13 +17,13 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
 import androidx.core.content.res.ResourcesCompat;
 
-import com.android.billingclient.BuildConfig;
 import com.github.mikephil.charting.data.PieEntry;
 
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
+import rk.android.app.privacydashboard.BuildConfig;
 import rk.android.app.privacydashboard.R;
 import rk.android.app.privacydashboard.activities.donation.DonationActivity;
 import rk.android.app.privacydashboard.activities.log.database.LogsRepository;

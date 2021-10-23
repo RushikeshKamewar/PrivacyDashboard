@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Test strings-->
+    <string name="permission_name">Местоположение</string>
+    <string name="permission_name2">Использование местоположения</string>
+    <string name="permission_info2">Сегодня</string>
+    <string name="permission_info3">2 mins</string>
+    <string name="permission_time">13:07</string>
+    <string name="permission_app">Telegram</string>
+
+    <string name="app_info">Сделано с &#10084; в Индии</string>
+
+    <string name="profile_version">Версия -</string>
+    <string name="profile_donate">Пожертвовать</string>
+    <string name="profile_contact">Контакт</string>
+
+    <!--Notification Service-->
+    <string name="service_name">Служба панели конфиденциальности</string>
+    <string name="service_desc">Это разрешение требуется для отображения индикаторов конфиденциальности и регистрации использования камеры, микрофона и местоположения.\n\nВсе журналы хранятся локально на вашем устройстве.</string>
+    <string name="service_summary">Включите эту функцию, чтобы включить панель мониторинга конфиденциальности</string>
+    <string name="notification_desc">Панель мониторинга конфиденциальности работает в фоновом режиме</string>
+    <string name="notification_hide">Нажмите здесь, чтобы скрыть уведомление</string>
+    <string name="notification_usage_title">Уведомление об Использовании Разрешений</string>
+    <string name="notification_usage_desc">Это уведомление появится, когда используется разрешение камеры, микрофона и местоположения.</string>
+
+    <string name="notification_app_unknown">Неизвестное приложение</string>
+    <string name="notification_app_using">"С помощью "</string>
+    <string name="notification_app_and">"и "</string>
+    <string name="notification_app_permission">разрешение</string>
+    <string name="notification_app_permissions">разрешения</string>
+
+    <!--Release dialog-->
+    <string name="app_release_button">Готово</string>
+
+    <!--Start permission dialog-->
+    <string name="start_title">Разрешение на автозапуск</string>
+    <string name="start_permission_info">Ваше устройство завершит работу службы фоновых приложений. Для правильной работы приложению потребуется разрешение на автозапуск.</string>
+    <string name="start_setup">Установка</string>
+
+    <!--Delete permission dialog-->
+    <string name="delete_logs_title">Удалить #ALIAS# журналы</string>
+    <string name="delete_logs_info">Вы уверены, что хотите удалить все журналы #ALIAS# разрешений?</string>
+
+    <string name="delete_logs_title2">Удаление журналов</string>
+    <string name="delete_logs_info2">Вы уверены, что хотите удалить журналы использования приложений для всех разрешений?</string>
+
+    <!--Help dialog-->
+    <string name="help_title">Ограничение приложения</string>
+    <string name="help_info">Когда используется какое-либо разрешение, мое приложение проверяет, какое приложение запущено на переднем плане, и регистрирует его в базе данных.\n\nНо иногда может случиться так, что системный UI, Launcher или клавиатура работают поверх основного приложения, поэтому по ошибке они будут регистрироваться в базе данных вместо реального приложения, которое использует разрешение.\n\nЭто ограничение для данного приложения, так как трудно определить, какое приложение работает в фоновом режиме.</string>
+
+    <!--Generic dialog buttons-->
+    <string name="dialog_close">Закрыть</string>
+    <string name="dialog_yes">Да</string>
+    <string name="dialog_no">Нет</string>
+
+    <!--Menu-->
+    <string name="menu_theme">Тема</string>
+    <string name="menu_delete">Удалить</string>
+    <string name="menu_whats_new">Что нового</string>
+    <string name="menu_refresh">Обновить</string>
+
+    <string name="menu_refresh_info">Журналы Обновлены</string>
+
+    <!--Theme Dialog-->
+    <string name="theme_title">Тема</string>
+    <string name="dialog_theme_title">Выберите Тему</string>
+    <string name="dialog_theme_light">Светлая</string>
+    <string name="dialog_theme_dark">Тёмная</string>
+    <string name="dialog_theme_system">По умолчанию в системе</string>
+    <string name="dialog_theme_battery">Устанавливается режимом энергосбережения</string>
+
+    <!--Theme Dialog-->
+
+    <!--Permissions-->
+    <string name="permission_camera">Камера</string>
+    <string name="permission_location">Местоположение</string>
+    <string name="permission_microphone">Микрофон</string>
+    <string name="permission_microphone_short">Микр</string>
+    <string name="permission_more">См. Другие разрешения</string>
+    <string name="permission_more_info">Сенсоры устройства, Календарь и многое другое в настройках</string>
+    <string name="permission_info">Сегодня используется #ALIAS# приложением (-ями)</string>
+    <string name="permission_no_apps">Сегодня не используется</string>
+
+    <!--Settings-->
+    <string name="settings_title">Настройки приложения</string>
+    <string name="settings_info">Управление темой приложения, разрешениями и т. д</string>
+
+    <string name="settings_dots">Индикаторы конфиденциальности</string>
+    <string name="settings_dots_info">Когда разрешение используется, в правом верхнем углу будет отображаться соответствующий значок</string>
+
+    <string name="settings_dots_custom">Настройка индикатора</string>
+    <string name="dots_custom_type">Тип</string>
+    <string name="dots_custom_type_icon">Значки разрешений</string>
+    <string name="dots_custom_type_dot">Цветные точки</string>
+    <string name="dots_custom_position">Позиция</string>
+    <string name="dots_custom_position_tl">Верх-Слева</string>
+    <string name="dots_custom_position_tc">Верх-Центр</string>
+    <string name="dots_custom_position_tr">Верх-Справа</string>
+    <string name="dots_custom_position_rc">Справа-Центр</string>
+    <string name="dots_custom_position_br">Справа-Низ</string>
+    <string name="dots_custom_position_bc">Низ-Центр</string>
+    <string name="dots_custom_position_bl">Низ-Слева</string>
+    <string name="dots_custom_position_lc">Слева-Центр</string>
+    <string name="dots_custom_margin">Добавить Отступ Рамки</string>
+    <string name="dots_custom_margin_info">При включении добавляет отступ к индикатору, чтобы он не прилипал к границам устройства.</string>
+    <string name="dots_custom_click">Действие по клику</string>
+    <string name="dots_custom_click_info">Если включено, вы можете нажать на индикатор, и он приведет вас к определенному журналу разрешений.</string>
+    <string name="dots_custom_size">Размер</string>
+    <string name="dots_custom_size_unit">%</string>
+    <string name="dots_custom_opacity">Непрозрачность</string>
+    <string name="dots_custom_minimize">Свернуть до точки (бета-версия)</string>
+    <string name="dots_custom_minimize_info">При включении, если разрешение используется дольше, чем выбранное время минимизации, индикатор будет свернут до маленькой точки.</string>
+
+    <string name="settings_notification">Уведомление</string>
+    <string name="settings_notification_info">При включении вы будете получать уведомление всякий раз, когда используется разрешение</string>
+
+    <string name="settings_notification_custom">Настройка уведомлений</string>
+    <string name="notification_custom_ongoing">Непрерывное уведомление</string>
+    <string name="notification_custom_ongoing_info">Если включено, приложение будет показывать непрерывное уведомление при использовании разрешения, которое затем исчезнет после прекращения использования разрешения.</string>
+    <string name="notification_custom_icon">Значок приложения</string>
+    <string name="notification_custom_icon_info">Если включено, значок приложения будет отображаться в уведомлении об использовании соответствующего разрешения</string>
+
+    <string name="settings_accessibility">Настройка специальных возможностей</string>
+    <string name="settings_accessibility_on">Включить настройки специальных возможностей</string>
+    <string name="settings_accessibility_off">Отключить настройки специальных возможностей</string>
+    <string name="settings_accessibility_button">Открыть Настройки</string>
+    <string name="settings_accessibility_info">Приложению требуется разрешение на доступ для регистрации использования камеры и микрофона. Это делается для того, чтобы избежать доступа к камере и микрофону для обеспечения конфиденциальности.</string>
+    <string name="settings_accessibility_info_short">Это разрешение используется для регистрации использования камеры и микрофона.</string>
+
+    <string name="settings_location">Доступ к местоположению</string>
+    <string name="settings_location_on">Включить разрешение на местоположение</string>
+    <string name="settings_location_off">Отключить разрешение на определение местоположения</string>
+    <string name="settings_location_button">Разрешить Доступ</string>
+    <string name="settings_location_info">Для регистрации использования приложением определения местоположения требуется доступ с правами доступа к местоположению.</string>
+    <string name="settings_location_info_short">Это разрешение используется для регистрации использования приложением определения местоположения.</string>
+
+    <string name="settings_hide_notification">Скрыть уведомление</string>
+    <string name="settings_hide_notification_info">Нажмите здесь, чтобы скрыть запущенное уведомление</string>
+
+    <string name="settings_limitation">Ограниченность приложения</string>
+    <string name="settings_limitation_info">Нажмите здесь, чтобы узнать об ограничениях приложения</string>
+
+    <string name="settings_delete_logs">Удалить все журналы</string>
+    <string name="settings_delete_logs_info">Очистите все журналы использования приложений для всех разрешений</string>
+
+    <string name="settings_release">Список изменений</string>
+    <string name="settings_release_info">Посмотрите, что нового в версии -</string>
+
+    <string name="settings_telegram">Telegram</string>
+    <string name="settings_telegram_info">Присоединяйтесь к группе поддержки в Telegram</string>
+
+    <string name="settings_twitter">Twitter</string>
+    <string name="settings_twitter_info">Следите за мной в твиттере</string>
+
+    <!--Donations-->
+    <string name="donation_title">Пожертвуйте</string>
+    <string name="donation_info">Поддержите развитие</string>
+
+    <!--Pie chart-->
+    <string name="chart_title">Обзор журнала</string>
+    <string name="chart_center_text">Последние\n24 часа</string>
+
+    <!--Permission history-->
+    <string name="log_title">История разрешений</string>
+    <string name="log_info">Временная шкала использования приложениями вашего #ALIAS# разрешения</string>
+    <string name="log_info_app">Временная шкала периода, когда #ALIAS# использовал ваши разрешения</string>
+    <string name="log_empty">Нет использования приложения</string>
+    <string name="log_button_manage">Управление разрешениями</string>
+    <string name="log_usage">использование</string>
+    <string name="log_today">Сегодня</string>
+    <string name="log_yesterday">Вчера</string>
+    <string name="log_permission_start">Начато</string>
+    <string name="log_permission_stop">Остановлено</string>
+    <string name="log_permission_invalid">Неизвестно</string>
+
+    <!--Donations-->
+    <string name="donation_free">Бесплатно</string>
+    <string name="donation_free_info">Оцените в плей-маркете</string>
+    <string name="donation_support_info">Поддерживать развитие</string>
+    <string name="donation_tea_info">Купите мне чаю</string>
+    <string name="donation_latte_info">Купите мне латте/кофе</string>
+    <string name="donation_breakfast_info">Купите мне завтрак</string>
+    <string name="donation_movie_info">Купите мне билет в кино</string>
+    <string name="donation_dinner_info">Купите мне пиццу и кока-колу</string>
+    <string name="donation_ads_info">Помогите мне сохранить приложение без рекламы</string>
+    <string name="donation_all_apps_info">Помогите мне создавать приложения</string>
+    <string name="donation_super_info">Супер-Пупер поддержка &#10084;\nЭто пожертвование пойдет на новое тестовое устройство и новый ноутбук.</string>
+
+    <!--App Exclusion-->
+
+    <!--Delete exclusion dialog-->
+</resources>

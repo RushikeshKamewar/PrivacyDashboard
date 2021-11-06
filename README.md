@@ -63,6 +63,9 @@ This app mainly focuses on bringing features of "Privacy Dashboard" as seen in D
 #### Search view
 * Special Thanks to [MaterialSearchView](https://github.com/MiguelCatalan/MaterialSearchView) (Thanks [MiguelCatalan](https://github.com/MiguelCatalan)! :)) for providing a free searchview with a clean UI with simple implementation.
   
+#### Safe Dot Android
+* Originally forked from: https://github.com/kamaravichow/safe-dot-android.
+  
 </details>
 
 *This app will always be free and ad-free, so feel free to support the development via donations.*

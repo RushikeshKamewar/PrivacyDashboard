@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
     private void initOnClickListener(){
 
         binding.buttonAccessSetting.setOnClickListener(view -> {
-            startActivity(new Intent("android.settings.ACCESSIBILITY_SETTINGS"),bundle);
+            Utils.openAccessibilitySettings(this, bundle);
             Toast.makeText(context,getString(R.string.settings_accessibility_on),Toast.LENGTH_SHORT).show();
         });
 

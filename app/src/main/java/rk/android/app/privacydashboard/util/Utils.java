@@ -18,6 +18,7 @@ import android.provider.Settings;
 import android.text.format.DateFormat;
 import android.util.TypedValue;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.core.content.ContextCompat;
 import androidx.core.content.res.ResourcesCompat;
@@ -33,6 +34,7 @@ import rk.android.app.privacydashboard.activities.appinfo.AppInfoActivity;
 import rk.android.app.privacydashboard.activities.log.LogsActivity;
 import rk.android.app.privacydashboard.constant.Constants;
 import rk.android.app.privacydashboard.manager.PreferenceManager;
+import rk.android.app.privacydashboard.service.PrivacyService;
 
 public class Utils {
 
@@ -83,6 +85,16 @@ public class Utils {
         Intent intent = new Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
         intent.setData(Uri.parse("package:" + packageName));
         context.startActivity(intent, bundle);
+    }
+
+    public static void openAccessibilitySettings(Context context, @Nullable Bundle options) {
+        String appComponentNormalized = new ComponentName(BuildConfig.APPLICATION_ID, PrivacyService.class.getCanonicalName()).flattenToString();
+        Bundle bundle = new Bundle();
+        bundle.putString(":settings:fragment_args_key", appComponentNormalized);
+        Intent intent = new Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS);
+        intent.putExtra(":settings:fragment_args_key", appComponentNormalized);
+        intent.putExtra(":settings:show_fragment_args", bundle);
+        context.startActivity(intent, options);
     }
 
     public static void openLink(Context context, String url) {
